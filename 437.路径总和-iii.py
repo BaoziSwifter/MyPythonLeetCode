@@ -53,18 +53,26 @@
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
 
+        def findPath(root: TreeNode,target: int) -> int:
+            if not root:
+                return 0
+
+            currentCount = 0
+            leftVal = target - root.val
+            if leftVal == 0:
+                currentCount += 1
+            
+            currentCount += findPath(root.left,leftVal)
+            currentCount += findPath(root.right,leftVal)
+            return currentCount
+
         if not root:
             return 0
-        target = sum - root.val
-        pathCount = 0
-        if target == 0:
-            pathCount = 1 
-        else:
-            pathCount += self.pathSum(root.left,target)
-            pathCount += self.pathSum(root.right,target)
-            pathCount += self.pathSum(root.left,sum)
-            pathCount += self.pathSum(root.right,sum)
-        return pathCount
+        res = findPath(root,sum)
+        res += self.pathSum(root.left,sum)
+        res += self.pathSum(root.right,sum)
+
+        return res
         
 # @lc code=end
 
