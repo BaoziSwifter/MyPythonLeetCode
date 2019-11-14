@@ -32,11 +32,36 @@
 
 # @lc code=start
 class Solution(object):
+
     def permute(self, nums):
         """
         :type nums: List[int]
         :rtype: List[List[int]]
+        """      
+        # l = len(nums)
+        # if l == 1:
+        #     return [nums]
+        # if l == 0:
+        #     return []
+        # res = []
+        # for i in range(l):
+        #     for j in self.permute(nums[:i]+nums[i+1:]):
+        #         res.append([nums[i]]+j)
+        # return res
+
+    def permute(self, nums):
         """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """ 
+        res = [] 
+        def combin(nums,tmp):
+            if not nums:
+                res.append(tmp)
+            for i in range(len(nums)):
+                combin(nums[:i]+nums[i+1:],tmp+[nums[i]])
+        combin(nums,[])
+        return res       
         
 # @lc code=end
 
