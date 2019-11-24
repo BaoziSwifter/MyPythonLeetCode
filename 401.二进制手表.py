@@ -39,10 +39,9 @@
 # 小时不会以零开头，比如 “01:00” 是不允许的，应为 “1:00”。
 # 分钟必须由两位数组成，可能会以零开头，比如 “10:2” 是无效的，应为 “10:02”。
 # 
-# 
+# 401
 #
 
-# @lc code=start
 class Solution1(object):
     def readBinaryWatch(self, num):
         """
@@ -52,35 +51,47 @@ class Solution1(object):
         return list("%d:%02d"%(i, j) for j in range(60) for i in range(12) if num == bin(i).count('1') + bin(j).count('1'))
 
 
+# @lc code=start
 class Solution(object):
     def readBinaryWatch(self, num):
-        H = [2**(4-i) for i in range(5)]
-        M = [2**(6-i) for i in range(7)]
+        kk = [2**i for i in range(7)]
 
-        res = []
+        resA = []
 
+        def findAll(n,maxval,curVal,nextIndex,limtIndex,res):
+            if n == 0 :
+                if maxval >= curVal:
+                    res.append(curVal)
+                    return
+            else:
+                if curVal < maxval and nextIndex <= limtIndex:
+                    findAll(n-1,maxval,curVal + kk[nextIndex],nextIndex+1,limtIndex,res)
+                    findAll(n,maxval,curVal,nextIndex+1,limtIndex,res)
+                        
         def findH(h):
             if h > 3 :
                 return []
             else:
                 myH = []
-                for ii in range(h):
+                findAll(h,11,0,0,4,myH)
+                return myH
                     
-
-
         def findM(m):
+            if m > 5:
+                return []
+            else:
+                myM = []
+                findAll(m,59,0,0,6,myM)
+                return myM
 
+        for i in range(num+1):
+            resultH = findH(i)
+            resultM = findM(num-i)
+            for hi in resultH:
+                for mi in resultM:
+                    resA.append("%d:%02d" % (hi,mi))
 
-        def findResult():
-            for i range(num+1):
-                resultH = findH(i)
-                resultM = findM(num-i)
-                for hi in resultH:
-                    for mi in findM:
-                        res.append("%d:%02d" % (hi,mi))
-
-
-
-        
+        return resA
+  
 # @lc code=end
 
