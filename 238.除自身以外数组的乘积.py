@@ -35,6 +35,19 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
+        n = len(nums)
+        res = [1]*n
+        front = 1
+        back = 1
+
+        for i in range(n):
+            res[i] = front
+            front *= nums[i]
+        
+        for i in range(n-1,-1,-1):
+            res[i] *= back
+            back *= nums[i]
+        return res
         
 # @lc code=end
 

@@ -61,6 +61,28 @@
 
 # @lc code=start
 class Solution(object):
+    def rotate1(self, matrix):
+        N = len(matrix)
+        for i in range(N//2):
+            for j in range(i,N-i-1):
+                tmp1 = matrix[i][j]
+                for k in range(4):
+                    i_new, j_new = j, N-i-1
+                    tmp2 = matrix[i_new][j_new]
+                    matrix[i_new][j_new] = tmp1
+                    tmp1 = tmp2
+                    i, j = i_new, j_new
+    def rotate2(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: None Do not return anything, modify matrix in-place instead.
+        """
+        n = len(matrix) 
+        for i in range(n//2):
+            for j in range(i, n - i - 1):
+                matrix[i][j],matrix[j][n-i-1],matrix[n-i-1][n-j-1],matrix[n-j-1][i] = \
+                matrix[n-j-1][i], matrix[i][j],matrix[j][n-i-1],matrix[n-i-1][n-j-1]
+        #print(matrix)
     # 21/21 cases passed (20 ms)
     # Your runtime beats 93.45 % of python submissions
     # Your memory usage beats 33.25 % of python submissions (11.7 MB)
