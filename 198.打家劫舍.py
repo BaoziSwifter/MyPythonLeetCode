@@ -36,7 +36,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class Solution1(object):
     def rob(self, nums):
         """
         :type nums: List[int]
@@ -46,6 +46,9 @@ class Solution(object):
         now = 0
         for i in nums: last,now = now ,max(last+i,now)
         return now
-        
+
+
+class Solution(object):
+    def rob(self, nums):
 # @lc code=end
 
