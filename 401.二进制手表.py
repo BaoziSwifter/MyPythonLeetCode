@@ -41,8 +41,6 @@
 # 
 # 
 #
-
-# @lc code=start
 class Solution1(object):
     def readBinaryWatch(self, num):
         """
@@ -52,33 +50,33 @@ class Solution1(object):
         return list("%d:%02d"%(i, j) for j in range(60) for i in range(12) if num == bin(i).count('1') + bin(j).count('1'))
 
 
+# @lc code=start
 class Solution(object):
     def readBinaryWatch(self, num):
-        H = [2**(4-i) for i in range(5)]
-        M = [2**(6-i) for i in range(7)]
-
         res = []
-
-        def findH(h):
-            if h > 3 :
-                return []
+        def findResultBy(i,num,maxValue,res,tmp):
+            if num == 0:
+                res.append(tmp)
+                return
+            if tmp + 2**i <= maxValue:
+                findResultBy(i+1,num-1,maxValue,res,tmp+2**i)
+                findResultBy(i+1,num,maxValue,res,tmp)
             else:
-                myH = []
-                for ii in range(h):
-                    
-
-
-        def findM(m):
-
+                return
 
         def findResult():
-            for i range(num+1):
-                resultH = findH(i)
-                resultM = findM(num-i)
-                for hi in resultH:
-                    for mi in findM:
-                        res.append("%d:%02d" % (hi,mi))
+            for i in range(num+1):
+                if i < 4 and num - i < 6:
+                    H = []
+                    M = []
+                    findResultBy(0,i,11,H,0)
+                    findResultBy(0,num-i,59,M,0)
+                    for hi in H:
+                        for mi in M:
+                            res.append("%d:%02d" % (hi,mi))
 
+        findResult()
+        return res
 
 
         
