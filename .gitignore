@@ -1,0 +1,11 @@
+.vscode/settings.json
+venv
+leetcode
+leetcode/*
+venv/*
+.idea
+.idea/*
+.metals
+.metals/*
+.vscode
+xcuserdata
