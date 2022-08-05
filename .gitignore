@@ -8,4 +8,5 @@ venv/*
 .metals
 .metals/*
 .vscode
+StudyLeetcodeProject.xcodeproj/xcuserdata
 */xcuserdata
