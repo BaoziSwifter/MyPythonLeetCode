@@ -8,3 +8,4 @@ venv/*
 .metals
 .metals/*
 .vscode
+*/xcuserdata
