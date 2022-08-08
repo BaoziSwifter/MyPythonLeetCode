@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7D5DA073289D14BB00D73F0E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA072289D14BB00D73F0E /* main.swift */; };
-		7D5DA07A289D14D800D73F0E /* Leetcode21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA079289D14D800D73F0E /* Leetcode21.swift */; };
-		7D5DA07C289D153800D73F0E /* Leetcode23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA07B289D153800D73F0E /* Leetcode23.swift */; };
-		7D5DA07E289D15D900D73F0E /* Leetcode86.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA07D289D15D900D73F0E /* Leetcode86.swift */; };
-		7D5DA080289D162800D73F0E /* Leetcode141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA07F289D162800D73F0E /* Leetcode141.swift */; };
-		7D5DA082289D376300D73F0E /* Leetcode19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA081289D376300D73F0E /* Leetcode19.swift */; };
-		7D5DA084289D402500D73F0E /* Leetcode142.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA083289D402500D73F0E /* Leetcode142.swift */; };
-		7D5DA086289D449B00D73F0E /* Leetcode160.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA085289D449B00D73F0E /* Leetcode160.swift */; };
+		7D5DA07A289D14D800D73F0E /* 21.合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA079289D14D800D73F0E /* 21.合并两个有序链表.swift */; };
+		7D5DA07C289D153800D73F0E /* 23.合并k个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA07B289D153800D73F0E /* 23.合并k个升序链表.swift */; };
+		7D5DA07E289D15D900D73F0E /* 86.分隔链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA07D289D15D900D73F0E /* 86.分隔链表.swift */; };
+		7D5DA080289D162800D73F0E /* 141.环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA07F289D162800D73F0E /* 141.环形链表.swift */; };
+		7D5DA082289D376300D73F0E /* 19.删除链表的倒数第-n-个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA081289D376300D73F0E /* 19.删除链表的倒数第-n-个结点.swift */; };
+		7D5DA084289D402500D73F0E /* 142.环形链表-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA083289D402500D73F0E /* 142.环形链表-ii.swift */; };
+		7D5DA086289D449B00D73F0E /* 160.相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA085289D449B00D73F0E /* 160.相交链表.swift */; };
+		7D5DA08828A0A49600D73F0E /* 26.删除有序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA08728A0A49600D73F0E /* 26.删除有序数组中的重复项.swift */; };
+		7D5DA08A28A0A72200D73F0E /* 83.删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA08928A0A72200D73F0E /* 83.删除排序链表中的重复元素.swift */; };
+		7D5DA08C28A0A90100D73F0E /* 27.移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA08B28A0A90100D73F0E /* 27.移除元素.swift */; };
+		7D5DA08E28A0AA9500D73F0E /* 283.移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA08D28A0AA9500D73F0E /* 283.移动零.swift */; };
+		7D5DA09028A0E4A600D73F0E /* 167.两数之和-ii-输入有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA08F28A0E4A600D73F0E /* 167.两数之和-ii-输入有序数组.swift */; };
+		7D5DA09228A0E5E400D73F0E /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA09128A0E5E400D73F0E /* 1.两数之和.swift */; };
+		7D5DA09428A0E90F00D73F0E /* 344.反转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA09328A0E90F00D73F0E /* 344.反转字符串.swift */; };
+		7D5DA09628A0EBA900D73F0E /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA09528A0EBA900D73F0E /* 5.最长回文子串.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,13 +40,21 @@
 /* Begin PBXFileReference section */
 		7D5DA06F289D14BB00D73F0E /* StudyLeetcodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyLeetcodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5DA072289D14BB00D73F0E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		7D5DA079289D14D800D73F0E /* Leetcode21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode21.swift; sourceTree = "<group>"; };
-		7D5DA07B289D153800D73F0E /* Leetcode23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode23.swift; sourceTree = "<group>"; };
-		7D5DA07D289D15D900D73F0E /* Leetcode86.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode86.swift; sourceTree = "<group>"; };
-		7D5DA07F289D162800D73F0E /* Leetcode141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode141.swift; sourceTree = "<group>"; };
-		7D5DA081289D376300D73F0E /* Leetcode19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode19.swift; sourceTree = "<group>"; };
-		7D5DA083289D402500D73F0E /* Leetcode142.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode142.swift; sourceTree = "<group>"; };
-		7D5DA085289D449B00D73F0E /* Leetcode160.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode160.swift; sourceTree = "<group>"; };
+		7D5DA079289D14D800D73F0E /* 21.合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.合并两个有序链表.swift"; sourceTree = "<group>"; };
+		7D5DA07B289D153800D73F0E /* 23.合并k个升序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "23.合并k个升序链表.swift"; sourceTree = "<group>"; };
+		7D5DA07D289D15D900D73F0E /* 86.分隔链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86.分隔链表.swift"; sourceTree = "<group>"; };
+		7D5DA07F289D162800D73F0E /* 141.环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表.swift"; sourceTree = "<group>"; };
+		7D5DA081289D376300D73F0E /* 19.删除链表的倒数第-n-个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第-n-个结点.swift"; sourceTree = "<group>"; };
+		7D5DA083289D402500D73F0E /* 142.环形链表-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142.环形链表-ii.swift"; sourceTree = "<group>"; };
+		7D5DA085289D449B00D73F0E /* 160.相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160.相交链表.swift"; sourceTree = "<group>"; };
+		7D5DA08728A0A49600D73F0E /* 26.删除有序数组中的重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26.删除有序数组中的重复项.swift"; sourceTree = "<group>"; };
+		7D5DA08928A0A72200D73F0E /* 83.删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83.删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
+		7D5DA08B28A0A90100D73F0E /* 27.移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27.移除元素.swift"; sourceTree = "<group>"; };
+		7D5DA08D28A0AA9500D73F0E /* 283.移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283.移动零.swift"; sourceTree = "<group>"; };
+		7D5DA08F28A0E4A600D73F0E /* 167.两数之和-ii-输入有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167.两数之和-ii-输入有序数组.swift"; sourceTree = "<group>"; };
+		7D5DA09128A0E5E400D73F0E /* 1.两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
+		7D5DA09328A0E90F00D73F0E /* 344.反转字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344.反转字符串.swift"; sourceTree = "<group>"; };
+		7D5DA09528A0EBA900D73F0E /* 5.最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,14 +87,22 @@
 		7D5DA071289D14BB00D73F0E /* StudyLeetcodeProject */ = {
 			isa = PBXGroup;
 			children = (
+				7D5DA09128A0E5E400D73F0E /* 1.两数之和.swift */,
+				7D5DA09528A0EBA900D73F0E /* 5.最长回文子串.swift */,
+				7D5DA081289D376300D73F0E /* 19.删除链表的倒数第-n-个结点.swift */,
+				7D5DA079289D14D800D73F0E /* 21.合并两个有序链表.swift */,
+				7D5DA07B289D153800D73F0E /* 23.合并k个升序链表.swift */,
+				7D5DA08728A0A49600D73F0E /* 26.删除有序数组中的重复项.swift */,
+				7D5DA08B28A0A90100D73F0E /* 27.移除元素.swift */,
+				7D5DA08928A0A72200D73F0E /* 83.删除排序链表中的重复元素.swift */,
+				7D5DA07D289D15D900D73F0E /* 86.分隔链表.swift */,
+				7D5DA07F289D162800D73F0E /* 141.环形链表.swift */,
+				7D5DA083289D402500D73F0E /* 142.环形链表-ii.swift */,
+				7D5DA085289D449B00D73F0E /* 160.相交链表.swift */,
+				7D5DA08F28A0E4A600D73F0E /* 167.两数之和-ii-输入有序数组.swift */,
+				7D5DA08D28A0AA9500D73F0E /* 283.移动零.swift */,
+				7D5DA09328A0E90F00D73F0E /* 344.反转字符串.swift */,
 				7D5DA072289D14BB00D73F0E /* main.swift */,
-				7D5DA079289D14D800D73F0E /* Leetcode21.swift */,
-				7D5DA07B289D153800D73F0E /* Leetcode23.swift */,
-				7D5DA07D289D15D900D73F0E /* Leetcode86.swift */,
-				7D5DA07F289D162800D73F0E /* Leetcode141.swift */,
-				7D5DA083289D402500D73F0E /* Leetcode142.swift */,
-				7D5DA081289D376300D73F0E /* Leetcode19.swift */,
-				7D5DA085289D449B00D73F0E /* Leetcode160.swift */,
 			);
 			path = StudyLeetcodeProject;
 			sourceTree = "<group>";
@@ -141,14 +165,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5DA086289D449B00D73F0E /* Leetcode160.swift in Sources */,
-				7D5DA07C289D153800D73F0E /* Leetcode23.swift in Sources */,
-				7D5DA084289D402500D73F0E /* Leetcode142.swift in Sources */,
+				7D5DA086289D449B00D73F0E /* 160.相交链表.swift in Sources */,
+				7D5DA07C289D153800D73F0E /* 23.合并k个升序链表.swift in Sources */,
+				7D5DA09628A0EBA900D73F0E /* 5.最长回文子串.swift in Sources */,
+				7D5DA084289D402500D73F0E /* 142.环形链表-ii.swift in Sources */,
+				7D5DA09228A0E5E400D73F0E /* 1.两数之和.swift in Sources */,
 				7D5DA073289D14BB00D73F0E /* main.swift in Sources */,
-				7D5DA07E289D15D900D73F0E /* Leetcode86.swift in Sources */,
-				7D5DA080289D162800D73F0E /* Leetcode141.swift in Sources */,
-				7D5DA082289D376300D73F0E /* Leetcode19.swift in Sources */,
-				7D5DA07A289D14D800D73F0E /* Leetcode21.swift in Sources */,
+				7D5DA07E289D15D900D73F0E /* 86.分隔链表.swift in Sources */,
+				7D5DA09028A0E4A600D73F0E /* 167.两数之和-ii-输入有序数组.swift in Sources */,
+				7D5DA080289D162800D73F0E /* 141.环形链表.swift in Sources */,
+				7D5DA08828A0A49600D73F0E /* 26.删除有序数组中的重复项.swift in Sources */,
+				7D5DA082289D376300D73F0E /* 19.删除链表的倒数第-n-个结点.swift in Sources */,
+				7D5DA07A289D14D800D73F0E /* 21.合并两个有序链表.swift in Sources */,
+				7D5DA08C28A0A90100D73F0E /* 27.移除元素.swift in Sources */,
+				7D5DA09428A0E90F00D73F0E /* 344.反转字符串.swift in Sources */,
+				7D5DA08E28A0AA9500D73F0E /* 283.移动零.swift in Sources */,
+				7D5DA08A28A0A72200D73F0E /* 83.删除排序链表中的重复元素.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
