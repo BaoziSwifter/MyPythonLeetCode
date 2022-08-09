@@ -9,3 +9,8 @@ import Foundation
 
 print("Hello, World!")
 
+let res = bubbleSort(array: [3, 2, 7,9, 0, 1])
+print(res)
+
+let s = Solution509()
+print(s.fib(4))

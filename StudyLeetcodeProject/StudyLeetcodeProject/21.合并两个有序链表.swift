@@ -7,21 +7,9 @@
 
 import Foundation
 // [21] 合并两个有序链表
-class ListNode21 {
-    public var val: Int
-    public var next: ListNode21?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-    public init(_ val: Int, _ next: ListNode21?) {
-        self.val = val;
-        self.next = next;
-    }
-}
 
 class Solution21 {
-    func mergeTwoLists(_ l1: ListNode21?, _ l2: ListNode21?) -> ListNode21? {
+    func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         if l1 == nil {
             return l2
         }
@@ -36,8 +24,8 @@ class Solution21 {
             return l2
         }
     }
-    func merge1TwoLists(_ list1: ListNode21?, _ list2: ListNode21?) -> ListNode21? {
-         let dumyNode = ListNode21(0)
+    func merge1TwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+         let dumyNode = ListNode(0)
          var d = dumyNode
          var l1 = list1, l2 = list2
          while l1 != nil && l2 != nil {

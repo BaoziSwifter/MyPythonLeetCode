@@ -7,22 +7,6 @@
 
 import Foundation
 // [23] 合并K个升序链表
-class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init() {
-        self.val = -1
-        self.next = nil
-    }
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-    public init(_ val: Int, _ next: ListNode?) {
-        self.val = val;
-        self.next = next;
-    }
-}
 
 /// 自定义堆
 typealias PriorityBlock<T> = (T, T) -> Bool

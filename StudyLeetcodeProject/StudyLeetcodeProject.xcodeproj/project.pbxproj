@@ -23,6 +23,15 @@
 		7D5DA09228A0E5E400D73F0E /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA09128A0E5E400D73F0E /* 1.两数之和.swift */; };
 		7D5DA09428A0E90F00D73F0E /* 344.反转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA09328A0E90F00D73F0E /* 344.反转字符串.swift */; };
 		7D5DA09628A0EBA900D73F0E /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA09528A0EBA900D73F0E /* 5.最长回文子串.swift */; };
+		7D85C0B728A1F2140039F38D /* 1.排序算法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0B628A1F2140039F38D /* 1.排序算法.swift */; };
+		7D85C0B928A1F2320039F38D /* 2.查找算法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0B828A1F2320039F38D /* 2.查找算法.swift */; };
+		7D85C0BB28A1F2470039F38D /* 3.二叉树的遍历算法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0BA28A1F2470039F38D /* 3.二叉树的遍历算法.swift */; };
+		7D85C0BD28A23DCC0039F38D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0BC28A23DCC0039F38D /* ListNode.swift */; };
+		7D85C0C028A23F680039F38D /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0BF28A23F680039F38D /* TreeNode.swift */; };
+		7D85C0C228A23FC30039F38D /* 104.二叉树的最大深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0C128A23FC30039F38D /* 104.二叉树的最大深度.swift */; };
+		7D85C0C428A254BD0039F38D /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0C328A254BD0039F38D /* 543.二叉树的直径.swift */; };
+		7D85C0C628A25BD40039F38D /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0C528A25BD40039F38D /* 509.斐波那契数.swift */; };
+		7D85C0C828A25D9E0039F38D /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85C0C728A25D9E0039F38D /* 322.零钱兑换.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +64,15 @@
 		7D5DA09128A0E5E400D73F0E /* 1.两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
 		7D5DA09328A0E90F00D73F0E /* 344.反转字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344.反转字符串.swift"; sourceTree = "<group>"; };
 		7D5DA09528A0EBA900D73F0E /* 5.最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
+		7D85C0B628A1F2140039F38D /* 1.排序算法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1.排序算法.swift"; sourceTree = "<group>"; };
+		7D85C0B828A1F2320039F38D /* 2.查找算法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2.查找算法.swift"; sourceTree = "<group>"; };
+		7D85C0BA28A1F2470039F38D /* 3.二叉树的遍历算法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3.二叉树的遍历算法.swift"; sourceTree = "<group>"; };
+		7D85C0BC28A23DCC0039F38D /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		7D85C0BF28A23F680039F38D /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		7D85C0C128A23FC30039F38D /* 104.二叉树的最大深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104.二叉树的最大深度.swift"; sourceTree = "<group>"; };
+		7D85C0C328A254BD0039F38D /* 543.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543.二叉树的直径.swift"; sourceTree = "<group>"; };
+		7D85C0C528A25BD40039F38D /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
+		7D85C0C728A25D9E0039F38D /* 322.零钱兑换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,15 +114,40 @@
 				7D5DA08B28A0A90100D73F0E /* 27.移除元素.swift */,
 				7D5DA08928A0A72200D73F0E /* 83.删除排序链表中的重复元素.swift */,
 				7D5DA07D289D15D900D73F0E /* 86.分隔链表.swift */,
+				7D85C0C128A23FC30039F38D /* 104.二叉树的最大深度.swift */,
 				7D5DA07F289D162800D73F0E /* 141.环形链表.swift */,
 				7D5DA083289D402500D73F0E /* 142.环形链表-ii.swift */,
 				7D5DA085289D449B00D73F0E /* 160.相交链表.swift */,
 				7D5DA08F28A0E4A600D73F0E /* 167.两数之和-ii-输入有序数组.swift */,
 				7D5DA08D28A0AA9500D73F0E /* 283.移动零.swift */,
+				7D85C0C728A25D9E0039F38D /* 322.零钱兑换.swift */,
 				7D5DA09328A0E90F00D73F0E /* 344.反转字符串.swift */,
+				7D85C0C528A25BD40039F38D /* 509.斐波那契数.swift */,
+				7D85C0C328A254BD0039F38D /* 543.二叉树的直径.swift */,
+				7D85C0BE28A23EBF0039F38D /* 基本数据结构 */,
+				7D85C0B528A1F1EF0039F38D /* 基本算法 */,
 				7D5DA072289D14BB00D73F0E /* main.swift */,
 			);
 			path = StudyLeetcodeProject;
+			sourceTree = "<group>";
+		};
+		7D85C0B528A1F1EF0039F38D /* 基本算法 */ = {
+			isa = PBXGroup;
+			children = (
+				7D85C0B628A1F2140039F38D /* 1.排序算法.swift */,
+				7D85C0B828A1F2320039F38D /* 2.查找算法.swift */,
+				7D85C0BA28A1F2470039F38D /* 3.二叉树的遍历算法.swift */,
+			);
+			path = "基本算法";
+			sourceTree = "<group>";
+		};
+		7D85C0BE28A23EBF0039F38D /* 基本数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				7D85C0BC28A23DCC0039F38D /* ListNode.swift */,
+				7D85C0BF28A23F680039F38D /* TreeNode.swift */,
+			);
+			path = "基本数据结构";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,21 +208,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D85C0C228A23FC30039F38D /* 104.二叉树的最大深度.swift in Sources */,
 				7D5DA086289D449B00D73F0E /* 160.相交链表.swift in Sources */,
 				7D5DA07C289D153800D73F0E /* 23.合并k个升序链表.swift in Sources */,
 				7D5DA09628A0EBA900D73F0E /* 5.最长回文子串.swift in Sources */,
 				7D5DA084289D402500D73F0E /* 142.环形链表-ii.swift in Sources */,
 				7D5DA09228A0E5E400D73F0E /* 1.两数之和.swift in Sources */,
 				7D5DA073289D14BB00D73F0E /* main.swift in Sources */,
+				7D85C0B728A1F2140039F38D /* 1.排序算法.swift in Sources */,
+				7D85C0BD28A23DCC0039F38D /* ListNode.swift in Sources */,
 				7D5DA07E289D15D900D73F0E /* 86.分隔链表.swift in Sources */,
+				7D85C0B928A1F2320039F38D /* 2.查找算法.swift in Sources */,
 				7D5DA09028A0E4A600D73F0E /* 167.两数之和-ii-输入有序数组.swift in Sources */,
+				7D85C0C628A25BD40039F38D /* 509.斐波那契数.swift in Sources */,
 				7D5DA080289D162800D73F0E /* 141.环形链表.swift in Sources */,
 				7D5DA08828A0A49600D73F0E /* 26.删除有序数组中的重复项.swift in Sources */,
 				7D5DA082289D376300D73F0E /* 19.删除链表的倒数第-n-个结点.swift in Sources */,
+				7D85C0C028A23F680039F38D /* TreeNode.swift in Sources */,
 				7D5DA07A289D14D800D73F0E /* 21.合并两个有序链表.swift in Sources */,
 				7D5DA08C28A0A90100D73F0E /* 27.移除元素.swift in Sources */,
+				7D85C0BB28A1F2470039F38D /* 3.二叉树的遍历算法.swift in Sources */,
 				7D5DA09428A0E90F00D73F0E /* 344.反转字符串.swift in Sources */,
+				7D85C0C828A25D9E0039F38D /* 322.零钱兑换.swift in Sources */,
 				7D5DA08E28A0AA9500D73F0E /* 283.移动零.swift in Sources */,
+				7D85C0C428A254BD0039F38D /* 543.二叉树的直径.swift in Sources */,
 				7D5DA08A28A0A72200D73F0E /* 83.删除排序链表中的重复元素.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

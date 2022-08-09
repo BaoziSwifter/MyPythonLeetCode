@@ -8,22 +8,8 @@
 import Foundation
 
 // [141] 环形链表
-
-public class ListNode141 {
-    public var val: Int
-    public var next: ListNode141?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-    public init(_ val: Int, _ next: ListNode141?) {
-        self.val = val;
-        self.next = next;
-    }
-}
-
 class Solution141 {
-    func hasCycle(_ head: ListNode141?) -> Bool {
+    func hasCycle(_ head: ListNode?) -> Bool {
         var slow = head
         var fast = head
         while slow?.next != nil {
