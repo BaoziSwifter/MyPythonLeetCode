@@ -9,3 +9,4 @@ venv/*
 .metals/*
 .vscode
 xcuserdata
+*.code-workspace
