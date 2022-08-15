@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class TwoSumSolution {
     func getSum(_ a: Int, _ b: Int) -> Int {
                 var left = a^b
         var carry = (a&b)<<1

@@ -30,7 +30,7 @@
 //  }
  
 
-class Solution {
+class ListNodeCycleSolution {
     func hasCycle(_ head: ListNode?) -> Bool {
        if head == nil || head?.next == nil {
            return false

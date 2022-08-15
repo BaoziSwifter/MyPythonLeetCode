@@ -19,7 +19,7 @@
  * }
  */
 
-class Solution {
+class LowestCommonAncestorSolution {
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         guard let cur = root else { return nil }
         guard let tmpP = p else { return q }
@@ -45,6 +45,28 @@ class Solution {
         }
         return nil       
     }
+    
+    
+    // 法2
+    func lowestCommonAncestor2(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+
+      if root == nil || root === p || root === q {
+        return root
+      }
+      //! 1. 以 root.left 为根节点，寻找 最近公共祖先
+      let leftNode = lowestCommonAncestor2(root?.left,p,q)
+      //! 2  以 root.right 为根节点，寻找 最近公共祖先
+      let rightNode = lowestCommonAncestor2(root?.right,p,q)
+
+      if leftNode != nil && rightNode != nil {
+        return root
+      }
+      
+        return (leftNode != nil) ? leftNode : rightNode
+    
+    }
 }
+
+
 // @lc code=end
 

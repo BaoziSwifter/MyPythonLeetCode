@@ -19,7 +19,7 @@
  * }
  */
 
-class Solution {
+class LowestCommonAncestorInSearchTreeSolution {
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         let targetA = p!
         let targetB = q!

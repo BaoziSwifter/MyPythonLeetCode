@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class AddStringSolution {
     func addStrings(_ num1: String, _ num2: String) -> String {
         let array1 = Array(num1)
         let array2 = Array(num2)

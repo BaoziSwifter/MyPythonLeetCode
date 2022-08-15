@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class FindDuplicateSolution {
     func findDuplicate(_ nums: [Int]) -> Int {
         var fast = 0 , slow = 0
         repeat {

@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class ThreeSumSolution {
     func threeSum1(_ nums: [Int]) -> [[Int]] {
         var res = Set<[Int]>()
         let allCount = nums.count

@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class GrayCodeSolution {
     func grayCode(_ n: Int) -> [Int] {
         if n == 0 {
             return [0]

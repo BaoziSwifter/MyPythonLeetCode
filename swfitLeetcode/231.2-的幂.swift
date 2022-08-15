@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class IsPowerOfTwoSolution {
     func isPowerOfTwo(_ n: Int) -> Bool {
         var val = n
         while val != 0 {

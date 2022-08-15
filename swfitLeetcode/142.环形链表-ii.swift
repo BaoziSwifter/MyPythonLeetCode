@@ -29,7 +29,7 @@
 当第一次相遇的时候，slow走了n圈的环，所以只要再走a步就可以到环形入口节点。但a是未知的，不过刚好如果从head头部开始走，到环形入口节点也刚好是a步（此时m为0）。即第一次相遇的时候，让fast回到head，然后fast和slow以每次一步的速度遍历，当两个指针相遇时，相遇节点为环形入口节点
 */
 
-class Solution {
+class DetectCycleSolution {
     func detectCycle(_ head: ListNode?) -> ListNode? {
         var fast = head 
         var slow = head

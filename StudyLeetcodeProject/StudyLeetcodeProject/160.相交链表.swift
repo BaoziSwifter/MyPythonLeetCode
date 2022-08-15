@@ -9,7 +9,7 @@ import Foundation
 
 // [160] 相交链表
 
-class Solution {
+class Solution160 {
     func getIntersectionNode(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
         var pA = headA, pB = headB
 //        while true {
@@ -61,7 +61,7 @@ class Solution {
 }
 
 
-class Solution2 {
+class Solution160_1 {
     func getIntersectionNode(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
         if headA == nil || headB == nil {
             return nil

@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class BipartiteSolution {
   func isBipartite(_ graph: [[Int]]) -> Bool {
 		let length  = graph.count
 

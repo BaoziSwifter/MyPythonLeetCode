@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class LessonSolution {
     var tu = [[Int]]()
     var marks = [Int]()
     var res = true

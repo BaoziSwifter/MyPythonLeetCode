@@ -20,7 +20,7 @@
  *     }
  * }
  */
-class Solution {
+class KthSmallestSolution {
     func kthSmallest(_ root: TreeNode?, _ k: Int) -> Int {
         var myStack = [TreeNode]()
         var cur = root
@@ -41,7 +41,6 @@ class Solution {
             }
 
         }
-        return -1
     }
 }
 // @lc code=end
