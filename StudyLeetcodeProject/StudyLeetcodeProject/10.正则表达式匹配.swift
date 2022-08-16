@@ -14,7 +14,7 @@ class Solution10 {
         var dp = Array(repeating: Array(repeating: false, count: pArr.count + 1), count: sArr.count + 1)
 
         dp[0][0] = true
-        for j in 1..<dp[0].count {
+        for j in 2..<dp[0].count {
             if pArr[j-1] == "*" {
                 dp[0][j] = dp[0][j-2]
             }
