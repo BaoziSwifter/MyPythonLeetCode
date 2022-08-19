@@ -9,7 +9,7 @@ import Foundation
 
 class Solution3 {
     // 两层遍历
-    func lengthOfLongestSubstring_1(_ s: String) -> Int {
+    func ç(_ s: String) -> Int {
         if s.isEmpty { return 0 }
         var maxStr = ""
         var curStr = ""

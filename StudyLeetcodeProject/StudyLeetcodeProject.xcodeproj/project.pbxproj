@@ -173,6 +173,8 @@
 		7DFBA2F528AB631D00F3CE48 /* 144.二叉树的前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2F428AB631D00F3CE48 /* 144.二叉树的前序遍历.swift */; };
 		7DFBA2F728ABDCFC00F3CE48 /* 链表翻转专项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2F628ABDCFC00F3CE48 /* 链表翻转专项.swift */; };
 		7DFBA2FF28AF0F6B00F3CE48 /* StudyLeetcodeProjectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2FE28AF0F6B00F3CE48 /* StudyLeetcodeProjectTest.swift */; };
+		7DFBA30428AF0FE800F3CE48 /* Test3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA30328AF0FE800F3CE48 /* Test3.swift */; };
+		7DFBA30528AF107900F3CE48 /* 3.无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA1F028AA703E00F3CE48 /* 3.无重复字符的最长子串.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -356,6 +358,7 @@
 		7DFBA2F628ABDCFC00F3CE48 /* 链表翻转专项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "链表翻转专项.swift"; sourceTree = "<group>"; };
 		7DFBA2FC28AF0F6B00F3CE48 /* StudyLeetcodeProjectTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyLeetcodeProjectTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFBA2FE28AF0F6B00F3CE48 /* StudyLeetcodeProjectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyLeetcodeProjectTest.swift; sourceTree = "<group>"; };
+		7DFBA30328AF0FE800F3CE48 /* Test3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -586,6 +589,7 @@
 			isa = PBXGroup;
 			children = (
 				7DFBA2FE28AF0F6B00F3CE48 /* StudyLeetcodeProjectTest.swift */,
+				7DFBA30328AF0FE800F3CE48 /* Test3.swift */,
 			);
 			path = StudyLeetcodeProjectTest;
 			sourceTree = "<group>";
@@ -852,6 +856,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DFBA2FF28AF0F6B00F3CE48 /* StudyLeetcodeProjectTest.swift in Sources */,
+				7DFBA30428AF0FE800F3CE48 /* Test3.swift in Sources */,
+				7DFBA30528AF107900F3CE48 /* 3.无重复字符的最长子串.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
