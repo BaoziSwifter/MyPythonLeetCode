@@ -17,7 +17,7 @@ class Solution6 {
             var j = 0
             while j < sArray.count - i {
                 res.append(sArray[j + i])
-                if i > 0 , i < numRows - 1 , j + group - i < sArray.count {
+                if i > 0, i < numRows - 1, j + group - i < sArray.count {
                     res.append(sArray[j + group - i])
                 }
                 j += group
