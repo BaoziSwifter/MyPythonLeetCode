@@ -37,4 +37,42 @@ class Solution25 {
         a?.next = reverseKGroup(b, k)
         return h
     }
+    
+    func reverseKGroup_while(_ head: ListNode?, _ k: Int) -> ListNode? {
+        if k < 2 { return head }
+        let dumy = ListNode()
+        dumy.next = head
+        var pre: ListNode? = dumy
+        var begin = head
+        while begin != nil {
+            var i = 0
+            var end = begin
+            while i < k - 1 && end != nil {
+                end = end?.next
+                i += 1
+            }
+            if end == nil {
+                break
+            }
+            
+            let nxt = end?.next
+            let tmpEnd = begin
+            var tmpBegin = begin
+            var tmpPre: ListNode?
+            var index = 0
+            while index < k {
+                let tmpNxt = tmpBegin?.next
+                tmpBegin?.next = tmpPre
+                tmpPre = tmpBegin
+                tmpBegin = tmpNxt
+                index += 1
+            }
+            pre?.next = tmpPre
+            tmpEnd?.next = nxt
+            begin = tmpBegin
+            pre = tmpEnd
+        }
+        
+        return dumy.next
+    }
 }
