@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D03A0EF28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D03A0EE28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift */; };
 		7D5DA073289D14BB00D73F0E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA072289D14BB00D73F0E /* main.swift */; };
 		7D5DA07A289D14D800D73F0E /* 21.合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA079289D14D800D73F0E /* 21.合并两个有序链表.swift */; };
 		7D5DA07C289D153800D73F0E /* 23.合并k个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA07B289D153800D73F0E /* 23.合并k个升序链表.swift */; };
@@ -198,6 +199,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D03A0EE28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303.区域和检索-数组不可变.swift"; sourceTree = "<group>"; };
 		7D5DA06F289D14BB00D73F0E /* StudyLeetcodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyLeetcodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5DA072289D14BB00D73F0E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7D5DA079289D14D800D73F0E /* 21.合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.合并两个有序链表.swift"; sourceTree = "<group>"; };
@@ -524,6 +526,7 @@
 				7DFBA22A28AB482700F3CE48 /* 287.-寻找重复数.swift */,
 				7DFBA2F028AB54C000F3CE48 /* 289.-生命游戏.swift */,
 				7DFBA29628AB4E8C00F3CE48 /* 292.-nim-游戏.swift */,
+				7D03A0EE28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift */,
 				7D5DE67728A9E54A00D73F0E /* 322.零钱兑换.swift */,
 				7DFBA29828AB4EAC00F3CE48 /* 326.-3-的幂.swift */,
 				7DFBA29A28AB4EC500F3CE48 /* 338.-比特位计数.swift */,
@@ -849,6 +852,7 @@
 				7DFBA2EF28AB546A00F3CE48 /* 155.-最小栈.swift in Sources */,
 				7DFBA1FB28AAA8F300F3CE48 /* 9.回文数.swift in Sources */,
 				7DFBA1FD28AAA95900F3CE48 /* 10.正则表达式匹配.swift in Sources */,
+				7D03A0EF28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift in Sources */,
 				7DFBA20F28AB460000F3CE48 /* 114.-二叉树展开为链表.swift in Sources */,
 				7DFBA1F928AAA0ED00F3CE48 /* 8.字符串转换整数-atoi.swift in Sources */,
 				7DFBA21328AB464F00F3CE48 /* 122.-买卖股票的最佳时机-ii.swift in Sources */,
