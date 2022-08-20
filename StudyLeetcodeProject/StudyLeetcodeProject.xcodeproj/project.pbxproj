@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D03A0EF28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D03A0EE28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift */; };
+		7D03A0F128B0E461004AC108 /* 118.-杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D03A0F028B0E461004AC108 /* 118.-杨辉三角.swift */; };
 		7D5DA073289D14BB00D73F0E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA072289D14BB00D73F0E /* main.swift */; };
 		7D5DA07A289D14D800D73F0E /* 21.合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA079289D14D800D73F0E /* 21.合并两个有序链表.swift */; };
 		7D5DA07C289D153800D73F0E /* 23.合并k个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DA07B289D153800D73F0E /* 23.合并k个升序链表.swift */; };
@@ -110,7 +111,6 @@
 		7DFBA26528AB4BFC00F3CE48 /* 105.-从前序与中序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA26428AB4BFC00F3CE48 /* 105.-从前序与中序遍历序列构造二叉树.swift */; };
 		7DFBA26728AB4C1C00F3CE48 /* 107.-二叉树的层序遍历-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA26628AB4C1C00F3CE48 /* 107.-二叉树的层序遍历-ii.swift */; };
 		7DFBA26928AB4C3500F3CE48 /* 108.-将有序数组转换为二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA26828AB4C3500F3CE48 /* 108.-将有序数组转换为二叉搜索树.swift */; };
-		7DFBA26B28AB4C5000F3CE48 /* 118.杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA26A28AB4C5000F3CE48 /* 118.杨辉三角.swift */; };
 		7DFBA26D28AB4C6C00F3CE48 /* 121.-买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA26C28AB4C6C00F3CE48 /* 121.-买卖股票的最佳时机.swift */; };
 		7DFBA26F28AB4C8B00F3CE48 /* 125.-验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA26E28AB4C8B00F3CE48 /* 125.-验证回文串.swift */; };
 		7DFBA27128AB4CA500F3CE48 /* 136.-只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA27028AB4CA500F3CE48 /* 136.-只出现一次的数字.swift */; };
@@ -200,6 +200,7 @@
 
 /* Begin PBXFileReference section */
 		7D03A0EE28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303.区域和检索-数组不可变.swift"; sourceTree = "<group>"; };
+		7D03A0F028B0E461004AC108 /* 118.-杨辉三角.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "118.-杨辉三角.swift"; sourceTree = "<group>"; };
 		7D5DA06F289D14BB00D73F0E /* StudyLeetcodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyLeetcodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5DA072289D14BB00D73F0E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7D5DA079289D14D800D73F0E /* 21.合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.合并两个有序链表.swift"; sourceTree = "<group>"; };
@@ -300,7 +301,6 @@
 		7DFBA26428AB4BFC00F3CE48 /* 105.-从前序与中序遍历序列构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "105.-从前序与中序遍历序列构造二叉树.swift"; sourceTree = "<group>"; };
 		7DFBA26628AB4C1C00F3CE48 /* 107.-二叉树的层序遍历-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "107.-二叉树的层序遍历-ii.swift"; sourceTree = "<group>"; };
 		7DFBA26828AB4C3500F3CE48 /* 108.-将有序数组转换为二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108.-将有序数组转换为二叉搜索树.swift"; sourceTree = "<group>"; };
-		7DFBA26A28AB4C5000F3CE48 /* 118.杨辉三角.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "118.杨辉三角.swift"; sourceTree = "<group>"; };
 		7DFBA26C28AB4C6C00F3CE48 /* 121.-买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.-买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		7DFBA26E28AB4C8B00F3CE48 /* 125.-验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.-验证回文串.swift"; sourceTree = "<group>"; };
 		7DFBA27028AB4CA500F3CE48 /* 136.-只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136.-只出现一次的数字.swift"; sourceTree = "<group>"; };
@@ -479,7 +479,7 @@
 				7DFBA20E28AB460000F3CE48 /* 114.-二叉树展开为链表.swift */,
 				7D5DE68128AA309400D73F0E /* 115.不同的子序列.swift */,
 				7DFBA21028AB462600F3CE48 /* 116.-填充每个节点的下一个右侧节点指针.swift */,
-				7DFBA26A28AB4C5000F3CE48 /* 118.杨辉三角.swift */,
+				7D03A0F028B0E461004AC108 /* 118.-杨辉三角.swift */,
 				7DFBA26C28AB4C6C00F3CE48 /* 121.-买卖股票的最佳时机.swift */,
 				7DFBA21228AB464F00F3CE48 /* 122.-买卖股票的最佳时机-ii.swift */,
 				7DFBA26E28AB4C8B00F3CE48 /* 125.-验证回文串.swift */,
@@ -838,7 +838,6 @@
 				7DFBA2DF28AB537400F3CE48 /* 32.-最长有效括号.swift in Sources */,
 				7D85C0BB28A1F2470039F38D /* 3.二叉树的遍历算法.swift in Sources */,
 				7DFBA2D728AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift in Sources */,
-				7DFBA26B28AB4C5000F3CE48 /* 118.杨辉三角.swift in Sources */,
 				7D5DA09428A0E90F00D73F0E /* 344.反转字符串.swift in Sources */,
 				7DFBA25F28AB4BAC00F3CE48 /* 94.-二叉树的中序遍历.swift in Sources */,
 				7DFBA29728AB4E8C00F3CE48 /* 292.-nim-游戏.swift in Sources */,
@@ -866,6 +865,7 @@
 				7DFBA2E728AB53EE00F3CE48 /* 78.-子集.swift in Sources */,
 				7DFBA2C728AB510A00F3CE48 /* 728.-自除数.swift in Sources */,
 				7DFBA2F328AB553200F3CE48 /* 876.链表的中间结点.swift in Sources */,
+				7D03A0F128B0E461004AC108 /* 118.-杨辉三角.swift in Sources */,
 				7DFBA23728AB48E800F3CE48 /* 785.-判断二分图.swift in Sources */,
 				7DFBA23B28AB492400F3CE48 /* 1288.-删除被覆盖区间.swift in Sources */,
 				7DFBA22328AB479500F3CE48 /* 230.-二叉搜索树中第k小的元素.swift in Sources */,
