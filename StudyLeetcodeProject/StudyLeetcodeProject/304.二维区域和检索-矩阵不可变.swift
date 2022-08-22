@@ -9,7 +9,7 @@ import Foundation
 
 class NumMatrix304 {
 
-    private preSum:[[Int]]
+    private var preSum:[[Int]]
     init(_ matrix: [[Int]]) {
         let row = matrix.count
         let column = matrix[0].count

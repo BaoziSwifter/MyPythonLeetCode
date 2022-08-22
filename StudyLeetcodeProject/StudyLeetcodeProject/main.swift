@@ -16,6 +16,9 @@ import Foundation
 //print(s.fib(4))
 
 print("begin------------------------------")
+
+let s187 = Solution187()
+print(s187.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"))
 //let a = [1, 2,3,4,5,6,7]
 //for i in a {
 //    print("****-\(i)")
