@@ -9,7 +9,7 @@ import Foundation
 
 class Solution3 {
     // 两层遍历
-    func ç(_ s: String) -> Int {
+    func lengthOfLongestSubstring_slide0(_ s: String) -> Int {
         if s.isEmpty { return 0 }
         var maxStr = ""
         var curStr = ""
@@ -25,7 +25,7 @@ class Solution3 {
         return maxStr.count
     }
     // 滑动窗口
-    func lengthOfLongestSubstring_slide(_ s: String) -> Int {
+    func lengthOfLongestSubstring_slide1(_ s: String) -> Int {
         var dic = [Character: Int]()
         var start = 0
         var res = 0
