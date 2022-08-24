@@ -22,7 +22,13 @@
  */
 class Solution {
     func invertTree(_ root: TreeNode?) -> TreeNode? {
-
+        guard let root = root else {
+            return nil
+        }
+        let left = invertTree(root.left)
+        let right = invertTree(root.right)
+        (root.left, root.right) = (right, left)
+        return root
     }
 }
 // @lc code=end

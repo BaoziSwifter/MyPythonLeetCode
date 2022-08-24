@@ -23,7 +23,28 @@
 
 class Solution {
     func connect(_ root: Node?) -> Node? {
+        guard let root = root else {
+            return nil
+        }
         
+        var q = [root]
+        while q.isEmpty == false {
+            var tmp = [Node]()
+            let cnt = q.count
+            for i in 0..<cnt {
+                if i < cnt - 1 {
+                    q[i].next = q[i + 1]
+                }
+                if let l = q[i].left {
+                    tmp.append(l)
+                }
+                if let r = q[i].right {
+                    tmp.append(r)
+                }
+            }
+            q = tmp
+        }
+        return root
     }
 }
 // @lc code=end

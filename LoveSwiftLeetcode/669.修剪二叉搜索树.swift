@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode.cn id=114 lang=swift
+ * @lc app=leetcode.cn id=669 lang=swift
  *
- * [114] 二叉树展开为链表
+ * [669] 修剪二叉搜索树
  */
 
 // @lc code=start
@@ -21,22 +21,19 @@
  * }
  */
 class Solution {
-    func flatten(_ root: TreeNode?) {
-        guard let root = root else {
-            return
+    func trimBST(_ root: TreeNode?, _ low: Int, _ high: Int) -> TreeNode? {
+        guard let r = root else {
+            return root
         }
-        flatten(root.left)
-        flatten(root.right)
-        // 后序遍历处理
-        let left = root.left
-        let right = root.right
-        root.left = nil
-        root.right = left
-        var r = root
-        while r.right != nil {
-            r = r.right!
+        if r.val < low {
+            return trimBST(r.right, low, high)
         }
-        r.right = right
+        if r.val > high {
+            return trimBST(r.left, low, high)
+        }
+        r.left = trimBST(r.left, low, high)
+        r.right = trimBST(r.right, low, high)
+        return root
     }
 }
 // @lc code=end
