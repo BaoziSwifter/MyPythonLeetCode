@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Solution {
+class Solution9 {
     func isPalindrome(_ x: Int) -> Bool {
         if x < 0 {
             return false
