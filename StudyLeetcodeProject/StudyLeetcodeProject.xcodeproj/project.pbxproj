@@ -179,7 +179,7 @@
 		7DFBA2CF28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2CE28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift */; };
 		7DFBA2D128AB518D00F3CE48 /* 811.-子域名访问计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D028AB518D00F3CE48 /* 811.-子域名访问计数.swift */; };
 		7DFBA2D328AB51A300F3CE48 /* 821.-字符的最短距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D228AB51A300F3CE48 /* 821.-字符的最短距离.swift */; };
-		7DFBA2D528AB51BF00F3CE48 /* 832.-翻转图像.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D428AB51BF00F3CE48 /* 832.-翻转图像.swift */; };
+		7DFBA2D528AB51BF00F3CE48 /* 832.翻转图像.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D428AB51BF00F3CE48 /* 832.翻转图像.swift */; };
 		7DFBA2D728AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D628AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift */; };
 		7DFBA2D928AB51F500F3CE48 /* 867.-转置矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D828AB51F500F3CE48 /* 867.-转置矩阵.swift */; };
 		7DFBA2DB28AB520C00F3CE48 /* 991.-坏了的计算器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2DA28AB520C00F3CE48 /* 991.-坏了的计算器.swift */; };
@@ -384,7 +384,7 @@
 		7DFBA2CE28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "806.-写字符串需要的行数.swift"; sourceTree = "<group>"; };
 		7DFBA2D028AB518D00F3CE48 /* 811.-子域名访问计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "811.-子域名访问计数.swift"; sourceTree = "<group>"; };
 		7DFBA2D228AB51A300F3CE48 /* 821.-字符的最短距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821.-字符的最短距离.swift"; sourceTree = "<group>"; };
-		7DFBA2D428AB51BF00F3CE48 /* 832.-翻转图像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "832.-翻转图像.swift"; sourceTree = "<group>"; };
+		7DFBA2D428AB51BF00F3CE48 /* 832.翻转图像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "832.翻转图像.swift"; sourceTree = "<group>"; };
 		7DFBA2D628AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "852.-山脉数组的峰顶索引.swift"; sourceTree = "<group>"; };
 		7DFBA2D828AB51F500F3CE48 /* 867.-转置矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "867.-转置矩阵.swift"; sourceTree = "<group>"; };
 		7DFBA2DA28AB520C00F3CE48 /* 991.-坏了的计算器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "991.-坏了的计算器.swift"; sourceTree = "<group>"; };
@@ -608,7 +608,7 @@
 				7DFBA2CE28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift */,
 				7DFBA2D028AB518D00F3CE48 /* 811.-子域名访问计数.swift */,
 				7DFBA2D228AB51A300F3CE48 /* 821.-字符的最短距离.swift */,
-				7DFBA2D428AB51BF00F3CE48 /* 832.-翻转图像.swift */,
+				7DFBA2D428AB51BF00F3CE48 /* 832.翻转图像.swift */,
 				7DFBA2D628AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift */,
 				7DFBA2D828AB51F500F3CE48 /* 867.-转置矩阵.swift */,
 				7DEEEBAA28B5BCD800CD71B3 /* 870.优势洗牌.swift */,
@@ -793,7 +793,7 @@
 				7DEEEBB928B60D2B00CD71B3 /* 124.二叉树中的最大路径和.swift in Sources */,
 				7D85C0BD28A23DCC0039F38D /* ListNode.swift in Sources */,
 				7DFBA22928AB480B00F3CE48 /* 236.-二叉树的最近公共祖先.swift in Sources */,
-				7DFBA2D528AB51BF00F3CE48 /* 832.-翻转图像.swift in Sources */,
+				7DFBA2D528AB51BF00F3CE48 /* 832.翻转图像.swift in Sources */,
 				7DFBA22528AB47CF00F3CE48 /* 231.-2-的幂.swift in Sources */,
 				7DFBA1EF28AA6CC500F3CE48 /* 2.两数相加.swift in Sources */,
 				7DFBA2DB28AB520C00F3CE48 /* 991.-坏了的计算器.swift in Sources */,

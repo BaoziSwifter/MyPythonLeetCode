@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=832 lang=swift
- *
- * [832] 翻转图像
- */
+//
+//  832.-翻转图像.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution832 {
     func flipAndInvertImage(_ image: [[Int]]) -> [[Int]] {
         var image = image
         let n = image.count
@@ -23,5 +25,3 @@ class Solution {
         return image
     }
 }
-// @lc code=end
-
