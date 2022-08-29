@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=46 lang=swift
- *
- * [46] 全排列
- */
+//
+//  46.-全排列.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution46 {
     var res = [[Int]]()
     func permute(_ nums: [Int]) -> [[Int]] {
         var track = [Int]()
@@ -30,5 +32,3 @@ class Solution {
         }
     }
 }
-// @lc code=end
-

@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=78 lang=swift
- *
- * [78] 子集
- */
+//
+//  78.-子集.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution78 {
     var res = [[Int]]()
     var track = [Int]()
     func subsets(_ nums: [Int]) -> [[Int]] {
@@ -22,5 +24,3 @@ class Solution {
         }
     }
 }
-// @lc code=end
-

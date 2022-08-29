@@ -15,6 +15,9 @@ import Foundation
 //let s = Solution509()
 //print(s.fib(4))
 
+let s752 = Solution752()
+print(s752.openLock(["0201","0101","0102","1212","2002"], "0202"))
+
 print("begin------------------------------")
 
 let s187 = Solution187()

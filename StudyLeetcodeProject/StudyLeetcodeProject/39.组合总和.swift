@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=39 lang=swift
- *
- * [39] 组合总和
- */
+//
+//  39.-组合总和.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution39 {
     var res = [[Int]]()
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
         var track = [Int]()
@@ -29,5 +31,3 @@ class Solution {
         }
     }
 }
-// @lc code=end
-
