@@ -74,6 +74,10 @@
 		7DEEEBFB28BCF47400CD71B3 /* 111.二叉树的最小深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEBFA28BCF47400CD71B3 /* 111.二叉树的最小深度.swift */; };
 		7DEEEBFD28BCF6F800CD71B3 /* 752.打开转盘锁.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEBFC28BCF6F800CD71B3 /* 752.打开转盘锁.swift */; };
 		7DEEEBFF28BD074B00CD71B3 /* 188.买卖股票的最佳时机-iv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEBFE28BD074B00CD71B3 /* 188.买卖股票的最佳时机-iv.swift */; };
+		7DEEEC0128BDB4D700CD71B3 /* 309.最佳买卖股票时机含冷冻期.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEC0028BDB4D700CD71B3 /* 309.最佳买卖股票时机含冷冻期.swift */; };
+		7DEEEC0328BDBB3F00CD71B3 /* 714.买卖股票的最佳时机含手续费.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEC0228BDBB3F00CD71B3 /* 714.买卖股票的最佳时机含手续费.swift */; };
+		7DEEEC0528BDBE5100CD71B3 /* 123.买卖股票的最佳时机-iii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEC0428BDBE5100CD71B3 /* 123.买卖股票的最佳时机-iii.swift */; };
+		7DEEEC0728BDCA3200CD71B3 /* 买卖股票的最佳时机-vii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEC0628BDCA3200CD71B3 /* 买卖股票的最佳时机-vii.swift */; };
 		7DFBA1EF28AA6CC500F3CE48 /* 2.两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA1EE28AA6CC500F3CE48 /* 2.两数相加.swift */; };
 		7DFBA1F128AA703E00F3CE48 /* 3.无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA1F028AA703E00F3CE48 /* 3.无重复字符的最长子串.swift */; };
 		7DFBA1F328AA80D300F3CE48 /* 4.寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA1F228AA80D300F3CE48 /* 4.寻找两个正序数组的中位数.swift */; };
@@ -92,7 +96,7 @@
 		7DFBA20D28AB45DB00F3CE48 /* 102.-二叉树的层序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA20C28AB45DB00F3CE48 /* 102.-二叉树的层序遍历.swift */; };
 		7DFBA20F28AB460000F3CE48 /* 114.二叉树展开为链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA20E28AB460000F3CE48 /* 114.二叉树展开为链表.swift */; };
 		7DFBA21128AB462600F3CE48 /* 116.填充每个节点的下一个右侧节点指针.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA21028AB462600F3CE48 /* 116.填充每个节点的下一个右侧节点指针.swift */; };
-		7DFBA21328AB464F00F3CE48 /* 122.-买卖股票的最佳时机-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA21228AB464F00F3CE48 /* 122.-买卖股票的最佳时机-ii.swift */; };
+		7DFBA21328AB464F00F3CE48 /* 122.买卖股票的最佳时机-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA21228AB464F00F3CE48 /* 122.买卖股票的最佳时机-ii.swift */; };
 		7DFBA21528AB466A00F3CE48 /* 146.-lru-缓存.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA21428AB466A00F3CE48 /* 146.-lru-缓存.swift */; };
 		7DFBA21728AB468300F3CE48 /* 151.-颠倒字符串中的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA21628AB468300F3CE48 /* 151.-颠倒字符串中的单词.swift */; };
 		7DFBA21928AB46E300F3CE48 /* 189.-轮转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA21828AB46E300F3CE48 /* 189.-轮转数组.swift */; };
@@ -288,6 +292,10 @@
 		7DEEEBFA28BCF47400CD71B3 /* 111.二叉树的最小深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111.二叉树的最小深度.swift"; sourceTree = "<group>"; };
 		7DEEEBFC28BCF6F800CD71B3 /* 752.打开转盘锁.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "752.打开转盘锁.swift"; sourceTree = "<group>"; };
 		7DEEEBFE28BD074B00CD71B3 /* 188.买卖股票的最佳时机-iv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "188.买卖股票的最佳时机-iv.swift"; sourceTree = "<group>"; };
+		7DEEEC0028BDB4D700CD71B3 /* 309.最佳买卖股票时机含冷冻期.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309.最佳买卖股票时机含冷冻期.swift"; sourceTree = "<group>"; };
+		7DEEEC0228BDBB3F00CD71B3 /* 714.买卖股票的最佳时机含手续费.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "714.买卖股票的最佳时机含手续费.swift"; sourceTree = "<group>"; };
+		7DEEEC0428BDBE5100CD71B3 /* 123.买卖股票的最佳时机-iii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "123.买卖股票的最佳时机-iii.swift"; sourceTree = "<group>"; };
+		7DEEEC0628BDCA3200CD71B3 /* 买卖股票的最佳时机-vii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "买卖股票的最佳时机-vii.swift"; sourceTree = "<group>"; };
 		7DFBA1EE28AA6CC500F3CE48 /* 2.两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2.两数相加.swift"; sourceTree = "<group>"; };
 		7DFBA1F028AA703E00F3CE48 /* 3.无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3.无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		7DFBA1F228AA80D300F3CE48 /* 4.寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4.寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
@@ -306,7 +314,7 @@
 		7DFBA20C28AB45DB00F3CE48 /* 102.-二叉树的层序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102.-二叉树的层序遍历.swift"; sourceTree = "<group>"; };
 		7DFBA20E28AB460000F3CE48 /* 114.二叉树展开为链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114.二叉树展开为链表.swift"; sourceTree = "<group>"; };
 		7DFBA21028AB462600F3CE48 /* 116.填充每个节点的下一个右侧节点指针.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "116.填充每个节点的下一个右侧节点指针.swift"; sourceTree = "<group>"; };
-		7DFBA21228AB464F00F3CE48 /* 122.-买卖股票的最佳时机-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.-买卖股票的最佳时机-ii.swift"; sourceTree = "<group>"; };
+		7DFBA21228AB464F00F3CE48 /* 122.买卖股票的最佳时机-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.买卖股票的最佳时机-ii.swift"; sourceTree = "<group>"; };
 		7DFBA21428AB466A00F3CE48 /* 146.-lru-缓存.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "146.-lru-缓存.swift"; sourceTree = "<group>"; };
 		7DFBA21628AB468300F3CE48 /* 151.-颠倒字符串中的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151.-颠倒字符串中的单词.swift"; sourceTree = "<group>"; };
 		7DFBA21828AB46E300F3CE48 /* 189.-轮转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189.-轮转数组.swift"; sourceTree = "<group>"; };
@@ -536,7 +544,8 @@
 				7DFBA21028AB462600F3CE48 /* 116.填充每个节点的下一个右侧节点指针.swift */,
 				7D03A0F028B0E461004AC108 /* 118.-杨辉三角.swift */,
 				7DFBA26C28AB4C6C00F3CE48 /* 121.买卖股票的最佳时机.swift */,
-				7DFBA21228AB464F00F3CE48 /* 122.-买卖股票的最佳时机-ii.swift */,
+				7DFBA21228AB464F00F3CE48 /* 122.买卖股票的最佳时机-ii.swift */,
+				7DEEEC0428BDBE5100CD71B3 /* 123.买卖股票的最佳时机-iii.swift */,
 				7DEEEBB828B60D2B00CD71B3 /* 124.二叉树中的最大路径和.swift */,
 				7DFBA26E28AB4C8B00F3CE48 /* 125.-验证回文串.swift */,
 				7DFBA2EA28AB543500F3CE48 /* 127.-单词接龙.swift */,
@@ -588,6 +597,7 @@
 				7DEEEBC228B6399800CD71B3 /* 297.二叉树的序列化与反序列化.swift */,
 				7D03A0EE28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift */,
 				7D03A0F228B0E5D7004AC108 /* 304.二维区域和检索-矩阵不可变.swift */,
+				7DEEEC0028BDB4D700CD71B3 /* 309.最佳买卖股票时机含冷冻期.swift */,
 				7D5DE67728A9E54A00D73F0E /* 322.零钱兑换.swift */,
 				7DFBA29828AB4EAC00F3CE48 /* 326.-3-的幂.swift */,
 				7D7E5DB428AE6A530077876A /* 328.奇偶链表.swift */,
@@ -626,6 +636,7 @@
 				7DEEEBB628B6078900CD71B3 /* 669.修剪二叉搜索树.swift */,
 				7DFBA2C228AB50D900F3CE48 /* 693.-交替位二进制数.swift */,
 				7DFBA2C428AB50F500F3CE48 /* 709.-转换成小写字母.swift */,
+				7DEEEC0228BDBB3F00CD71B3 /* 714.买卖股票的最佳时机含手续费.swift */,
 				7DFBA2C628AB510A00F3CE48 /* 728.-自除数.swift */,
 				7DEEEBFC28BCF6F800CD71B3 /* 752.打开转盘锁.swift */,
 				7DFBA2C828AB511F00F3CE48 /* 771.-宝石与石头.swift */,
@@ -672,6 +683,7 @@
 				7DFBA2F628ABDCFC00F3CE48 /* 链表翻转专项.swift */,
 				7D7E5DBB28AF82990077876A /* 差分工具.swift */,
 				7DEEEBBC28B6161800CD71B3 /* Node.swift */,
+				7DEEEC0628BDCA3200CD71B3 /* 买卖股票的最佳时机-vii.swift */,
 			);
 			path = "基本数据结构";
 			sourceTree = "<group>";
@@ -828,6 +840,7 @@
 				7DFBA2DB28AB520C00F3CE48 /* 991.-坏了的计算器.swift in Sources */,
 				7DFBA25328AB4AFE00F3CE48 /* 58.-最后一个单词的长度.swift in Sources */,
 				7DFBA24F28AB4ABF00F3CE48 /* 48.旋转图像.swift in Sources */,
+				7DEEEC0128BDB4D700CD71B3 /* 309.最佳买卖股票时机含冷冻期.swift in Sources */,
 				7DFBA1F128AA703E00F3CE48 /* 3.无重复字符的最长子串.swift in Sources */,
 				7DFBA29928AB4EAC00F3CE48 /* 326.-3-的幂.swift in Sources */,
 				7D7E5DB528AE6A530077876A /* 328.奇偶链表.swift in Sources */,
@@ -864,6 +877,7 @@
 				7DFBA2A928AB4F8C00F3CE48 /* 461.-汉明距离.swift in Sources */,
 				7D5DE67C28A9F81200D73F0E /* 91.解码方法.swift in Sources */,
 				7DFBA2F128AB54C000F3CE48 /* 289.-生命游戏.swift in Sources */,
+				7DEEEC0328BDBB3F00CD71B3 /* 714.买卖股票的最佳时机含手续费.swift in Sources */,
 				7DEEEBBD28B6161800CD71B3 /* Node.swift in Sources */,
 				7DFBA21F28AB474C00F3CE48 /* 208.-实现-trie-前缀树.swift in Sources */,
 				7DFBA2CD28AB516500F3CE48 /* 804.-唯一摩尔斯密码词.swift in Sources */,
@@ -947,9 +961,10 @@
 				7D03A0F328B0E5D7004AC108 /* 304.二维区域和检索-矩阵不可变.swift in Sources */,
 				7DFBA20F28AB460000F3CE48 /* 114.二叉树展开为链表.swift in Sources */,
 				7DFBA1F928AAA0ED00F3CE48 /* 8.字符串转换整数-atoi.swift in Sources */,
-				7DFBA21328AB464F00F3CE48 /* 122.-买卖股票的最佳时机-ii.swift in Sources */,
+				7DFBA21328AB464F00F3CE48 /* 122.买卖股票的最佳时机-ii.swift in Sources */,
 				7DFBA2C928AB511F00F3CE48 /* 771.-宝石与石头.swift in Sources */,
 				7DFBA27D28AB4D4E00F3CE48 /* 191.-位-1-的个数.swift in Sources */,
+				7DEEEC0528BDBE5100CD71B3 /* 123.买卖股票的最佳时机-iii.swift in Sources */,
 				7D85C0C428A254BD0039F38D /* 543.二叉树的直径.swift in Sources */,
 				7DFBA2EB28AB543500F3CE48 /* 127.-单词接龙.swift in Sources */,
 				7DEEEBBB28B6116E00CD71B3 /* 515.在每个树行中找最大值.swift in Sources */,
@@ -961,6 +976,7 @@
 				7DFBA2F328AB553200F3CE48 /* 876.链表的中间结点.swift in Sources */,
 				7D03A0F128B0E461004AC108 /* 118.-杨辉三角.swift in Sources */,
 				7DFBA23728AB48E800F3CE48 /* 785.-判断二分图.swift in Sources */,
+				7DEEEC0728BDCA3200CD71B3 /* 买卖股票的最佳时机-vii.swift in Sources */,
 				7DFBA23B28AB492400F3CE48 /* 1288.-删除被覆盖区间.swift in Sources */,
 				7DFBA22328AB479500F3CE48 /* 230.-二叉搜索树中第k小的元素.swift in Sources */,
 				7DFBA24528AB49E500F3CE48 /* 22.-括号生成.swift in Sources */,
