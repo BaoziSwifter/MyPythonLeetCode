@@ -22,7 +22,23 @@
  */
 class Solution {
     func inorderTraversal(_ root: TreeNode?) -> [Int] {
-
+        if root == nil {
+            return [Int]()
+        }
+        var r = root
+        var stack = [TreeNode]()
+        var res = [Int]()
+        while r != nil || !stack.isEmpty {
+            if r != nil {
+                stack.append(r!)
+                r = r?.left
+            } else {
+                let node = stack.popLast()!
+                res.append(node.val)
+                r = node.right
+            }
+        }
+        return res
     }
 }
 // @lc code=end

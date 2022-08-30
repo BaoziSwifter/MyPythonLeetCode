@@ -19,7 +19,23 @@
 
 class Solution {
     func postorder(_ root: Node?) -> [Int] {
-    	
+        if root == nil {
+            return [Int]()
+        }
+        var r = root
+        var queue = [Node]()
+        var res = [Int]()
+        queue.append(r!)
+        while queue.isEmpty == false {
+            if queue.isEmpty == false {
+                let n = queue.removeFirst()
+                res.append(n.val)
+                if n.children.count > 0 {
+                    queue += n.children.reversed()
+                }
+            }
+        }
+        return res.reversed()   	
     }
 }
 // @lc code=end

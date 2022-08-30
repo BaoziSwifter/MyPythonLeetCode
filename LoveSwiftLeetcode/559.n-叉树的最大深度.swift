@@ -19,7 +19,20 @@
 
 class Solution {
     func maxDepth(_ root: Node?) -> Int {
-        
+        if root == nil { return 0 }
+        var queue = [root!]
+        var depth = 0
+        while queue.isEmpty == false {
+            depth += 1
+            var tmpQ = [Node]()
+            for i in queue {
+                if i.children.count > 0 {
+                    tmpQ += i.children
+                }
+            }
+            queue = tmpQ
+        }
+        return depth        
     }
 }
 // @lc code=end

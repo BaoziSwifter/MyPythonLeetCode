@@ -19,3 +19,12 @@ public class TreeNode {
         self.right = right
     }
 }
+
+public class NTreeNode {
+    public var val: Int
+    public var children: [NTreeNode]
+    public init(_ val: Int) {
+        self.val = val
+        self.children = []
+    }
+}
