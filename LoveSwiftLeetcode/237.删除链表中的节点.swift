@@ -19,7 +19,11 @@
 
 class Solution {
     func deleteNode(_ node: ListNode?) {
-        
+        guard let cur = node else {
+            return
+        }
+        cur.val = cur.next!.val
+        cur.next = cur.next!.next
     }
 }
 // @lc code=end

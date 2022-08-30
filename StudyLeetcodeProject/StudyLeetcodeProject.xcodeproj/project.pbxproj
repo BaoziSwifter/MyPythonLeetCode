@@ -160,7 +160,7 @@
 		7DFBA28728AB4DD500F3CE48 /* 217.-存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA28628AB4DD500F3CE48 /* 217.-存在重复元素.swift */; };
 		7DFBA28928AB4DEA00F3CE48 /* 226.翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA28828AB4DEA00F3CE48 /* 226.翻转二叉树.swift */; };
 		7DFBA28B28AB4E0500F3CE48 /* 234.回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA28A28AB4E0500F3CE48 /* 234.回文链表.swift */; };
-		7DFBA28D28AB4E1A00F3CE48 /* 237.-删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA28C28AB4E1A00F3CE48 /* 237.-删除链表中的节点.swift */; };
+		7DFBA28D28AB4E1A00F3CE48 /* 237.删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA28C28AB4E1A00F3CE48 /* 237.删除链表中的节点.swift */; };
 		7DFBA28F28AB4E2E00F3CE48 /* 238.-除自身以外数组的乘积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA28E28AB4E2E00F3CE48 /* 238.-除自身以外数组的乘积.swift */; };
 		7DFBA29128AB4E4700F3CE48 /* 242.-有效的字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29028AB4E4700F3CE48 /* 242.-有效的字母异位词.swift */; };
 		7DFBA29328AB4E5D00F3CE48 /* 258.-各位相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29228AB4E5D00F3CE48 /* 258.-各位相加.swift */; };
@@ -382,7 +382,7 @@
 		7DFBA28628AB4DD500F3CE48 /* 217.-存在重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217.-存在重复元素.swift"; sourceTree = "<group>"; };
 		7DFBA28828AB4DEA00F3CE48 /* 226.翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "226.翻转二叉树.swift"; sourceTree = "<group>"; };
 		7DFBA28A28AB4E0500F3CE48 /* 234.回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.回文链表.swift"; sourceTree = "<group>"; };
-		7DFBA28C28AB4E1A00F3CE48 /* 237.-删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237.-删除链表中的节点.swift"; sourceTree = "<group>"; };
+		7DFBA28C28AB4E1A00F3CE48 /* 237.删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237.删除链表中的节点.swift"; sourceTree = "<group>"; };
 		7DFBA28E28AB4E2E00F3CE48 /* 238.-除自身以外数组的乘积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238.-除自身以外数组的乘积.swift"; sourceTree = "<group>"; };
 		7DFBA29028AB4E4700F3CE48 /* 242.-有效的字母异位词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242.-有效的字母异位词.swift"; sourceTree = "<group>"; };
 		7DFBA29228AB4E5D00F3CE48 /* 258.-各位相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "258.-各位相加.swift"; sourceTree = "<group>"; };
@@ -594,7 +594,7 @@
 				7DFBA28A28AB4E0500F3CE48 /* 234.回文链表.swift */,
 				7DFBA22628AB47F100F3CE48 /* 235.-二叉搜索树的最近公共祖先.swift */,
 				7DFBA22828AB480B00F3CE48 /* 236.二叉树的最近公共祖先.swift */,
-				7DFBA28C28AB4E1A00F3CE48 /* 237.-删除链表中的节点.swift */,
+				7DFBA28C28AB4E1A00F3CE48 /* 237.删除链表中的节点.swift */,
 				7DFBA28E28AB4E2E00F3CE48 /* 238.-除自身以外数组的乘积.swift */,
 				7DFBA29028AB4E4700F3CE48 /* 242.-有效的字母异位词.swift */,
 				7DFBA29228AB4E5D00F3CE48 /* 258.-各位相加.swift */,
@@ -921,7 +921,7 @@
 				7DFBA26D28AB4C6C00F3CE48 /* 121.买卖股票的最佳时机.swift in Sources */,
 				7D85C0C028A23F680039F38D /* TreeNode.swift in Sources */,
 				7DFBA2B328AB500600F3CE48 /* 559.n-叉树的最大深度.swift in Sources */,
-				7DFBA28D28AB4E1A00F3CE48 /* 237.-删除链表中的节点.swift in Sources */,
+				7DFBA28D28AB4E1A00F3CE48 /* 237.删除链表中的节点.swift in Sources */,
 				7DFBA22F28AB485E00F3CE48 /* 415.-字符串相加.swift in Sources */,
 				7DFBA2F528AB631D00F3CE48 /* 144.二叉树的前序遍历.swift in Sources */,
 				7DFBA21128AB462600F3CE48 /* 116.填充每个节点的下一个右侧节点指针.swift in Sources */,

@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class Solution148 {
+    func sortList(_ head: ListNode?) -> ListNode? {
+
+    }
+}
