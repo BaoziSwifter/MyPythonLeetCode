@@ -1,11 +1,11 @@
-/*
- * @lc app=leetcode.cn id=146 lang=swift
- *
- * [146] LRU 缓存
- */
+//
+//  146.-lru-缓存.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-
+import Foundation
 class MyNode {
     var key: Int = 0
     var val: Int = 0
@@ -69,12 +69,3 @@ class LRUCache {
         addAtFirst(node)
     }
 }
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * let obj = LRUCache(capacity)
- * let ret_1: Int = obj.get(key)
- * obj.put(key, value)
- */
-// @lc code=end
-
