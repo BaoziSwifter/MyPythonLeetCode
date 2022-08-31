@@ -82,6 +82,7 @@
 		7DEEEC0728BDCA3200CD71B3 /* 买卖股票的最佳时机-vii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEC0628BDCA3200CD71B3 /* 买卖股票的最佳时机-vii.swift */; };
 		7DEEEC0928BDF8EC00CD71B3 /* 213.打家劫舍-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEC0828BDF8EC00CD71B3 /* 213.打家劫舍-ii.swift */; };
 		7DEEEC0B28BDFC2000CD71B3 /* 337.打家劫舍-iii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEC0A28BDFC2000CD71B3 /* 337.打家劫舍-iii.swift */; };
+		7DEEEC0D28BEFB4D00CD71B3 /* 42.接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEEC0C28BEFB4D00CD71B3 /* 42.接雨水.swift */; };
 		7DFBA1EF28AA6CC500F3CE48 /* 2.两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA1EE28AA6CC500F3CE48 /* 2.两数相加.swift */; };
 		7DFBA1F128AA703E00F3CE48 /* 3.无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA1F028AA703E00F3CE48 /* 3.无重复字符的最长子串.swift */; };
 		7DFBA1F328AA80D300F3CE48 /* 4.寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA1F228AA80D300F3CE48 /* 4.寻找两个正序数组的中位数.swift */; };
@@ -304,6 +305,7 @@
 		7DEEEC0628BDCA3200CD71B3 /* 买卖股票的最佳时机-vii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "买卖股票的最佳时机-vii.swift"; sourceTree = "<group>"; };
 		7DEEEC0828BDF8EC00CD71B3 /* 213.打家劫舍-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "213.打家劫舍-ii.swift"; sourceTree = "<group>"; };
 		7DEEEC0A28BDFC2000CD71B3 /* 337.打家劫舍-iii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "337.打家劫舍-iii.swift"; sourceTree = "<group>"; };
+		7DEEEC0C28BEFB4D00CD71B3 /* 42.接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42.接雨水.swift"; sourceTree = "<group>"; };
 		7DFBA1EE28AA6CC500F3CE48 /* 2.两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2.两数相加.swift"; sourceTree = "<group>"; };
 		7DFBA1F028AA703E00F3CE48 /* 3.无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3.无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		7DFBA1F228AA80D300F3CE48 /* 4.寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4.寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
@@ -507,6 +509,7 @@
 				7DFBA24A28AB4A8D00F3CE48 /* 38.-外观数列.swift */,
 				7DFBA20228AB452C00F3CE48 /* 39.组合总和.swift */,
 				7DEEEBF628BCE5D700CD71B3 /* 40.组合总和-ii.swift */,
+				7DEEEC0C28BEFB4D00CD71B3 /* 42.接雨水.swift */,
 				7DFBA24C28AB4AA500F3CE48 /* 46.全排列.swift */,
 				7DEEEBF828BCE95300CD71B3 /* 47.全排列-ii.swift */,
 				7DFBA24E28AB4ABF00F3CE48 /* 48.旋转图像.swift */,
@@ -864,6 +867,7 @@
 				7DFBA27528AB4CE900F3CE48 /* 169.-多数元素.swift in Sources */,
 				7D85C0B928A1F2320039F38D /* 2.查找算法.swift in Sources */,
 				7DEEEBAD28B5C2C000CD71B3 /* 380.o-1-时间插入、删除和获取随机元素.swift in Sources */,
+				7DEEEC0D28BEFB4D00CD71B3 /* 42.接雨水.swift in Sources */,
 				7DEEEBFB28BCF47400CD71B3 /* 111.二叉树的最小深度.swift in Sources */,
 				7DFBA21D28AB471C00F3CE48 /* 207.-课程表.swift in Sources */,
 				7DEEEBB428B6025900CD71B3 /* 59.螺旋矩阵-ii.swift in Sources */,
