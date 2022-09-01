@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=13 lang=swift
- *
- * [13] 罗马数字转整数
- */
+//
+//  13.-罗马数字转整数.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution13 {
     func romanToInt(_ s: String) -> Int {
         let valDict: [Character: Int] = [
             "I": 1,
@@ -20,7 +23,6 @@ class Solution {
         var hasI = false, hasX = false, hasC = false
         let allChars = Array(s)
         for c in allChars {
-            
             if c == "I" {
                 hasI = true
             } else if c == "X" {
@@ -62,5 +64,3 @@ class Solution {
         return sum
     }
 }
-// @lc code=end
-

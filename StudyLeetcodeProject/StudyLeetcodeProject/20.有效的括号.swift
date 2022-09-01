@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=20 lang=swift
- *
- * [20] 有效的括号
- */
+//
+//  20.-有效的括号.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution20 {
     func isValid(_ s: String) -> Bool {
         var stack = [Character]()
         let sChar = Array(s)
@@ -30,5 +32,3 @@ class Solution {
         return stack.count == 0
     }
 }
-// @lc code=end
-

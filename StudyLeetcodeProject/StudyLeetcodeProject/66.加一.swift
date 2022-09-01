@@ -22,8 +22,6 @@ class Solution66 {
         if left == 1 {
             digits.insert(1, at: 0)
         }
-
         return digits
-
     }
 }

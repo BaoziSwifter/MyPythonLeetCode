@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Solution {
+class Solution179 {
     func largestNumber(_ nums: [Int]) -> String {
         let res = nums.sorted { a, b in
             let l = String(a)

@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=32 lang=swift
- *
- * [32] 最长有效括号
- */
+//
+//  32.-最长有效括号.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution32 {
     func longestValidParentheses(_ s: String) -> Int {
         var stack = [Int]()
         var dp = [Int](repeating: 0, count: s.count + 1)
@@ -30,5 +33,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-
