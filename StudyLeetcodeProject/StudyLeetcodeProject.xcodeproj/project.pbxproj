@@ -59,6 +59,7 @@
 		7DEE227628C21EF900CD71B3 /* RWLockByTwoLocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE227128C21EF900CD71B3 /* RWLockByTwoLocks.swift */; };
 		7DEE227728C21EF900CD71B3 /* RWLockBySemphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE227228C21EF900CD71B3 /* RWLockBySemphore.swift */; };
 		7DEE227928C22AAF00CD71B3 /* 3. 生产者消费者模型.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE227828C22AAF00CD71B3 /* 3. 生产者消费者模型.swift */; };
+		7DEE227C28C230C200CD71B3 /* 4. GCD用法和区别.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE227B28C230C200CD71B3 /* 4. GCD用法和区别.swift */; };
 		7DEED9F328B33DDA00CD71B3 /* 76.最小覆盖子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEED9F228B33DDA00CD71B3 /* 76.最小覆盖子串.swift */; };
 		7DEED9F528B349F700CD71B3 /* 567.字符串的排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEED9F428B349F700CD71B3 /* 567.字符串的排列.swift */; };
 		7DEED9F728B3645000CD71B3 /* 438.找到字符串中所有字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEED9F628B3645000CD71B3 /* 438.找到字符串中所有字母异位词.swift */; };
@@ -290,6 +291,7 @@
 		7DEE227128C21EF900CD71B3 /* RWLockByTwoLocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RWLockByTwoLocks.swift; sourceTree = "<group>"; };
 		7DEE227228C21EF900CD71B3 /* RWLockBySemphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RWLockBySemphore.swift; sourceTree = "<group>"; };
 		7DEE227828C22AAF00CD71B3 /* 3. 生产者消费者模型.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. 生产者消费者模型.swift"; sourceTree = "<group>"; };
+		7DEE227B28C230C200CD71B3 /* 4. GCD用法和区别.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4. GCD用法和区别.swift"; sourceTree = "<group>"; };
 		7DEED9F228B33DDA00CD71B3 /* 76.最小覆盖子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "76.最小覆盖子串.swift"; sourceTree = "<group>"; };
 		7DEED9F428B349F700CD71B3 /* 567.字符串的排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "567.字符串的排列.swift"; sourceTree = "<group>"; };
 		7DEED9F628B3645000CD71B3 /* 438.找到字符串中所有字母异位词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438.找到字符串中所有字母异位词.swift"; sourceTree = "<group>"; };
@@ -727,6 +729,7 @@
 				7DEE224928C2150800CD71B3 /* 1. 3个线程顺序打印0-100.swift */,
 				7DEE226B28C2195400CD71B3 /* 2. 启动三个线程A，B，C，打印10次 按照ABC的顺序输出.swift */,
 				7DEE227828C22AAF00CD71B3 /* 3. 生产者消费者模型.swift */,
+				7DEE227B28C230C200CD71B3 /* 4. GCD用法和区别.swift */,
 			);
 			path = "面试常问实现问题";
 			sourceTree = "<group>";
@@ -992,6 +995,7 @@
 				7DFBA28328AB4D9900F3CE48 /* 204.-计数质数.swift in Sources */,
 				7DFBA1F328AA80D300F3CE48 /* 4.寻找两个正序数组的中位数.swift in Sources */,
 				7DFBA2ED28AB544C00F3CE48 /* 131.-分割回文串.swift in Sources */,
+				7DEE227C28C230C200CD71B3 /* 4. GCD用法和区别.swift in Sources */,
 				7DEEEBF328BCDC1700CD71B3 /* 77.组合.swift in Sources */,
 				7DFBA27B28AB4D3900F3CE48 /* 190.-颠倒二进制位.swift in Sources */,
 				7DFBA24B28AB4A8D00F3CE48 /* 38.-外观数列.swift in Sources */,
