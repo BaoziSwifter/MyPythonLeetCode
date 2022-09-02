@@ -15,13 +15,13 @@ import Foundation
 //let s = Solution509()
 //print(s.fib(4))
 
-let s752 = Solution752()
-print(s752.openLock(["0201","0101","0102","1212","2002"], "0202"))
-
-print("begin------------------------------")
-
-let s187 = Solution187()
-print(s187.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"))
+//let s752 = Solution752()
+//print(s752.openLock(["0201","0101","0102","1212","2002"], "0202"))
+//
+//print("begin------------------------------")
+//
+//let s187 = Solution187()
+//print(s187.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"))
 //let a = [1, 2,3,4,5,6,7]
 //for i in a {
 //    print("****-\(i)")
@@ -31,35 +31,37 @@ print(s187.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"))
 //let s = Solution115()
 //
 //let res = s.numDistinct("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-let s = Solution54()
-print(s.spiralOrder([[1]]))
-print(s.spiralOrder([[1, 2, 3]]))
-print(s.spiralOrder([[1], [2], [3]]))
-let p = [
-    [1, 2, 3, 4],
-    [5, 6, 7, 8],
-    [9, 10, 11, 12]
-]
-print(s.spiralOrder(p))
+//let s = Solution54()
+//print(s.spiralOrder([[1]]))
+//print(s.spiralOrder([[1, 2, 3]]))
+//print(s.spiralOrder([[1], [2], [3]]))
+//let p = [
+//    [1, 2, 3, 4],
+//    [5, 6, 7, 8],
+//    [9, 10, 11, 12]
+//]
+//print(s.spiralOrder(p))
+//
+//let p2 = [
+//    [1, 2],
+//    [3, 4],
+//    [5, 6]
+//]
+//print(s.spiralOrder(p2))
+//let p3 = [
+//    [1, 2, 3],
+//    [4, 5, 6],
+//    [7, 8, 9]
+//]
+//print(s.spiralOrder(p3))
+//
+//let p4 = [
+//    [1, 2, 3, 4, 5],
+//    [6, 7, 8, 9, 10],
+//    [11, 12, 13, 14, 15],
+//    [16, 17, 18, 19, 20],
+//    [21, 22, 23, 24, 25]
+//]
+//print(s.spiralOrder(p4))
 
-let p2 = [
-    [1, 2],
-    [3, 4],
-    [5, 6]
-]
-print(s.spiralOrder(p2))
-let p3 = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-print(s.spiralOrder(p3))
-
-let p4 = [
-    [1, 2, 3, 4, 5],
-    [6, 7, 8, 9, 10],
-    [11, 12, 13, 14, 15],
-    [16, 17, 18, 19, 20],
-    [21, 22, 23, 24, 25]
-]
-print(s.spiralOrder(p4))
+runModel()
