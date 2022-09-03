@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=53 lang=swift
- *
- * [53] 最大子数组和
- */
+//
+//  53.-最大子数组和.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution53 {
     func maxSubArray(_ nums: [Int]) -> Int {
         let cnt = nums.count
         if cnt == 0 { return 0 }
@@ -19,5 +22,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

@@ -7,25 +7,37 @@
 // @lc code=start
 
 class MinStack {
-
+    var stack = [Int]()
+    var minStack = [Int.max]
     init() {
 
     }
     
     func push(_ val: Int) {
-
+        stack.append(val)
+        let cnt = minStack.count
+        minStack.append(min(minStack[cnt - 1], val))
     }
     
     func pop() {
-
+        if !stack.isEmpty {
+            let _ = stack.popLast()
+            let _ = minStack.popLast()
+        }
     }
     
     func top() -> Int {
-
+        if stack.isEmpty == false {
+            return stack.last!
+        }
+        return -1
     }
     
     func getMin() -> Int {
-
+        if stack.isEmpty == false {
+            return minStack.last!
+        }
+        return -1
     }
 }
 
