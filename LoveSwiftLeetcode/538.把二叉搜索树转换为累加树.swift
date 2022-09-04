@@ -21,8 +21,16 @@
  * }
  */
 class Solution {
+    var sumV = 0
     func convertBST(_ root: TreeNode?) -> TreeNode? {
-
+        guard let r = root else {
+            return nil
+        }
+        convertBST(r.right)
+        sumV += r.val
+        r.val = sumV
+        convertBST(r.left)
+        return r
     }
 }
 // @lc code=end
