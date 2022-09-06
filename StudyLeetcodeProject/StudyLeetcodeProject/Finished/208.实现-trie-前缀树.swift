@@ -1,12 +1,13 @@
-/*
- * @lc app=leetcode.cn id=208 lang=swift
- *
- * [208] 实现 Trie (前缀树)
- */
+//
+//  208.-实现-trie-前缀树.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
+import Foundation
 
-class Trie {
+class Trie208 {
     class TrieTreeNode {
         var children: [Character: TrieTreeNode] = [:]
         var isWord = false
@@ -54,13 +55,3 @@ class Trie {
         return true
     }
 }
-
-/**
- * Your Trie object will be instantiated and called as such:
- * let obj = Trie()
- * obj.insert(word)
- * let ret_2: Bool = obj.search(word)
- * let ret_3: Bool = obj.startsWith(prefix)
- */
-// @lc code=end
-

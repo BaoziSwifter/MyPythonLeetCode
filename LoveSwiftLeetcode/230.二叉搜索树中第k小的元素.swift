@@ -21,8 +21,23 @@
  * }
  */
 class Solution {
+    var i = 0
+    var finalVal: Int?
     func kthSmallest(_ root: TreeNode?, _ k: Int) -> Int {
-
+        func kth(_ root: TreeNode?) {
+            guard let root = root else {
+                return
+            }
+            kth(root.left)
+            i += 1
+            if i == k {
+                finalVal = root.val
+                return
+            }
+            kth(root.right)
+        }
+        kth(root)
+        return finalVal ?? 0
     }
 }
 // @lc code=end

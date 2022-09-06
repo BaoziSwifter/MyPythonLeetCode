@@ -21,8 +21,21 @@
  * }
  */
 class Solution {
+    var lastVal = Int.min
     func isValidBST(_ root: TreeNode?) -> Bool {
-
+        guard let root = root else {
+            return true
+        }
+        
+        if !isValidBST(root.left) {
+            return false
+        }
+        if root.val <= lastVal {
+            return false
+        } else {
+            lastVal = root.val
+        }
+        return isValidBST(root.right)
     }
 }
 // @lc code=end

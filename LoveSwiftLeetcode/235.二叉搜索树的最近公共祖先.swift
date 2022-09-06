@@ -21,7 +21,17 @@
 
 class Solution {
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
-        
+        var root = root
+        while root != nil {
+            if p!.val < root!.val , root!.val > q!.val {
+                root = root!.left
+            } else if p!.val > root!.val , root!.val < q!.val {
+                root = root!.right
+            } else {
+                break
+            }
+        }
+        return root
     }
 }
 // @lc code=end

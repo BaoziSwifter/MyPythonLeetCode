@@ -1,11 +1,15 @@
-/*
- * @lc app=leetcode.cn id=96 lang=swift
- *
- * [96] 不同的二叉搜索树
- */
+//
+//  96.-不同的二叉搜索树.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution96 {
+    
+    // 动态规划 自底向上
     func numTrees(_ n: Int) -> Int {
         if n <= 1 { return 1 }
         var dp = [Int](repeating: 0, count: n + 1)
@@ -19,5 +23,3 @@ class Solution {
         return dp[n]
     }
 }
-// @lc code=end
-
