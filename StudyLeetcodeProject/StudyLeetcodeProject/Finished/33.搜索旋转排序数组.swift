@@ -1,12 +1,15 @@
-/*
- * @lc app=leetcode.cn id=33 lang=swift
- *
- * [33] 搜索旋转排序数组
- */
+//
+//  33.-搜索旋转排序数组.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
-    func search_dsf(_ nums: [Int], _ target: Int) -> Int {
+import Foundation
+
+
+class Solution33 {
+    func search(_ nums: [Int], _ target: Int) -> Int {
         func searchIndex(_ nums: [Int], _ target: Int, _ left: Int, _ right: Int) -> Int {
             if left > right {
                 return -1
@@ -23,9 +26,9 @@ class Solution {
         }
         return searchIndex(nums, target, 0, nums.count - 1)
     }
-
-    func search(_ nums: [Int], _ target: Int) -> Int {
-         if nums.count < 1 { return -1 }
+    
+    func search_while(_ nums: [Int], _ target: Int) -> Int {
+        if nums.count < 1 { return -1 }
         var left = 0, right = nums.count - 1
         while left <= right {
             let mid = (left + right) / 2
@@ -47,5 +50,3 @@ class Solution {
         return -1
     }
 }
-// @lc code=end
-
