@@ -90,7 +90,7 @@
 		7DEE23D428C4B5D600CD71B3 /* 152.-乘积最大子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D328C4B5D600CD71B3 /* 152.-乘积最大子数组.swift */; };
 		7DEE23D628C4B5F100CD71B3 /* 240.-搜索二维矩阵-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D528C4B5F100CD71B3 /* 240.-搜索二维矩阵-ii.swift */; };
 		7DEE23D828C4B61700CD71B3 /* 279.-完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D728C4B61700CD71B3 /* 279.-完全平方数.swift */; };
-		7DEE23DA28C4B63200CD71B3 /* 300.-最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D928C4B63200CD71B3 /* 300.-最长递增子序列.swift */; };
+		7DEE23DA28C4B63200CD71B3 /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D928C4B63200CD71B3 /* 300.最长递增子序列.swift */; };
 		7DEE23DC28C4B64700CD71B3 /* 301.-删除无效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23DB28C4B64700CD71B3 /* 301.-删除无效的括号.swift */; };
 		7DEE23DE28C4B66000CD71B3 /* 312.-戳气球.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23DD28C4B65F00CD71B3 /* 312.-戳气球.swift */; };
 		7DEE23E028C4B67400CD71B3 /* 347.-前-k-个高频元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23DF28C4B67400CD71B3 /* 347.-前-k-个高频元素.swift */; };
@@ -390,7 +390,7 @@
 		7DEE23D328C4B5D600CD71B3 /* 152.-乘积最大子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "152.-乘积最大子数组.swift"; sourceTree = "<group>"; };
 		7DEE23D528C4B5F100CD71B3 /* 240.-搜索二维矩阵-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "240.-搜索二维矩阵-ii.swift"; sourceTree = "<group>"; };
 		7DEE23D728C4B61700CD71B3 /* 279.-完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279.-完全平方数.swift"; sourceTree = "<group>"; };
-		7DEE23D928C4B63200CD71B3 /* 300.-最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.-最长递增子序列.swift"; sourceTree = "<group>"; };
+		7DEE23D928C4B63200CD71B3 /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		7DEE23DB28C4B64700CD71B3 /* 301.-删除无效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "301.-删除无效的括号.swift"; sourceTree = "<group>"; };
 		7DEE23DD28C4B65F00CD71B3 /* 312.-戳气球.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "312.-戳气球.swift"; sourceTree = "<group>"; };
 		7DEE23DF28C4B67400CD71B3 /* 347.-前-k-个高频元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "347.-前-k-个高频元素.swift"; sourceTree = "<group>"; };
@@ -800,6 +800,7 @@
 				7DEE228728C31B1C00CD71B3 /* 239.滑动窗口最大值.swift */,
 				7D5DA08D28A0AA9500D73F0E /* 283.移动零.swift */,
 				7DEEEBC228B6399800CD71B3 /* 297.二叉树的序列化与反序列化.swift */,
+				7DEE23D928C4B63200CD71B3 /* 300.最长递增子序列.swift */,
 				7D03A0EE28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift */,
 				7D03A0F228B0E5D7004AC108 /* 304.二维区域和检索-矩阵不可变.swift */,
 				7DEEEC0028BDB4D700CD71B3 /* 309.最佳买卖股票时机含冷冻期.swift */,
@@ -909,7 +910,6 @@
 				7DFBA2F028AB54C000F3CE48 /* 289.-生命游戏.swift */,
 				7DFBA29628AB4E8C00F3CE48 /* 292.-nim-游戏.swift */,
 				7DEE241328C4BB0500CD71B3 /* 295.-数据流的中位数.swift */,
-				7DEE23D928C4B63200CD71B3 /* 300.-最长递增子序列.swift */,
 				7DEE23DB28C4B64700CD71B3 /* 301.-删除无效的括号.swift */,
 				7DEE23DD28C4B65F00CD71B3 /* 312.-戳气球.swift */,
 				7DEE241528C4BB2700CD71B3 /* 315.-计算右侧小于当前元素的个数.swift */,
@@ -1074,7 +1074,7 @@
 				7DFBA21B28AB470000F3CE48 /* 200.-岛屿数量.swift in Sources */,
 				7DFBA28128AB4D8500F3CE48 /* 202.-快乐数.swift in Sources */,
 				7DFBA1FF28AB394400F3CE48 /* 15.三数之和.swift in Sources */,
-				7DEE23DA28C4B63200CD71B3 /* 300.-最长递增子序列.swift in Sources */,
+				7DEE23DA28C4B63200CD71B3 /* 300.最长递增子序列.swift in Sources */,
 				7DFBA1F528AA82FA00F3CE48 /* 6.z-字形变换.swift in Sources */,
 				7DFBA25728AB4B2F00F3CE48 /* 66.加一.swift in Sources */,
 				7D5DA086289D449B00D73F0E /* 160.相交链表.swift in Sources */,
