@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class Solution85 {
+    func maximalRectangle(_ matrix: [[Character]]) -> Int {
+        return 0
+    }
+}

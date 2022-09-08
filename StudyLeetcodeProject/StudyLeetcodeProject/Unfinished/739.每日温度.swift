@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=739 lang=swift
- *
- * [739] 每日温度
- */
+//
+//  739.-每日温度.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution739 {
     func dailyTemperatures(_ temperatures: [Int]) -> [Int] {
         var res = [Int](repeating: 0, count: temperatures.count)
         // 单调栈
@@ -20,5 +22,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

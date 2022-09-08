@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=56 lang=swift
- *
- * [56] 合并区间
- */
+//
+//  56.-合并区间.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution56 {
     func merge(_ intervals: [[Int]]) -> [[Int]] {
         if intervals.count <= 1 { return intervals }
         let intvs = intervals.sorted{ (a, b) in
@@ -32,5 +35,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

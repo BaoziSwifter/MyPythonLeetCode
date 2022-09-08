@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=394 lang=swift
- *
- * [394] 字符串解码
- */
+//
+//  394.-字符串解码.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution394 {
     func decodeString(_ s: String) -> String {
         var stack = [(Int, String)]()
         var res = ""
@@ -28,5 +30,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-
