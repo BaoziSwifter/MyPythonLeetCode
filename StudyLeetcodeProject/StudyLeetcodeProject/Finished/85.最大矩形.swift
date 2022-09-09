@@ -1,12 +1,15 @@
-/*
- * @lc app=leetcode.cn id=85 lang=swift
- *
- * [85] 最大矩形
- */
+//
+//  85.-最大矩形.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
-    func maximalRectangle_baoli(_ matrix: [[Character]]) -> Int {
+import Foundation
+
+class Solution85 {
+    // 优化的暴力法 时间复杂度O(m^2n) 空间复杂度O(mn)
+    func maximalRectangle(_ matrix: [[Character]]) -> Int {
         let m = matrix.count
         if m == 0 { return 0 }
         let n = matrix[0].count
@@ -41,8 +44,9 @@ class Solution {
         }
         return res
     }
-
-        func maximalRectangle(_ matrix: [[Character]]) -> Int {
+    
+    // 单调栈法 时间复杂度O(mn) 空间复杂度O(mn)
+    func maximalRectangle_tack(_ matrix: [[Character]]) -> Int {
         let m = matrix.count
         if m == 0 { return 0 }
         let n = matrix[0].count
@@ -90,5 +94,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

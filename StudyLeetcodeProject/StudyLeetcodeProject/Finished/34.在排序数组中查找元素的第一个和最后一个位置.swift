@@ -1,14 +1,18 @@
-/*
- * @lc app=leetcode.cn id=34 lang=swift
- *
- * [34] 在排序数组中查找元素的第一个和最后一个位置
- */
+//
+//  34.-在排序数组中查找元素的第一个和最后一个位置.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
-    func searchRange_while(_ nums: [Int], _ target: Int) -> [Int] {
+import Foundation
+
+
+class Solution34 {
+    // 法1
+    func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
         var left = 0, right = nums.count - 1
-        while left <= right {
+        while left < right {
             if nums[left] == target && nums[right] == target {
                 return [left, right]
             } else if nums[left] < target && nums[right] > target {
@@ -24,14 +28,16 @@ class Solution {
         }
         return [-1, -1]
     }
-
+    
+    // 法2
     func searchRange_inner(_ nums: [Int], _ target: Int) -> [Int] {
-      let firstIndex = nums.firstIndex(of: target) ?? -1
-      let lastIndex = nums.lastIndex(of: target) ?? -1
-      return [firstIndex,lastIndex]
+        let firstIndex = nums.firstIndex(of: target) ?? -1
+        let lastIndex = nums.lastIndex(of: target) ?? -1
+        return [firstIndex,lastIndex]
     }
-
-    func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
+    
+    // 法3
+    func searchRange_bin(_ nums: [Int], _ target: Int) -> [Int] {
         var left = 0, right = nums.count - 1
         func searchLeftBound(_ l: Int, _ r: Int) -> Int {
             var l = l, r = r
@@ -78,5 +84,3 @@ class Solution {
         return [-1, -1]
     }
 }
-// @lc code=end
-

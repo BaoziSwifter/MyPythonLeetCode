@@ -64,4 +64,12 @@ import Foundation
 //]
 //print(s.spiralOrder(p4))
 
-runModel()
+//runModel()
+
+
+let s = Solution240()
+let mar = [[-1,3]]
+let mar1 = [[-1],[3]]
+print(s.searchMatrix(mar, 3))
+print(s.searchMatrix(mar1, 3))
+

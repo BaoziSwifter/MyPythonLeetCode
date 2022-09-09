@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=84 lang=swift
- *
- * [84] 柱状图中最大的矩形
- */
+//
+//  84.-柱状图中最大的矩形.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution84 {
     func largestRectangleArea(_ heights: [Int]) -> Int {
         var stack = [(Int, Int)]()
         var res = 0
@@ -21,5 +24,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-
