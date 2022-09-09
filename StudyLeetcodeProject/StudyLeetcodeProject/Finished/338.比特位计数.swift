@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=338 lang=swift
- *
- * [338] 比特位计数
- */
+//
+//  338.-比特位计数.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution338 {
     func countBits(_ n: Int) -> [Int] {
         var res = [Int](repeating: 0, count: n + 1)
         var i = 1
@@ -16,5 +18,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

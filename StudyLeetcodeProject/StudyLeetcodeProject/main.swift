@@ -67,9 +67,11 @@ import Foundation
 //runModel()
 
 
-let s = Solution240()
-let mar = [[-1,3]]
-let mar1 = [[-1],[3]]
-print(s.searchMatrix(mar, 3))
-print(s.searchMatrix(mar1, 3))
+//let s = Solution240()
+//let mar = [[-1,3]]
+//let mar1 = [[-1],[3]]
+//print(s.searchMatrix(mar, 3))
+//print(s.searchMatrix(mar1, 3))
 
+let sw = Solution338()
+print(sw.countBits(3))

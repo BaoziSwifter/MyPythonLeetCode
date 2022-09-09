@@ -245,7 +245,7 @@
 		7DFBA29528AB4E7300F3CE48 /* 268.-丢失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29428AB4E7300F3CE48 /* 268.-丢失的数字.swift */; };
 		7DFBA29728AB4E8C00F3CE48 /* 292.-nim-游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29628AB4E8C00F3CE48 /* 292.-nim-游戏.swift */; };
 		7DFBA29928AB4EAC00F3CE48 /* 326.-3-的幂.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29828AB4EAC00F3CE48 /* 326.-3-的幂.swift */; };
-		7DFBA29B28AB4EC500F3CE48 /* 338.-比特位计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29A28AB4EC500F3CE48 /* 338.-比特位计数.swift */; };
+		7DFBA29B28AB4EC500F3CE48 /* 338.比特位计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29A28AB4EC500F3CE48 /* 338.比特位计数.swift */; };
 		7DFBA29D28AB4EE700F3CE48 /* 350.-两个数组的交集-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29C28AB4EE700F3CE48 /* 350.-两个数组的交集-ii.swift */; };
 		7DFBA29F28AB4EFE00F3CE48 /* 387.-字符串中的第一个唯一字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29E28AB4EFE00F3CE48 /* 387.-字符串中的第一个唯一字符.swift */; };
 		7DFBA2A128AB4F1400F3CE48 /* 401.-二进制手表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2A028AB4F1400F3CE48 /* 401.-二进制手表.swift */; };
@@ -545,7 +545,7 @@
 		7DFBA29428AB4E7300F3CE48 /* 268.-丢失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268.-丢失的数字.swift"; sourceTree = "<group>"; };
 		7DFBA29628AB4E8C00F3CE48 /* 292.-nim-游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "292.-nim-游戏.swift"; sourceTree = "<group>"; };
 		7DFBA29828AB4EAC00F3CE48 /* 326.-3-的幂.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326.-3-的幂.swift"; sourceTree = "<group>"; };
-		7DFBA29A28AB4EC500F3CE48 /* 338.-比特位计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338.-比特位计数.swift"; sourceTree = "<group>"; };
+		7DFBA29A28AB4EC500F3CE48 /* 338.比特位计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338.比特位计数.swift"; sourceTree = "<group>"; };
 		7DFBA29C28AB4EE700F3CE48 /* 350.-两个数组的交集-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350.-两个数组的交集-ii.swift"; sourceTree = "<group>"; };
 		7DFBA29E28AB4EFE00F3CE48 /* 387.-字符串中的第一个唯一字符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387.-字符串中的第一个唯一字符.swift"; sourceTree = "<group>"; };
 		7DFBA2A028AB4F1400F3CE48 /* 401.-二进制手表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "401.-二进制手表.swift"; sourceTree = "<group>"; };
@@ -815,6 +815,7 @@
 				7D5DE67728A9E54A00D73F0E /* 322.零钱兑换.swift */,
 				7D7E5DB428AE6A530077876A /* 328.奇偶链表.swift */,
 				7DEEEC0A28BDFC2000CD71B3 /* 337.打家劫舍-iii.swift */,
+				7DFBA29A28AB4EC500F3CE48 /* 338.比特位计数.swift */,
 				7D5DA09328A0E90F00D73F0E /* 344.反转字符串.swift */,
 				7DEEEBAC28B5C2C000CD71B3 /* 380.o-1-时间插入、删除和获取随机元素.swift */,
 				7DEE23E128C4B68F00CD71B3 /* 394.字符串解码.swift */,
@@ -919,7 +920,6 @@
 				7DFBA29828AB4EAC00F3CE48 /* 326.-3-的幂.swift */,
 				7DEE241928C4BB5700CD71B3 /* 329.-矩阵中的最长递增路径.swift */,
 				7DEE241B28C4BB7100CD71B3 /* 334.-递增的三元子序列.swift */,
-				7DFBA29A28AB4EC500F3CE48 /* 338.-比特位计数.swift */,
 				7DEE241D28C4BB8600CD71B3 /* 341.-扁平化嵌套列表迭代器.swift */,
 				7DEE23DF28C4B67400CD71B3 /* 347.-前-k-个高频元素.swift */,
 				7DFBA29C28AB4EE700F3CE48 /* 350.-两个数组的交集-ii.swift */,
@@ -1162,7 +1162,7 @@
 				7DEEEBB428B6025900CD71B3 /* 59.螺旋矩阵-ii.swift in Sources */,
 				7DEE23E028C4B67400CD71B3 /* 347.-前-k-个高频元素.swift in Sources */,
 				7DEE227728C21EF900CD71B3 /* RWLockBySemphore.swift in Sources */,
-				7DFBA29B28AB4EC500F3CE48 /* 338.-比特位计数.swift in Sources */,
+				7DFBA29B28AB4EC500F3CE48 /* 338.比特位计数.swift in Sources */,
 				7DFBA28F28AB4E2E00F3CE48 /* 238.-除自身以外数组的乘积.swift in Sources */,
 				7DFBA23928AB490D00F3CE48 /* 1143.-最长公共子序列.swift in Sources */,
 				7D5DE68028AA295D00D73F0E /* 70.爬楼梯.swift in Sources */,
