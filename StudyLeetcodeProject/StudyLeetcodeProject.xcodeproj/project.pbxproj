@@ -138,7 +138,7 @@
 		7DEE23C028C4B49600CD71B3 /* 55.-跳跃游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23BF28C4B49600CD71B3 /* 55.-跳跃游戏.swift */; };
 		7DEE23C228C4B4C700CD71B3 /* 62.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23C128C4B4C700CD71B3 /* 62.不同路径.swift */; };
 		7DEE23C428C4B4E900CD71B3 /* 72.编辑距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23C328C4B4E900CD71B3 /* 72.编辑距离.swift */; };
-		7DEE23C628C4B50500CD71B3 /* 75.-颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23C528C4B50500CD71B3 /* 75.-颜色分类.swift */; };
+		7DEE23C628C4B50500CD71B3 /* 75.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23C528C4B50500CD71B3 /* 75.颜色分类.swift */; };
 		7DEE23C828C4B51800CD71B3 /* 79.-单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23C728C4B51800CD71B3 /* 79.-单词搜索.swift */; };
 		7DEE23CA28C4B53D00CD71B3 /* 84.柱状图中最大的矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23C928C4B53D00CD71B3 /* 84.柱状图中最大的矩形.swift */; };
 		7DEE23CC28C4B55700CD71B3 /* 85.最大矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23CB28C4B55700CD71B3 /* 85.最大矩形.swift */; };
@@ -147,7 +147,7 @@
 		7DEE23D228C4B5BD00CD71B3 /* 139.-单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D128C4B5BD00CD71B3 /* 139.-单词拆分.swift */; };
 		7DEE23D428C4B5D600CD71B3 /* 152.-乘积最大子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D328C4B5D600CD71B3 /* 152.-乘积最大子数组.swift */; };
 		7DEE23D628C4B5F100CD71B3 /* 240.搜索二维矩阵-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D528C4B5F100CD71B3 /* 240.搜索二维矩阵-ii.swift */; };
-		7DEE23D828C4B61700CD71B3 /* 279.-完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D728C4B61700CD71B3 /* 279.-完全平方数.swift */; };
+		7DEE23D828C4B61700CD71B3 /* 279.完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D728C4B61700CD71B3 /* 279.完全平方数.swift */; };
 		7DEE23DA28C4B63200CD71B3 /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23D928C4B63200CD71B3 /* 300.最长递增子序列.swift */; };
 		7DEE23DC28C4B64700CD71B3 /* 301.-删除无效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23DB28C4B64700CD71B3 /* 301.-删除无效的括号.swift */; };
 		7DEE23DE28C4B66000CD71B3 /* 312.戳气球.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE23DD28C4B65F00CD71B3 /* 312.戳气球.swift */; };
@@ -496,7 +496,7 @@
 		7DEE23BF28C4B49600CD71B3 /* 55.-跳跃游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "55.-跳跃游戏.swift"; sourceTree = "<group>"; };
 		7DEE23C128C4B4C700CD71B3 /* 62.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62.不同路径.swift"; sourceTree = "<group>"; };
 		7DEE23C328C4B4E900CD71B3 /* 72.编辑距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "72.编辑距离.swift"; sourceTree = "<group>"; };
-		7DEE23C528C4B50500CD71B3 /* 75.-颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "75.-颜色分类.swift"; sourceTree = "<group>"; };
+		7DEE23C528C4B50500CD71B3 /* 75.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "75.颜色分类.swift"; sourceTree = "<group>"; };
 		7DEE23C728C4B51800CD71B3 /* 79.-单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "79.-单词搜索.swift"; sourceTree = "<group>"; };
 		7DEE23C928C4B53D00CD71B3 /* 84.柱状图中最大的矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "84.柱状图中最大的矩形.swift"; sourceTree = "<group>"; };
 		7DEE23CB28C4B55700CD71B3 /* 85.最大矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "85.最大矩形.swift"; sourceTree = "<group>"; };
@@ -505,7 +505,7 @@
 		7DEE23D128C4B5BD00CD71B3 /* 139.-单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139.-单词拆分.swift"; sourceTree = "<group>"; };
 		7DEE23D328C4B5D600CD71B3 /* 152.-乘积最大子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "152.-乘积最大子数组.swift"; sourceTree = "<group>"; };
 		7DEE23D528C4B5F100CD71B3 /* 240.搜索二维矩阵-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "240.搜索二维矩阵-ii.swift"; sourceTree = "<group>"; };
-		7DEE23D728C4B61700CD71B3 /* 279.-完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279.-完全平方数.swift"; sourceTree = "<group>"; };
+		7DEE23D728C4B61700CD71B3 /* 279.完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279.完全平方数.swift"; sourceTree = "<group>"; };
 		7DEE23D928C4B63200CD71B3 /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		7DEE23DB28C4B64700CD71B3 /* 301.-删除无效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "301.-删除无效的括号.swift"; sourceTree = "<group>"; };
 		7DEE23DD28C4B65F00CD71B3 /* 312.戳气球.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "312.戳气球.swift"; sourceTree = "<group>"; };
@@ -860,6 +860,7 @@
 				7D5DE67F28AA295D00D73F0E /* 70.爬楼梯.swift */,
 				7DEE228528C3162500CD71B3 /* 71.简化路径.swift */,
 				7DEE23C328C4B4E900CD71B3 /* 72.编辑距离.swift */,
+				7DEE23C528C4B50500CD71B3 /* 75.颜色分类.swift */,
 				7DEED9F228B33DDA00CD71B3 /* 76.最小覆盖子串.swift */,
 				7DEEEBF228BCDC1700CD71B3 /* 77.组合.swift */,
 				7DFBA2E628AB53EE00F3CE48 /* 78.子集.swift */,
@@ -867,6 +868,7 @@
 				7DEE23C928C4B53D00CD71B3 /* 84.柱状图中最大的矩形.swift */,
 				7DEE23CB28C4B55700CD71B3 /* 85.最大矩形.swift */,
 				7D5DA07D289D15D900D73F0E /* 86.分隔链表.swift */,
+				7DFBA25C28AB4B8500F3CE48 /* 88.合并两个有序数组.swift */,
 				7DEEEBF428BCE1B500CD71B3 /* 90.子集-ii.swift */,
 				7D5DE67B28A9F81200D73F0E /* 91.解码方法.swift */,
 				7DFBA20A28AB45B100F3CE48 /* 92.反转链表-ii.swift */,
@@ -878,7 +880,6 @@
 				7DFBA26228AB4BD700F3CE48 /* 101.对称二叉树.swift */,
 				7DFBA20C28AB45DB00F3CE48 /* 102.二叉树的层序遍历.swift */,
 				7DEE23FB28C4B85900CD71B3 /* 103.二叉树的锯齿形层序遍历.swift */,
-				7DA0B8F128D0492700B28FEA /* 1038.-从二叉搜索树到更大和树.swift */,
 				7D85C0C128A23FC30039F38D /* 104.二叉树的最大深度.swift */,
 				7DFBA26428AB4BFC00F3CE48 /* 105.从前序与中序遍历序列构造二叉树.swift */,
 				7DEEEBBE28B62A8500CD71B3 /* 106.从中序与后序遍历序列构造二叉树.swift */,
@@ -925,6 +926,7 @@
 				7DFBA28C28AB4E1A00F3CE48 /* 237.删除链表中的节点.swift */,
 				7DEE228728C31B1C00CD71B3 /* 239.滑动窗口最大值.swift */,
 				7DEE23D528C4B5F100CD71B3 /* 240.搜索二维矩阵-ii.swift */,
+				7DEE23D728C4B61700CD71B3 /* 279.完全平方数.swift */,
 				7D5DA08D28A0AA9500D73F0E /* 283.移动零.swift */,
 				7DEEEBC228B6399800CD71B3 /* 297.二叉树的序列化与反序列化.swift */,
 				7DEE23D928C4B63200CD71B3 /* 300.最长递增子序列.swift */,
@@ -967,6 +969,7 @@
 				7DEE228928C31C8000CD71B3 /* 921.使括号有效的最少添加.swift */,
 				7DA0B8C328C8A21600B28FEA /* 1020.飞地的数量.swift */,
 				7DA0B93728D04E6500B28FEA /* 1024.-视频拼接.swift */,
+				7DA0B8F128D0492700B28FEA /* 1038.-从二叉搜索树到更大和树.swift */,
 				7D7E5DBF28AF8A710077876A /* 1094.拼车.swift */,
 				7D7E5DBD28AF85E20077876A /* 1109.航班预订统计.swift */,
 				7DA0B8C128C89F2600B28FEA /* 1254.统计封闭岛屿的数目.swift */,
@@ -996,10 +999,8 @@
 				7DFBA25A28AB4B6600F3CE48 /* 69.-x-的平方根.swift */,
 				7DEE23F928C4B81300CD71B3 /* 73.-矩阵置零.swift */,
 				7DA0B8CD28D045C700B28FEA /* 74.-搜索二维矩阵.swift */,
-				7DEE23C528C4B50500CD71B3 /* 75.-颜色分类.swift */,
 				7DEE23C728C4B51800CD71B3 /* 79.-单词搜索.swift */,
 				7DA0B8D928D046C400B28FEA /* 80.-删除有序数组中的重复项-ii.swift */,
-				7DFBA25C28AB4B8500F3CE48 /* 88.合并两个有序数组.swift */,
 				7DFBA20828AB458F00F3CE48 /* 89.-格雷编码.swift */,
 				7DA0B8FD28D04A0800B28FEA /* 95.-不同的二叉搜索树-ii.swift */,
 				7D03A0F028B0E461004AC108 /* 118.-杨辉三角.swift */,
@@ -1037,7 +1038,6 @@
 				7DFBA29228AB4E5D00F3CE48 /* 258.-各位相加.swift */,
 				7DA0B93528D04E2A00B28FEA /* 263.-丑数.swift */,
 				7DFBA29428AB4E7300F3CE48 /* 268.-丢失的数字.swift */,
-				7DEE23D728C4B61700CD71B3 /* 279.-完全平方数.swift */,
 				7DFBA22A28AB482700F3CE48 /* 287.-寻找重复数.swift */,
 				7DFBA2F028AB54C000F3CE48 /* 289.-生命游戏.swift */,
 				7DFBA29628AB4E8C00F3CE48 /* 292.-nim-游戏.swift */,
@@ -1256,7 +1256,7 @@
 				7DFBA25728AB4B2F00F3CE48 /* 66.加一.swift in Sources */,
 				7D5DA086289D449B00D73F0E /* 160.相交链表.swift in Sources */,
 				7DA0B8CE28D045C700B28FEA /* 74.-搜索二维矩阵.swift in Sources */,
-				7DEE23C628C4B50500CD71B3 /* 75.-颜色分类.swift in Sources */,
+				7DEE23C628C4B50500CD71B3 /* 75.颜色分类.swift in Sources */,
 				7D7E5DB328AE55AA0077876A /* 93.复原-ip-地址.swift in Sources */,
 				7DEEEBBF28B62A8500CD71B3 /* 106.从中序与后序遍历序列构造二叉树.swift in Sources */,
 				7D5DA07C289D153800D73F0E /* 23.合并k个升序链表.swift in Sources */,
@@ -1339,7 +1339,7 @@
 				7DFBA20728AB456700F3CE48 /* 56.合并区间.swift in Sources */,
 				7DFBA27728AB4D0A00F3CE48 /* 171.-excel-表列序号.swift in Sources */,
 				7DA0B8EC28D0489A00B28FEA /* 501.-二叉搜索树中的众数.swift in Sources */,
-				7DEE23D828C4B61700CD71B3 /* 279.-完全平方数.swift in Sources */,
+				7DEE23D828C4B61700CD71B3 /* 279.完全平方数.swift in Sources */,
 				7DFBA27528AB4CE900F3CE48 /* 169.多数元素.swift in Sources */,
 				7D85C0B928A1F2320039F38D /* 2.查找算法.swift in Sources */,
 				7DEE23CA28C4B53D00CD71B3 /* 84.柱状图中最大的矩形.swift in Sources */,
