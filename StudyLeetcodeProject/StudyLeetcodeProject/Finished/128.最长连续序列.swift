@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=128 lang=swift
- *
- * [128] 最长连续序列
- */
+//
+//  128.-最长连续序列.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution128 {
     func longestConsecutive(_ nums: [Int]) -> Int {
         let setNums = Set(nums)
         var mapNums = Set<Int>()
@@ -29,5 +31,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

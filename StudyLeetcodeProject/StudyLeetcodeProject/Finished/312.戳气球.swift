@@ -1,14 +1,16 @@
-/*
- * @lc app=leetcode.cn id=312 lang=swift
- *
- * [312] 戳气球
- */
+//
+//  312.-戳气球.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution312 {
     func maxCoins(_ nums: [Int]) -> Int {
         let n = nums.count
-        var nums = [1] + nums + [1]
+        let nums = [1] + nums + [1]
         var dp = [[Int]](repeating: [Int](repeating: 0, count: n + 2), count: n + 2)
         // 戳破0...n+1之间的所有的气球
         // 定义dp[i][j] = x 表示，戳破气球i和气球j之间（不含i和j）的所有的气球，可以获得的最高分数为x
@@ -50,5 +52,3 @@ class Solution {
         return dp[0][n+1]
     }
 }
-// @lc code=end
-
