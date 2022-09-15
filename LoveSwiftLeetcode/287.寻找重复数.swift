@@ -7,7 +7,10 @@
 // @lc code=start
 class Solution {
     func findDuplicate(_ nums: [Int]) -> Int {
-
+        let n = nums.count - 1
+        let realSum = nums.reduce(0){ $0 + $1 }
+        let n21Sum = Int(Double(n + 1)/2.0*Double(n))
+        return realSum - n21Sum
     }
 }
 // @lc code=end
