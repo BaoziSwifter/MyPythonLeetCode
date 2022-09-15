@@ -36,8 +36,8 @@ class Solution {
         for num in nums {
             if num <= neg {
                 for j in (num...neg).reversed() {
-                dp[j] += dp[j - num]
-            }
+                    dp[j] += dp[j - num]
+                }
             }
             
         }
