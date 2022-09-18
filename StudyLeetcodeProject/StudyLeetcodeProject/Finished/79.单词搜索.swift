@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=79 lang=swift
- *
- * [79] 单词搜索
- */
+//
+//  79.-单词搜索.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution79 {
     func exist(_ board: [[Character]], _ word: String) -> Bool {
         let m = board.count, n = board[0].count
         let wordChars = Array(word)
@@ -39,5 +42,3 @@ class Solution {
         return false
     }
 }
-// @lc code=end
-

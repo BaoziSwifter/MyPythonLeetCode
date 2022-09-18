@@ -55,6 +55,7 @@ import Foundation
  */
 
 class Solution26 {
+    // 类似 leetcode83 删除链表的重复元素
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         
         var slow = 0, fast = 0

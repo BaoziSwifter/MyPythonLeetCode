@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=49 lang=swift
- *
- * [49] 字母异位词分组
- */
+//
+//  49.-字母异位词分组.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution49 {
     func groupAnagrams(_ strs: [String]) -> [[String]] {
         var dict = [String: [String]]()
         for s in strs {
@@ -15,5 +17,3 @@ class Solution {
         return Array(dict.values)
     }
 }
-// @lc code=end
-

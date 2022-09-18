@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=560 lang=swift
- *
- * [560] 和为 K 的子数组
- */
+//
+//  560.-和为-k-的子数组.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution560 {
     func subarraySum(_ nums: [Int], _ k: Int) -> Int {
         var res = 0
         var preSum = [Int: Int]()
@@ -21,5 +23,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-
