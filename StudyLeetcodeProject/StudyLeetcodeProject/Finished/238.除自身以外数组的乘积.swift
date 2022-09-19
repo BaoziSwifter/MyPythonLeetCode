@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=238 lang=swift
- *
- * [238] 除自身以外数组的乘积
- */
+//
+//  238.-除自身以外数组的乘积.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution238 {
     func productExceptSelf(_ nums: [Int]) -> [Int] {
         var res = [Int](repeating: 0, count: nums.count)
         var tmp = 1
@@ -22,5 +24,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-
