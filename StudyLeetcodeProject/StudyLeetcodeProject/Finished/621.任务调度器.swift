@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=621 lang=swift
- *
- * [621] 任务调度器
- */
+//
+//  621.-任务调度器.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution621 {
     func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
         var taskMap = [Character: Int]()
         for i in tasks {
@@ -27,5 +30,3 @@ class Solution {
         return max(resultOne, resTwo)
     }
 }
-// @lc code=end
-

@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=406 lang=swift
- *
- * [406] 根据身高重建队列
- */
+//
+//  406.-根据身高重建队列.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution406 {
     func reconstructQueue(_ people: [[Int]]) -> [[Int]] {
         if people.isEmpty { return people }
         var peopleSort = people.sorted { a, b in
@@ -22,5 +25,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-
