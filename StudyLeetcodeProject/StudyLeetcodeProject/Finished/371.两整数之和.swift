@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=371 lang=swift
- *
- * [371] 两整数之和
- */
+//
+//  371.-两整数之和.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution371 {
     func getSum(_ a: Int, _ b: Int) -> Int {
         var a = a, b = b
         while b != 0 {
@@ -17,5 +19,4 @@ class Solution {
         return a
     }
 }
-// @lc code=end
 

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+
+class Solution292 {
+    func canWinNim(_ n: Int) -> Bool {
+        return n % 4 != 0
+    }
+}

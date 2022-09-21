@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=728 lang=swift
- *
- * [728] 自除数
- */
+//
+//  728.-自除数.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution728 {
     func selfDividingNumbers(_ left: Int, _ right: Int) -> [Int] {
         var res = [Int]()
       
@@ -29,5 +31,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

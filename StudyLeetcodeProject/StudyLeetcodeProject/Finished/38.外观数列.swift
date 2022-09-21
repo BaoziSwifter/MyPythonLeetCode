@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=38 lang=swift
- *
- * [38] 外观数列
- */
+//
+//  38.-外观数列.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution38 {
     func countAndSay(_ n: Int) -> String {
         if n < 1 { return "" }
         var last = "1"
@@ -38,5 +41,3 @@ class Solution {
         return last
     }
 }
-// @lc code=end
-

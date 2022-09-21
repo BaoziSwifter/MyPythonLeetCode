@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=231 lang=swift
- *
- * [231] 2 的幂
- */
+//
+//  231.-2-的幂.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution231 {
     func isPowerOfTwo(_ n: Int) -> Bool {
         var n = n
         while n > 0 && n % 2 == 0 {
@@ -15,5 +18,3 @@ class Solution {
         return n == 1
     }
 }
-// @lc code=end
-

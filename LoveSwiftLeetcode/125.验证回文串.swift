@@ -7,7 +7,8 @@
 // @lc code=start
 class Solution {
     func isPalindrome(_ s: String) -> Bool {
-
+        let str = s.filter { $0.isLetter || $0.isNumber }.lowercased()
+        return str == String(str.reversed())
     }
 }
 // @lc code=end

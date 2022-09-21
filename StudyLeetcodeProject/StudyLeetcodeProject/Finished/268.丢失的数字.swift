@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=268 lang=swift
- *
- * [268] 丢失的数字
- */
+//
+//  268.-丢失的数字.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution268 {
     func missingNumber(_ nums: [Int]) -> Int {
         var result: Int = nums.count
         for i in 0 ..< nums.count {
@@ -15,5 +17,3 @@ class Solution {
         return result
     }
 }
-// @lc code=end
-

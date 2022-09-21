@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=69 lang=swift
- *
- * [69] x 的平方根 
- */
+//
+//  69.-x-的平方根.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution69 {
     func mySqrt(_ x: Int) -> Int {
         if x <= 1 { return x }
         var res = x
@@ -15,5 +18,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

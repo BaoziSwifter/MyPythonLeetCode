@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=412 lang=swift
- *
- * [412] Fizz Buzz
- */
+//
+//  412.-fizz-buzz.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution412 {
     func fizzBuzz(_ n: Int) -> [String] {
         var tmp:[String] = []
         for i in 1...n {
@@ -22,5 +25,3 @@ class Solution {
         return tmp
     }
 }
-// @lc code=end
-

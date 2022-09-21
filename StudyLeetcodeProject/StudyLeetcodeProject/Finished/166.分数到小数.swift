@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=166 lang=swift
- *
- * [166] 分数到小数
- */
+//
+//  166.-分数到小数.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution166 {
     func fractionToDecimal(_ numerator: Int, _ denominator: Int) -> String {
 
         var numerator = numerator
@@ -48,5 +50,3 @@ class Solution {
         return result.joined()
     }
 }
-// @lc code=end
-

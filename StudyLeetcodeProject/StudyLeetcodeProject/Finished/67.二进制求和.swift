@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=67 lang=swift
- *
- * [67] 二进制求和
- */
+//
+//  67.-二进制求和.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution67 {
+
     func addBinary(_ a: String, _ b: String) -> String {
         let a = Array(a.reversed()), b = Array(b.reversed())
         var s = "", ci = 0
@@ -20,6 +23,5 @@ class Solution {
 
         return String(s.reversed())
     }
+ 
 }
-// @lc code=end
-

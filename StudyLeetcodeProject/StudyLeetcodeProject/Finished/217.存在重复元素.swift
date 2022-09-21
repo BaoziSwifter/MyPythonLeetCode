@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=217 lang=swift
- *
- * [217] 存在重复元素
- */
+//
+//  217.-存在重复元素.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution217 {
+    
     func containsDuplicate(_ nums: [Int]) -> Bool {
         var map = [Int: Int]()
         for i in nums {
@@ -16,8 +19,5 @@ class Solution {
             }
         }
         return false
-
     }
 }
-// @lc code=end
-

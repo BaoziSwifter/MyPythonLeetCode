@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=50 lang=swift
- *
- * [50] Pow(x, n)
- */
+//
+//  50.-pow-x-n.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution50 {
     func myPow(_ x: Double, _ n: Int) -> Double {
         if n == 0 { return 1 }
         var x = x
@@ -18,5 +20,3 @@ class Solution {
         return half * half * ( n % 2 == 1 ? x : 1)
     }
 }
-// @lc code=end
-

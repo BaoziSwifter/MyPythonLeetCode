@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     func canWinNim(_ n: Int) -> Bool {
-
+        return n % 4 != 0
     }
 }
 // @lc code=end
