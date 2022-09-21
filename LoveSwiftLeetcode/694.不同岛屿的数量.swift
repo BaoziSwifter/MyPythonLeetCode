@@ -30,5 +30,4 @@ class Solution {
         }
         return islands.count
     }
-    }
 }

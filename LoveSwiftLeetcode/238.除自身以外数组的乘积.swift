@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution238 {
+class Solution {
     func productExceptSelf(_ nums: [Int]) -> [Int] {
         var res = [Int](repeating: 0, count: nums.count)
         var tmp = 1

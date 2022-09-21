@@ -62,7 +62,7 @@ class Solution:
         j = 0
         while j < len(nums):
             if nums[j] == val:
-                nums.remvoe(val)
+                nums.remove(val)
             else:
                 j = j+1
         return len(nums)

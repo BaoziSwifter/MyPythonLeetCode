@@ -36,31 +36,34 @@ class Solution:
         :type n: int
         :rtype: str
         """
-        i = 1
-        sayStr = "1"
-        while i <= n and n > 1:
-            nextSay=""
-            j = 0
-            
-            sayLength = len(sayStr)
-            while j < sayLength :
-
-                if j + 1 < sayLength:
-                    tmp = sayStr[j]
-                    tmpLength = 1
-                    if int(tmp) != int(sayStr[j+1]):
-                        nextSay = nextSay + str(tmpLength)+tmp
-                        tmp = sayStr[j+1]
-                        tmpLength = 1
-                    else:
-                        tmpLength = tmpLength + 1
-                    j = j + 1
+    def countAndSay(self, n):
+        """
+        :type n: int
+        :rtype: str
+        """
+        if n==1:
+            return  str(1)
+        a="11"
+        l=1
+        while n>2:
+            s=""
+            for i in range(1,len(a)):
+                n1=a[i]
+                if n1 == a[i-1]:
+                    l+=1
                 else:
-                    nextSay = nextSay + "1"+sayStr[j]
-                    j = j + 1
-            sayStr = nextSay 
-            i = i+1
+                    s+=s.join(str(l))
+                    s+=s.join(str(a[i-1]))
+                    l = 1
+                if i == len(a) - 1:
+                    s+=s.join(str(l))
+                    s+=s.join(str(a[i]))
+ 
+            l=1
+            n-=1
+            a=s
 
-        return sayStr 
+        return a
+
 
 

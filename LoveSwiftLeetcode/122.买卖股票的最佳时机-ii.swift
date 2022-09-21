@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-    func maxProfit_0(_ prices: [Int]) -> Int {
+    func maxProfit(_ prices: [Int]) -> Int {
         var curMin = 0, curMax = Int.max
         var profit = 0
         for i in prices {

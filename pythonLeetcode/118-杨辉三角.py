@@ -34,7 +34,7 @@ class Solution:
             return [p]
         c = []
         c.append(p)
-        for j in range(numRows):
+        for j in range(numRows-1):
             p = [1] + [p[i]+p[i+1] for i in range(len(p)-1)] +[1]
             c.append(p)
         return c
