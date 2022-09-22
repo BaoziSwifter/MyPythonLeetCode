@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=41 lang=swift
- *
- * [41] 缺失的第一个正数
- */
+//
+//  41.-缺失的第一个正数.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/9/4.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution41 {
     func firstMissingPositive(_ nums: [Int]) -> Int {
         var nums = nums
         for i in 0..<nums.count {
@@ -22,5 +24,3 @@ class Solution {
         return nums.count + 1
     }
 }
-// @lc code=end
-

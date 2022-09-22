@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=401 lang=swift
- *
- * [401] 二进制手表
- */
+//
+//  401.-二进制手表.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution401 {
     func readBinaryWatch(_ turnedOn: Int) -> [String] {
         var res = [String]()
         for h in 0..<12 {
@@ -17,6 +19,5 @@ class Solution {
         }
         return res
     }
-}
-// @lc code=end
 
+}

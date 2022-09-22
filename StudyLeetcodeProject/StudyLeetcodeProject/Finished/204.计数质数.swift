@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=204 lang=swift
- *
- * [204] 计数质数
- */
+//
+//  204.-计数质数.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution204 {
     func countPrimes(_ n: Int) -> Int {
         if n < 3 { return 0 }
         var prims = [Bool](repeating: true, count: n)
@@ -13,7 +16,7 @@ class Solution {
         prims[0] = false
         prims[1] = false
         
-        for i in 0 ..< n {
+        for i in 2 ..< n {
             if prims[i] == false {
                 continue
             }
@@ -27,5 +30,3 @@ class Solution {
         return count
     }
 }
-// @lc code=end
-

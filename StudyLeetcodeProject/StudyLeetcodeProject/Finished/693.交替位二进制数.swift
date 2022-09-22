@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=693 lang=swift
- *
- * [693] 交替位二进制数
- */
+//
+//  693.-交替位二进制数.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution693 {
     func hasAlternatingBits(_ n: Int) -> Bool {
         var lastVal: Int?
         var n = n
@@ -22,5 +24,3 @@ class Solution {
         return true
     }
 }
-// @lc code=end
-

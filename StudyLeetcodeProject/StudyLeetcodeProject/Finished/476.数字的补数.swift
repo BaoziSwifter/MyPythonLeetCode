@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=476 lang=swift
- *
- * [476] 数字的补数
- */
+//
+//  476.-数字的补数.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution476 {
     func findComplement(_ num: Int) -> Int {
         var i = 1
         while i <= num {
@@ -14,5 +16,3 @@ class Solution {
         return i - 1 - num
     }
 }
-// @lc code=end
-

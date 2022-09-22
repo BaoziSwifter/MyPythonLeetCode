@@ -1,22 +1,26 @@
-/*
- * @lc app=leetcode.cn id=190 lang=swift
- *
- * [190] 颠倒二进制位
- */
+//
+//  190.-颠倒二进制位.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+class Solution190 {
     func reverseBits(_ n: Int) -> Int {
-        // var n = n
-        // var res = 0
-        // var p = 31
-        // while n != 0 {
-        //     let b = n & 1
-        //     res += b << p
-        //     n >>= 1
-        //     p -= 1
-        // }
-        // return res
+        var n = n
+        var res = 0
+        var p = 31
+        while n != 0 {
+            let b = n & 1
+            res += b << p
+            n >>= 1
+            p -= 1
+        }
+        return res
+    }
+    
+    func reverseBits_fenzhi(_ n: Int) -> Int {
         var rev = n
         //低16位与高16位交换
         rev = (rev >> 16) | (rev << 16)
@@ -36,6 +40,5 @@ class Solution {
 
         return rev
     }
-}
-// @lc code=end
 
+}

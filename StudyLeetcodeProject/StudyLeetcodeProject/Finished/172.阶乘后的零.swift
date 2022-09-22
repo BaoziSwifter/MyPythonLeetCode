@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=172 lang=swift
- *
- * [172] 阶乘后的零
- */
+//
+//  172.-阶乘后的零.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution172 {
     func trailingZeroes(_ n: Int) -> Int {
         // 包含 2 和 5 的对数
         // 但是五的个数小于2  主要统计有多少个五就可以了
@@ -18,5 +21,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-
