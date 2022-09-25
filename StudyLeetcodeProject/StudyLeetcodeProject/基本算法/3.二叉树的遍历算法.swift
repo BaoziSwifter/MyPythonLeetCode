@@ -80,7 +80,7 @@ func _inOrder(root: TreeNode?) -> [Int]? {
     return res
 }
 
-// 后序
+// 后序 递归
 func postOrder(root: TreeNode?) -> [Int]? {
     if root == nil {
         return nil
@@ -96,7 +96,7 @@ func postOrder(root: TreeNode?) -> [Int]? {
     return res
 }
 
-// 后序
+// 后序 非递归
 func _postOrder(root: TreeNode?) -> [TreeNode]? {
     if root == nil {
         return nil
