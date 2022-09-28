@@ -109,62 +109,33 @@ func mergeArray(leftArray: [Int], rightArray: [Int]) -> [Int] {
 }
 
 // 6.快速排序
+func quickSortEnter(_ array: inout [Int]) {
+    if array.count < 2 { return }
+    let low = 0, high = array.count - 1
+    quickSort(&array, low, high)
+}
 
-// 6.1 非递归
-func quickSort1(array: [Int]) ->[Int] {
-    var sortArray = array
-    var low = 0
-    var high = sortArray.count - 1
-    let p = sortArray[low]
-    while low < high {
-        while low < high, p < sortArray[high] {
-            high -= 1
+func quickSort(_ array: inout [Int], _ low: Int, _ high: Int) {
+    func getCurrentIndex(_ array: inout [Int], _ low: Int, _ high: Int) -> Int {
+        let target = array[low]
+        var low = low, high = high
+        while low < high {
+            while low < high && array[high] >= target {
+                high -= 1
+            }
+            array[low] = array[high]
+            while low < high && array[low] <= target {
+                low += 1
+            }
+            array[high] = array[low]
         }
-        sortArray[low] = sortArray[high]
-        while low < high, p > sortArray[low] {
-            low += 1
-        }
-        sortArray[high] = sortArray[low]
+        array[low] = target
+        return low
     }
-    sortArray[low] = p
-    return sortArray
-}
-
-// 6.2递归
-func quickSort(array: [Int]) -> [Int] {
-    guard array.count > 1 else {
-        return array
-    }
-    var sortArray = array
-    quickSortMethod(array: &sortArray, leftIndex: 0, rightIndex: sortArray.count - 1)
-    return sortArray
-}
-
-func quickSortMethod(array: inout [Int], leftIndex: Int, rightIndex: Int) {
-    var left = leftIndex, right = rightIndex, baseIndex = 0
-    if left < right {
-        baseIndex = partition(array: &array, leftIndex: leftIndex, rightIndex: rightIndex)
-        quickSortMethod(array: &array, leftIndex: leftIndex, rightIndex: baseIndex - 1)
-        quickSortMethod(array: &array, leftIndex: baseIndex+1, rightIndex: rightIndex)
-    }
-}
-
-func partition(array: inout [Int], leftIndex: Int, rightIndex: Int) -> Int {
-    var pivot = leftIndex, index = pivot + 1
-    var i = index
-    while i <= rightIndex {
-        if array[i] < array[pivot] {
-            swap(array: &array, leftIndex: leftIndex, rightIndex: rightIndex)
-            index += 1
-        }
-        i += 1
-    }
-    swap(array: &array, leftIndex: pivot, rightIndex: index - 1)
-    return index - 1
-}
-
-func swap(array: inout [Int], leftIndex: Int, rightIndex: Int) {
-    (array[leftIndex], array[rightIndex]) = (array[rightIndex], array[leftIndex])
+    if low >= high { return }
+    let index = getCurrentIndex(&array, low, high)
+    quickSort(&array, low, index - 1)
+    quickSort(&array, index + 1, high)
 }
 
 // 7.堆排序

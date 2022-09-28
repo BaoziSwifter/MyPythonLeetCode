@@ -10,9 +10,21 @@ import Foundation
 // 但因需要再有主线程的app中
 
 func threeThreadsPrint0_100() {
-    let queueA = DispatchQueue(label: "com.print.a_queue", qos: .default, attributes: .concurrent, autoreleaseFrequency: .inherit, target: nil)
-    let queueB = DispatchQueue(label: "com.print.b_queue", qos: .default, attributes: .concurrent, autoreleaseFrequency: .inherit, target: nil)
-    let queueC = DispatchQueue(label: "com.print.c_queue", qos: .default, attributes: .concurrent, autoreleaseFrequency: .inherit, target: nil)
+    let queueA = DispatchQueue(label: "com.print.a_queue",
+                               qos: .default,
+                               attributes: .concurrent,
+                               autoreleaseFrequency: .inherit,
+                               target: nil)
+    let queueB = DispatchQueue(label: "com.print.b_queue",
+                               qos: .default,
+                               attributes: .concurrent,
+                               autoreleaseFrequency: .inherit,
+                               target: nil)
+    let queueC = DispatchQueue(label: "com.print.c_queue",
+                               qos: .default,
+                               attributes: .concurrent,
+                               autoreleaseFrequency: .inherit,
+                               target: nil)
     var index = 0
     let cond = NSCondition()
     queueA.async {
