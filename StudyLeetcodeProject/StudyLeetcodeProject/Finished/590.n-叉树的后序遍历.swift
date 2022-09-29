@@ -1,5 +1,5 @@
 //
-//  590.-n-叉树的后序遍历.swift
+//  590.n-叉树的后序遍历.swift
 //  StudyLeetcodeProject
 //
 //  Created by beliefduan on 2022/8/16.
@@ -16,12 +16,10 @@ class Solution590 {
         var res = [Int]()
         queue.append(root!)
         while queue.isEmpty == false {
-            if queue.isEmpty == false {
-                let n = queue.removeFirst()
-                res.append(n.val)
-                if n.children.count > 0 {
-                    queue += n.children.reversed()
-                }
+            let n = queue.popLast()!
+            res.append(n.val)
+            if n.children.count > 0 {
+                queue.append(contentsOf: n.children)
             }
         }
         return res.reversed()
