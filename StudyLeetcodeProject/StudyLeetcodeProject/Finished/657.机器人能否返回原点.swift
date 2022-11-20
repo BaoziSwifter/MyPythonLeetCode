@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=657 lang=swift
- *
- * [657] 机器人能否返回原点
- */
+//
+//  657.-机器人能否返回原点.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution657 {
     func judgeCircle(_ moves: String) -> Bool {
         let chs = Array(moves)
         var resH = 0, resV = 0
@@ -16,10 +18,8 @@ class Solution {
             } else {
                 resH += moveMaps[c]!
             }
-
+            
         }
         return resV == 0 && resH == 0
     }
 }
-// @lc code=end
-

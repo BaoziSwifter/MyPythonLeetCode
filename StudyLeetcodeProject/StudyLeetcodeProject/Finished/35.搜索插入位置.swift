@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=35 lang=swift
- *
- * [35] 搜索插入位置
- */
+//
+//  35.-搜索插入位置.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution35 {
     func searchInsert(_ nums: [Int], _ target: Int) -> Int {
         var left = 0, right = nums.count
         while left < right {
@@ -21,5 +24,3 @@ class Solution {
         return left
     }
 }
-// @lc code=end
-

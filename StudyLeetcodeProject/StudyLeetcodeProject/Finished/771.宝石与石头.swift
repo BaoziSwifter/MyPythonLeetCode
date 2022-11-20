@@ -1,11 +1,14 @@
-/*
- * @lc app=leetcode.cn id=771 lang=swift
- *
- * [771] 宝石与石头
- */
+//
+//  771.-宝石与石头.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+
+class Solution771 {
     func numJewelsInStones(_ jewels: String, _ stones: String) -> Int {
         let jeSet: Set<Character> = Set(Array(jewels))
         var count = 0
@@ -17,5 +20,3 @@ class Solution {
         return count
     }
 }
-// @lc code=end
-

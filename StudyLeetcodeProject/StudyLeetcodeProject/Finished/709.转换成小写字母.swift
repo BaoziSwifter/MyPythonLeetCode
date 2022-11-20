@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=709 lang=swift
- *
- * [709] 转换成小写字母
- */
+//
+//  709.-转换成小写字母.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution709 {
     func toLowerCase(_ s: String) -> String {
         var res = [Character]()
         for c in s {
@@ -20,5 +22,3 @@ class Solution {
         return String(res)
     }
 }
-// @lc code=end
-

@@ -1,11 +1,12 @@
-/*
- * @lc app=leetcode.cn id=118 lang=swift
- *
- * [118] 杨辉三角
- */
+//
+//  118.杨辉三角.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+class Solution118 {
     func generate(_ numRows: Int) -> [[Int]] {
         var res = [[1]]
         for i in 1..<numRows {
@@ -20,9 +21,7 @@ class Solution {
             }
             res.append(newRowValues)
         }
-
+        
         return res
     }
 }
-// @lc code=end
-

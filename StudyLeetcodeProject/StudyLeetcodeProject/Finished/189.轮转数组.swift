@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=189 lang=swift
- *
- * [189] 轮转数组
- */
+//
+//  189.-轮转数组.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution189 {
     func rotate(_ nums: inout [Int], _ k: Int) {
         let count = nums.count
         if count < 2 {
@@ -18,5 +20,3 @@ class Solution {
         }
     }
 }
-// @lc code=end
-

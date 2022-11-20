@@ -23,7 +23,7 @@ func baseBinarySearch(_ nums: [Int], _ target: Int) -> Int {
     return -1
 }
 
-// 寻找左侧便捷的二分搜索[0, N)
+// 寻找左侧边界的二分搜索[0, N)
 func leftBoundary_BinarySearch(_ nums: [Int], _ target: Int) -> Int {
     var left = 0, right = nums.count
     while left < right {
@@ -39,7 +39,7 @@ func leftBoundary_BinarySearch(_ nums: [Int], _ target: Int) -> Int {
     return left
 }
 
-// 寻找左侧便捷的二分搜索[0, N]
+// 寻找左侧边界的二分搜索[0, N]
 func leftInBoundary_BinarySearch(_ nums: [Int], _ target: Int) -> Int {
     var left = 0, right = nums.count - 1
     while left <= right {
@@ -59,7 +59,7 @@ func leftInBoundary_BinarySearch(_ nums: [Int], _ target: Int) -> Int {
     return nums[left] == target ? left : -1
 }
 
-// 寻找右侧便捷的二分查找[0, N)
+// 寻找右侧边界的二分查找[0, N)
 func rigt_Boundary_BinarySearch(_ nums: [Int], _ target: Int) -> Int {
     var left = 0, right = nums.count
     while left < right {
@@ -75,6 +75,7 @@ func rigt_Boundary_BinarySearch(_ nums: [Int], _ target: Int) -> Int {
     return left - 1
 }
 
+// 寻找右侧边界的二分查找[0, N]
 func rigt_InBoundary_BinarySearch(_ nums: [Int], _ target: Int) -> Int {
     var left = 0, right = nums.count - 1
     while left <= right {

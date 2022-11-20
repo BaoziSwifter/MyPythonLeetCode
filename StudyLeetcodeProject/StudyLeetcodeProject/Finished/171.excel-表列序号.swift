@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=171 lang=swift
- *
- * [171] Excel 表列序号
- */
+//
+//  171.-excel-表列序号.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution171 {
     func titleToNumber(_ columnTitle: String) -> Int {
         var res = 0
         for c in columnTitle {
@@ -15,5 +17,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

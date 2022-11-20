@@ -77,8 +77,11 @@ import Foundation
 //print(sw.countBits(3))
 
 
-let s38 = Solution38()
-for i in 1...10 {
-    print(s38.countAndSay(i))
-}
+//let s38 = Solution38()
+//for i in 1...10 {
+//    print(s38.countAndSay(i))
+//}
+
+let s118 = Solution118()
+print(s118.generate(4))
 

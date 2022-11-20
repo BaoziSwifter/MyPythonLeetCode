@@ -1,17 +1,19 @@
-/*
- * @lc app=leetcode.cn id=557 lang=swift
- *
- * [557] 反转字符串中的单词 III
- */
+//
+//  557.-反转字符串中的单词-iii.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution557 {
     func reverseWords(_ s: String) -> String {
         s.split(separator: " ").map {
             String($0.reversed())
         }.joined(separator: " ")
     }
-
+    
     func reverseWords_twopoints(_ s: String) -> String {
         let count = s.count
         var start = 0
@@ -31,8 +33,6 @@ class Solution {
             }
         }
         return String(res)
-
+    
     }
 }
-// @lc code=end
-

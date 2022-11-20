@@ -1,14 +1,17 @@
-/*
- * @lc app=leetcode.cn id=350 lang=swift
- *
- * [350] 两个数组的交集 II
- */
+//
+//  350.-两个数组的交集-ii.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
-    func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+import Foundation
+
+
+class Solution350 {
+    func intersect_hash(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
         let num1Count = nums1.count, nums2Count = nums2.count
-
+        
         if num1Count == 0 || nums2Count == 0 {
             return []
         }
@@ -18,7 +21,7 @@ class Solution {
             mapsNums = nums2
             checkNums = nums1
         }
-
+        
         var countMaps = [Int: Int]()
         for i in mapsNums {
             countMaps[i, default: 0] += 1
@@ -32,20 +35,20 @@ class Solution {
         }
         return res
     }
-
+    
     func intersect_two_pointers(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
         let nums1Count = nums1.count, nums2Count = nums2.count
-
+        
         if nums1Count == 0 || nums2Count == 0 {
             return []
         }
-
+        
         let nums1 = nums1.sorted()
         let nums2 = nums2.sorted()
         var first = 0
         var second = 0
         var res = [Int]()
-
+        
         while first < nums1Count && second < nums2Count {
             if nums1[first] == nums2[second] {
                 res.append(nums1[first])
@@ -60,5 +63,3 @@ class Solution {
         return res
     }
 }
-// @lc code=end
-

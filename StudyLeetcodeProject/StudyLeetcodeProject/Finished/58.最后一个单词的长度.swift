@@ -1,11 +1,13 @@
-/*
- * @lc app=leetcode.cn id=58 lang=swift
- *
- * [58] 最后一个单词的长度
- */
+//
+//  58.-最后一个单词的长度.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-// @lc code=start
-class Solution {
+import Foundation
+
+class Solution58 {
     func lengthOfLastWord(_ s: String) -> Int {
         var result = 0
         for w in s.reversed() {
@@ -18,5 +20,3 @@ class Solution {
         return result
     }
 }
-// @lc code=end
-
