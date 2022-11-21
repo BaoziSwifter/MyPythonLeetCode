@@ -81,7 +81,13 @@ import Foundation
 //for i in 1...10 {
 //    print(s38.countAndSay(i))
 //}
+//
+//let s118 = Solution118()
+//print(s118.generate(4))
 
-let s118 = Solution118()
-print(s118.generate(4))
 
+let s784 = Solution784()
+let res = s784.letterCasePermutation("hGF45ki")
+let resSet = Set(res)
+print("res.count = \(res.count) resSet.count = \(resSet.count)")
+print(s784.letterCasePermutation("hGF45ki"))

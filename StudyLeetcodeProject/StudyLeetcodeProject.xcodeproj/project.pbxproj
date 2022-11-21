@@ -74,14 +74,14 @@
 		7DA0B8E628D047F300B28FEA /* 895.-最大频率栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8E528D047F300B28FEA /* 895.-最大频率栈.swift */; };
 		7DA0B8E828D0484100B28FEA /* 965.单值二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8E728D0484100B28FEA /* 965.单值二叉树.swift */; };
 		7DA0B8EA28D0486B00B28FEA /* 652.-寻找重复的子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8E928D0486B00B28FEA /* 652.-寻找重复的子树.swift */; };
-		7DA0B8EC28D0489A00B28FEA /* 501.-二叉搜索树中的众数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8EB28D0489A00B28FEA /* 501.-二叉搜索树中的众数.swift */; };
+		7DA0B8EC28D0489A00B28FEA /* 501.二叉搜索树中的众数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8EB28D0489A00B28FEA /* 501.二叉搜索树中的众数.swift */; };
 		7DA0B8EE28D048DC00B28FEA /* 222.-完全二叉树的节点个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8ED28D048DC00B28FEA /* 222.-完全二叉树的节点个数.swift */; };
 		7DA0B8F028D0490D00B28FEA /* 1373.-二叉搜索子树的最大键值和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8EF28D0490D00B28FEA /* 1373.-二叉搜索子树的最大键值和.swift */; };
-		7DA0B8F428D0494C00B28FEA /* 783.-二叉搜索树节点最小距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8F328D0494C00B28FEA /* 783.-二叉搜索树节点最小距离.swift */; };
+		7DA0B8F428D0494C00B28FEA /* 783.二叉搜索树节点最小距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8F328D0494C00B28FEA /* 783.二叉搜索树节点最小距离.swift */; };
 		7DA0B8F628D0496800B28FEA /* 450.-删除二叉搜索树中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8F528D0496800B28FEA /* 450.-删除二叉搜索树中的节点.swift */; };
-		7DA0B8F828D0498700B28FEA /* 700.-二叉搜索树中的搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8F728D0498700B28FEA /* 700.-二叉搜索树中的搜索.swift */; };
+		7DA0B8F828D0498700B28FEA /* 700.二叉搜索树中的搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8F728D0498700B28FEA /* 700.二叉搜索树中的搜索.swift */; };
 		7DA0B8FA28D049AA00B28FEA /* 701.-二叉搜索树中的插入操作.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8F928D049AA00B28FEA /* 701.-二叉搜索树中的插入操作.swift */; };
-		7DA0B8FC28D049CE00B28FEA /* 530.-二叉搜索树的最小绝对差.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8FB28D049CE00B28FEA /* 530.-二叉搜索树的最小绝对差.swift */; };
+		7DA0B8FC28D049CE00B28FEA /* 530.二叉搜索树的最小绝对差.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8FB28D049CE00B28FEA /* 530.二叉搜索树的最小绝对差.swift */; };
 		7DA0B8FE28D04A0800B28FEA /* 95.-不同的二叉搜索树-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8FD28D04A0800B28FEA /* 95.-不同的二叉搜索树-ii.swift */; };
 		7DA0B90028D04A3800B28FEA /* 797.-所有可能的路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B8FF28D04A3800B28FEA /* 797.-所有可能的路径.swift */; };
 		7DA0B90228D04A5300B28FEA /* 886.-可能的二分法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B90128D04A5300B28FEA /* 886.-可能的二分法.swift */; };
@@ -105,7 +105,7 @@
 		7DA0B92628D04D4100B28FEA /* 319.-灯泡开关.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B92528D04D4100B28FEA /* 319.-灯泡开关.swift */; };
 		7DA0B92828D04D5900B28FEA /* 877.-石子游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B92728D04D5900B28FEA /* 877.-石子游戏.swift */; };
 		7DA0B92A28D04D7700B28FEA /* 710.-黑名单中的随机数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B92928D04D7700B28FEA /* 710.-黑名单中的随机数.swift */; };
-		7DA0B92C28D04D9000B28FEA /* 645.-错误的集合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B92B28D04D9000B28FEA /* 645.-错误的集合.swift */; };
+		7DA0B92C28D04D9000B28FEA /* 645.错误的集合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B92B28D04D9000B28FEA /* 645.错误的集合.swift */; };
 		7DA0B92E28D04DAA00B28FEA /* 382.-链表随机节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B92D28D04DAA00B28FEA /* 382.-链表随机节点.swift */; };
 		7DA0B93028D04DC000B28FEA /* 398.-随机数索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B92F28D04DC000B28FEA /* 398.-随机数索引.swift */; };
 		7DA0B93228D04DDA00B28FEA /* 391.-完美矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0B93128D04DDA00B28FEA /* 391.-完美矩形.swift */; };
@@ -250,7 +250,7 @@
 		7DFBA22928AB480B00F3CE48 /* 236.二叉树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA22828AB480B00F3CE48 /* 236.二叉树的最近公共祖先.swift */; };
 		7DFBA22B28AB482700F3CE48 /* 287.寻找重复数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA22A28AB482700F3CE48 /* 287.寻找重复数.swift */; };
 		7DFBA22D28AB484900F3CE48 /* 371.两整数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA22C28AB484900F3CE48 /* 371.两整数之和.swift */; };
-		7DFBA22F28AB485E00F3CE48 /* 415.-字符串相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA22E28AB485E00F3CE48 /* 415.-字符串相加.swift */; };
+		7DFBA22F28AB485E00F3CE48 /* 415.字符串相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA22E28AB485E00F3CE48 /* 415.字符串相加.swift */; };
 		7DFBA23128AB48A700F3CE48 /* 518.-零钱兑换-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA23028AB48A700F3CE48 /* 518.-零钱兑换-ii.swift */; };
 		7DFBA23328AB48BD00F3CE48 /* 557.反转字符串中的单词-iii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA23228AB48BD00F3CE48 /* 557.反转字符串中的单词-iii.swift */; };
 		7DFBA23528AB48D200F3CE48 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA23428AB48D200F3CE48 /* 654.最大二叉树.swift */; };
@@ -305,7 +305,7 @@
 		7DFBA29928AB4EAC00F3CE48 /* 326.3-的幂.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29828AB4EAC00F3CE48 /* 326.3-的幂.swift */; };
 		7DFBA29B28AB4EC500F3CE48 /* 338.比特位计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29A28AB4EC500F3CE48 /* 338.比特位计数.swift */; };
 		7DFBA29D28AB4EE700F3CE48 /* 350.两个数组的交集-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29C28AB4EE700F3CE48 /* 350.两个数组的交集-ii.swift */; };
-		7DFBA29F28AB4EFE00F3CE48 /* 387.-字符串中的第一个唯一字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29E28AB4EFE00F3CE48 /* 387.-字符串中的第一个唯一字符.swift */; };
+		7DFBA29F28AB4EFE00F3CE48 /* 387.字符串中的第一个唯一字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA29E28AB4EFE00F3CE48 /* 387.字符串中的第一个唯一字符.swift */; };
 		7DFBA2A128AB4F1400F3CE48 /* 401.二进制手表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2A028AB4F1400F3CE48 /* 401.二进制手表.swift */; };
 		7DFBA2A328AB4F3400F3CE48 /* 412.fizz-buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2A228AB4F3400F3CE48 /* 412.fizz-buzz.swift */; };
 		7DFBA2A528AB4F4E00F3CE48 /* 437.路径总和-iii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2A428AB4F4E00F3CE48 /* 437.路径总和-iii.swift */; };
@@ -327,14 +327,14 @@
 		7DFBA2C528AB50F500F3CE48 /* 709.转换成小写字母.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2C428AB50F500F3CE48 /* 709.转换成小写字母.swift */; };
 		7DFBA2C728AB510A00F3CE48 /* 728.自除数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2C628AB510A00F3CE48 /* 728.自除数.swift */; };
 		7DFBA2C928AB511F00F3CE48 /* 771.宝石与石头.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2C828AB511F00F3CE48 /* 771.宝石与石头.swift */; };
-		7DFBA2CB28AB514800F3CE48 /* 784.-字母大小写全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2CA28AB514800F3CE48 /* 784.-字母大小写全排列.swift */; };
-		7DFBA2CD28AB516500F3CE48 /* 804.-唯一摩尔斯密码词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2CC28AB516500F3CE48 /* 804.-唯一摩尔斯密码词.swift */; };
-		7DFBA2CF28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2CE28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift */; };
-		7DFBA2D128AB518D00F3CE48 /* 811.-子域名访问计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D028AB518D00F3CE48 /* 811.-子域名访问计数.swift */; };
-		7DFBA2D328AB51A300F3CE48 /* 821.-字符的最短距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D228AB51A300F3CE48 /* 821.-字符的最短距离.swift */; };
+		7DFBA2CB28AB514800F3CE48 /* 784.字母大小写全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2CA28AB514800F3CE48 /* 784.字母大小写全排列.swift */; };
+		7DFBA2CD28AB516500F3CE48 /* 804.唯一摩尔斯密码词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2CC28AB516500F3CE48 /* 804.唯一摩尔斯密码词.swift */; };
+		7DFBA2CF28AB517A00F3CE48 /* 806.写字符串需要的行数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2CE28AB517A00F3CE48 /* 806.写字符串需要的行数.swift */; };
+		7DFBA2D128AB518D00F3CE48 /* 811.子域名访问计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D028AB518D00F3CE48 /* 811.子域名访问计数.swift */; };
+		7DFBA2D328AB51A300F3CE48 /* 821.字符的最短距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D228AB51A300F3CE48 /* 821.字符的最短距离.swift */; };
 		7DFBA2D528AB51BF00F3CE48 /* 832.翻转图像.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D428AB51BF00F3CE48 /* 832.翻转图像.swift */; };
-		7DFBA2D728AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D628AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift */; };
-		7DFBA2D928AB51F500F3CE48 /* 867.-转置矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D828AB51F500F3CE48 /* 867.-转置矩阵.swift */; };
+		7DFBA2D728AB51DF00F3CE48 /* 852.山脉数组的峰顶索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D628AB51DF00F3CE48 /* 852.山脉数组的峰顶索引.swift */; };
+		7DFBA2D928AB51F500F3CE48 /* 867.转置矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2D828AB51F500F3CE48 /* 867.转置矩阵.swift */; };
 		7DFBA2DB28AB520C00F3CE48 /* 991.-坏了的计算器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2DA28AB520C00F3CE48 /* 991.-坏了的计算器.swift */; };
 		7DFBA2DF28AB537400F3CE48 /* 32.最长有效括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2DE28AB537400F3CE48 /* 32.最长有效括号.swift */; };
 		7DFBA2E128AB539900F3CE48 /* 57.-插入区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBA2E028AB539900F3CE48 /* 57.-插入区间.swift */; };
@@ -432,14 +432,14 @@
 		7DA0B8E528D047F300B28FEA /* 895.-最大频率栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "895.-最大频率栈.swift"; sourceTree = "<group>"; };
 		7DA0B8E728D0484100B28FEA /* 965.单值二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "965.单值二叉树.swift"; sourceTree = "<group>"; };
 		7DA0B8E928D0486B00B28FEA /* 652.-寻找重复的子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "652.-寻找重复的子树.swift"; sourceTree = "<group>"; };
-		7DA0B8EB28D0489A00B28FEA /* 501.-二叉搜索树中的众数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "501.-二叉搜索树中的众数.swift"; sourceTree = "<group>"; };
+		7DA0B8EB28D0489A00B28FEA /* 501.二叉搜索树中的众数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "501.二叉搜索树中的众数.swift"; sourceTree = "<group>"; };
 		7DA0B8ED28D048DC00B28FEA /* 222.-完全二叉树的节点个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "222.-完全二叉树的节点个数.swift"; sourceTree = "<group>"; };
 		7DA0B8EF28D0490D00B28FEA /* 1373.-二叉搜索子树的最大键值和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1373.-二叉搜索子树的最大键值和.swift"; sourceTree = "<group>"; };
-		7DA0B8F328D0494C00B28FEA /* 783.-二叉搜索树节点最小距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "783.-二叉搜索树节点最小距离.swift"; sourceTree = "<group>"; };
+		7DA0B8F328D0494C00B28FEA /* 783.二叉搜索树节点最小距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "783.二叉搜索树节点最小距离.swift"; sourceTree = "<group>"; };
 		7DA0B8F528D0496800B28FEA /* 450.-删除二叉搜索树中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "450.-删除二叉搜索树中的节点.swift"; sourceTree = "<group>"; };
-		7DA0B8F728D0498700B28FEA /* 700.-二叉搜索树中的搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "700.-二叉搜索树中的搜索.swift"; sourceTree = "<group>"; };
+		7DA0B8F728D0498700B28FEA /* 700.二叉搜索树中的搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "700.二叉搜索树中的搜索.swift"; sourceTree = "<group>"; };
 		7DA0B8F928D049AA00B28FEA /* 701.-二叉搜索树中的插入操作.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "701.-二叉搜索树中的插入操作.swift"; sourceTree = "<group>"; };
-		7DA0B8FB28D049CE00B28FEA /* 530.-二叉搜索树的最小绝对差.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "530.-二叉搜索树的最小绝对差.swift"; sourceTree = "<group>"; };
+		7DA0B8FB28D049CE00B28FEA /* 530.二叉搜索树的最小绝对差.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "530.二叉搜索树的最小绝对差.swift"; sourceTree = "<group>"; };
 		7DA0B8FD28D04A0800B28FEA /* 95.-不同的二叉搜索树-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "95.-不同的二叉搜索树-ii.swift"; sourceTree = "<group>"; };
 		7DA0B8FF28D04A3800B28FEA /* 797.-所有可能的路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "797.-所有可能的路径.swift"; sourceTree = "<group>"; };
 		7DA0B90128D04A5300B28FEA /* 886.-可能的二分法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "886.-可能的二分法.swift"; sourceTree = "<group>"; };
@@ -463,7 +463,7 @@
 		7DA0B92528D04D4100B28FEA /* 319.-灯泡开关.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "319.-灯泡开关.swift"; sourceTree = "<group>"; };
 		7DA0B92728D04D5900B28FEA /* 877.-石子游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "877.-石子游戏.swift"; sourceTree = "<group>"; };
 		7DA0B92928D04D7700B28FEA /* 710.-黑名单中的随机数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "710.-黑名单中的随机数.swift"; sourceTree = "<group>"; };
-		7DA0B92B28D04D9000B28FEA /* 645.-错误的集合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "645.-错误的集合.swift"; sourceTree = "<group>"; };
+		7DA0B92B28D04D9000B28FEA /* 645.错误的集合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "645.错误的集合.swift"; sourceTree = "<group>"; };
 		7DA0B92D28D04DAA00B28FEA /* 382.-链表随机节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "382.-链表随机节点.swift"; sourceTree = "<group>"; };
 		7DA0B92F28D04DC000B28FEA /* 398.-随机数索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "398.-随机数索引.swift"; sourceTree = "<group>"; };
 		7DA0B93128D04DDA00B28FEA /* 391.-完美矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "391.-完美矩形.swift"; sourceTree = "<group>"; };
@@ -608,7 +608,7 @@
 		7DFBA22828AB480B00F3CE48 /* 236.二叉树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236.二叉树的最近公共祖先.swift"; sourceTree = "<group>"; };
 		7DFBA22A28AB482700F3CE48 /* 287.寻找重复数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "287.寻找重复数.swift"; sourceTree = "<group>"; };
 		7DFBA22C28AB484900F3CE48 /* 371.两整数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "371.两整数之和.swift"; sourceTree = "<group>"; };
-		7DFBA22E28AB485E00F3CE48 /* 415.-字符串相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "415.-字符串相加.swift"; sourceTree = "<group>"; };
+		7DFBA22E28AB485E00F3CE48 /* 415.字符串相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "415.字符串相加.swift"; sourceTree = "<group>"; };
 		7DFBA23028AB48A700F3CE48 /* 518.-零钱兑换-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "518.-零钱兑换-ii.swift"; sourceTree = "<group>"; };
 		7DFBA23228AB48BD00F3CE48 /* 557.反转字符串中的单词-iii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "557.反转字符串中的单词-iii.swift"; sourceTree = "<group>"; };
 		7DFBA23428AB48D200F3CE48 /* 654.最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "654.最大二叉树.swift"; sourceTree = "<group>"; };
@@ -663,7 +663,7 @@
 		7DFBA29828AB4EAC00F3CE48 /* 326.3-的幂.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326.3-的幂.swift"; sourceTree = "<group>"; };
 		7DFBA29A28AB4EC500F3CE48 /* 338.比特位计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338.比特位计数.swift"; sourceTree = "<group>"; };
 		7DFBA29C28AB4EE700F3CE48 /* 350.两个数组的交集-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350.两个数组的交集-ii.swift"; sourceTree = "<group>"; };
-		7DFBA29E28AB4EFE00F3CE48 /* 387.-字符串中的第一个唯一字符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387.-字符串中的第一个唯一字符.swift"; sourceTree = "<group>"; };
+		7DFBA29E28AB4EFE00F3CE48 /* 387.字符串中的第一个唯一字符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387.字符串中的第一个唯一字符.swift"; sourceTree = "<group>"; };
 		7DFBA2A028AB4F1400F3CE48 /* 401.二进制手表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "401.二进制手表.swift"; sourceTree = "<group>"; };
 		7DFBA2A228AB4F3400F3CE48 /* 412.fizz-buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "412.fizz-buzz.swift"; sourceTree = "<group>"; };
 		7DFBA2A428AB4F4E00F3CE48 /* 437.路径总和-iii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "437.路径总和-iii.swift"; sourceTree = "<group>"; };
@@ -685,14 +685,14 @@
 		7DFBA2C428AB50F500F3CE48 /* 709.转换成小写字母.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "709.转换成小写字母.swift"; sourceTree = "<group>"; };
 		7DFBA2C628AB510A00F3CE48 /* 728.自除数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "728.自除数.swift"; sourceTree = "<group>"; };
 		7DFBA2C828AB511F00F3CE48 /* 771.宝石与石头.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "771.宝石与石头.swift"; sourceTree = "<group>"; };
-		7DFBA2CA28AB514800F3CE48 /* 784.-字母大小写全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "784.-字母大小写全排列.swift"; sourceTree = "<group>"; };
-		7DFBA2CC28AB516500F3CE48 /* 804.-唯一摩尔斯密码词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "804.-唯一摩尔斯密码词.swift"; sourceTree = "<group>"; };
-		7DFBA2CE28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "806.-写字符串需要的行数.swift"; sourceTree = "<group>"; };
-		7DFBA2D028AB518D00F3CE48 /* 811.-子域名访问计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "811.-子域名访问计数.swift"; sourceTree = "<group>"; };
-		7DFBA2D228AB51A300F3CE48 /* 821.-字符的最短距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821.-字符的最短距离.swift"; sourceTree = "<group>"; };
+		7DFBA2CA28AB514800F3CE48 /* 784.字母大小写全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "784.字母大小写全排列.swift"; sourceTree = "<group>"; };
+		7DFBA2CC28AB516500F3CE48 /* 804.唯一摩尔斯密码词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "804.唯一摩尔斯密码词.swift"; sourceTree = "<group>"; };
+		7DFBA2CE28AB517A00F3CE48 /* 806.写字符串需要的行数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "806.写字符串需要的行数.swift"; sourceTree = "<group>"; };
+		7DFBA2D028AB518D00F3CE48 /* 811.子域名访问计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "811.子域名访问计数.swift"; sourceTree = "<group>"; };
+		7DFBA2D228AB51A300F3CE48 /* 821.字符的最短距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821.字符的最短距离.swift"; sourceTree = "<group>"; };
 		7DFBA2D428AB51BF00F3CE48 /* 832.翻转图像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "832.翻转图像.swift"; sourceTree = "<group>"; };
-		7DFBA2D628AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "852.-山脉数组的峰顶索引.swift"; sourceTree = "<group>"; };
-		7DFBA2D828AB51F500F3CE48 /* 867.-转置矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "867.-转置矩阵.swift"; sourceTree = "<group>"; };
+		7DFBA2D628AB51DF00F3CE48 /* 852.山脉数组的峰顶索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "852.山脉数组的峰顶索引.swift"; sourceTree = "<group>"; };
+		7DFBA2D828AB51F500F3CE48 /* 867.转置矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "867.转置矩阵.swift"; sourceTree = "<group>"; };
 		7DFBA2DA28AB520C00F3CE48 /* 991.-坏了的计算器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "991.-坏了的计算器.swift"; sourceTree = "<group>"; };
 		7DFBA2DE28AB537400F3CE48 /* 32.最长有效括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32.最长有效括号.swift"; sourceTree = "<group>"; };
 		7DFBA2E028AB539900F3CE48 /* 57.-插入区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "57.-插入区间.swift"; sourceTree = "<group>"; };
@@ -980,11 +980,13 @@
 				7DFBA29C28AB4EE700F3CE48 /* 350.两个数组的交集-ii.swift */,
 				7DFBA22C28AB484900F3CE48 /* 371.两整数之和.swift */,
 				7DEEEBAC28B5C2C000CD71B3 /* 380.o-1-时间插入、删除和获取随机元素.swift */,
+				7DFBA29E28AB4EFE00F3CE48 /* 387.字符串中的第一个唯一字符.swift */,
 				7DEE23E128C4B68F00CD71B3 /* 394.字符串解码.swift */,
 				7DEE23E328C4B6A500CD71B3 /* 399.除法求值.swift */,
 				7DFBA2A028AB4F1400F3CE48 /* 401.二进制手表.swift */,
 				7DEE23E528C4B6C000CD71B3 /* 406.根据身高重建队列.swift */,
 				7DFBA2A228AB4F3400F3CE48 /* 412.fizz-buzz.swift */,
+				7DFBA22E28AB485E00F3CE48 /* 415.字符串相加.swift */,
 				7DEE23E728C4B6D300CD71B3 /* 416.分割等和子集.swift */,
 				7DFBA2A428AB4F4E00F3CE48 /* 437.路径总和-iii.swift */,
 				7DEED9F628B3645000CD71B3 /* 438.找到字符串中所有字母异位词.swift */,
@@ -994,8 +996,10 @@
 				7DFBA2AA28AB4FA300F3CE48 /* 476.数字的补数.swift */,
 				7DEE23E928C4B6F400CD71B3 /* 494.目标和.swift */,
 				7DFBA2AC28AB4FB900F3CE48 /* 500.键盘行.swift */,
+				7DA0B8EB28D0489A00B28FEA /* 501.二叉搜索树中的众数.swift */,
 				7D85C0C528A25BD40039F38D /* 509.斐波那契数.swift */,
 				7DEEEBBA28B6116E00CD71B3 /* 515.在每个树行中找最大值.swift */,
+				7DA0B8FB28D049CE00B28FEA /* 530.二叉搜索树的最小绝对差.swift */,
 				7DFBA2AE28AB4FD200F3CE48 /* 538.把二叉搜索树转换为累加树.swift */,
 				7DFBA2B028AB4FEA00F3CE48 /* 541.反转字符串-ii.swift */,
 				7D85C0C328A254BD0039F38D /* 543.二叉树的直径.swift */,
@@ -1009,6 +1013,7 @@
 				7DFBA2BA28AB506500F3CE48 /* 590.n-叉树的后序遍历.swift */,
 				7DFBA2BC28AB507A00F3CE48 /* 617.合并二叉树.swift */,
 				7DEE23ED28C4B71E00CD71B3 /* 621.任务调度器.swift */,
+				7DA0B92B28D04D9000B28FEA /* 645.错误的集合.swift */,
 				7DEE23EF28C4B74000CD71B3 /* 647.回文子串.swift */,
 				7D8ECF4728F039AE00805026 /* 652.寻找重复的子树.swift */,
 				7DFBA23428AB48D200F3CE48 /* 654.最大二叉树.swift */,
@@ -1017,19 +1022,27 @@
 				7DFBA2C228AB50D900F3CE48 /* 693.交替位二进制数.swift */,
 				7DA0B8C928C8B59800B28FEA /* 694.不同岛屿的数量.swift */,
 				7DA0B8C528C8AE2F00B28FEA /* 695.岛屿的最大面积.swift */,
+				7DA0B8F728D0498700B28FEA /* 700.二叉搜索树中的搜索.swift */,
 				7DFBA2C428AB50F500F3CE48 /* 709.转换成小写字母.swift */,
 				7DEEEC0228BDBB3F00CD71B3 /* 714.买卖股票的最佳时机含手续费.swift */,
 				7DFBA2C628AB510A00F3CE48 /* 728.自除数.swift */,
 				7DEE23F128C4B75700CD71B3 /* 739.每日温度.swift */,
 				7DEEEBFC28BCF6F800CD71B3 /* 752.打开转盘锁.swift */,
 				7DFBA2C828AB511F00F3CE48 /* 771.宝石与石头.swift */,
+				7DA0B8F328D0494C00B28FEA /* 783.二叉搜索树节点最小距离.swift */,
+				7DFBA2CA28AB514800F3CE48 /* 784.字母大小写全排列.swift */,
+				7DFBA2CC28AB516500F3CE48 /* 804.唯一摩尔斯密码词.swift */,
+				7DFBA2CE28AB517A00F3CE48 /* 806.写字符串需要的行数.swift */,
+				7DFBA2D028AB518D00F3CE48 /* 811.子域名访问计数.swift */,
+				7DFBA2D228AB51A300F3CE48 /* 821.字符的最短距离.swift */,
 				7DFBA2D428AB51BF00F3CE48 /* 832.翻转图像.swift */,
+				7DFBA2D628AB51DF00F3CE48 /* 852.山脉数组的峰顶索引.swift */,
+				7DFBA2D828AB51F500F3CE48 /* 867.转置矩阵.swift */,
 				7DEEEBAA28B5BCD800CD71B3 /* 870.优势洗牌.swift */,
 				7DFBA2F228AB553200F3CE48 /* 876.链表的中间结点.swift */,
 				7DEEEBC028B62D5200CD71B3 /* 889.根据前序和后序遍历构造二叉树.swift */,
 				7DEE228928C31C8000CD71B3 /* 921.使括号有效的最少添加.swift */,
 				7DA0B8E728D0484100B28FEA /* 965.单值二叉树.swift */,
-				7DFBA2DA28AB520C00F3CE48 /* 991.-坏了的计算器.swift */,
 				7DA0B8C328C8A21600B28FEA /* 1020.飞地的数量.swift */,
 				7D7E5DBF28AF8A710077876A /* 1094.拼车.swift */,
 				7D7E5DBD28AF85E20077876A /* 1109.航班预订统计.swift */,
@@ -1043,12 +1056,7 @@
 		7DEE242628C4BD5A00CD71B3 /* Unfinished */ = {
 			isa = PBXGroup;
 			children = (
-				7DFBA2CA28AB514800F3CE48 /* 784.-字母大小写全排列.swift */,
-				7DFBA2CC28AB516500F3CE48 /* 804.-唯一摩尔斯密码词.swift */,
-				7DFBA2CE28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift */,
-				7DFBA2D028AB518D00F3CE48 /* 811.-子域名访问计数.swift */,
-				7DFBA2D228AB51A300F3CE48 /* 821.-字符的最短距离.swift */,
-				7DFBA2D628AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift */,
+				7DA0B8E128D0477900B28FEA /* 977.-有序数组的平方.swift */,
 				7DA0B8DF28D0474D00B28FEA /* 16.-最接近的三数之和.swift */,
 				7DA0B8DD28D0472E00B28FEA /* 18.-四数之和.swift */,
 				7DA0B91128D04B5700B28FEA /* 37.-解数独.swift */,
@@ -1085,26 +1093,20 @@
 				7DA0B93328D04DEE00B28FEA /* 372.-超级次方.swift */,
 				7DEE241F28C4BBA100CD71B3 /* 378.-有序矩阵中第-k-小的元素.swift */,
 				7DA0B92D28D04DAA00B28FEA /* 382.-链表随机节点.swift */,
-				7DFBA29E28AB4EFE00F3CE48 /* 387.-字符串中的第一个唯一字符.swift */,
 				7DA0B93128D04DDA00B28FEA /* 391.-完美矩形.swift */,
 				7DA0B8CF28D045F300B28FEA /* 392.-判断子序列.swift */,
 				7DEE242128C4BBB900CD71B3 /* 395.-至少有-k-个重复字符的最长子串.swift */,
 				7DA0B92F28D04DC000B28FEA /* 398.-随机数索引.swift */,
-				7DFBA22E28AB485E00F3CE48 /* 415.-字符串相加.swift */,
 				7DA0B93928D04E7E00B28FEA /* 435.-无重叠区间.swift */,
 				7DA0B8F528D0496800B28FEA /* 450.-删除二叉搜索树中的节点.swift */,
 				7DA0B93B28D04E9900B28FEA /* 452.-用最少数量的箭引爆气球.swift */,
 				7DEE242328C4BBD200CD71B3 /* 454.-四数相加-ii.swift */,
-				7DA0B8EB28D0489A00B28FEA /* 501.-二叉搜索树中的众数.swift */,
 				7DA0B92128D04CC800B28FEA /* 514.-自由之路.swift */,
 				7DFBA23028AB48A700F3CE48 /* 518.-零钱兑换-ii.swift */,
-				7DA0B8FB28D049CE00B28FEA /* 530.-二叉搜索树的最小绝对差.swift */,
 				7DA0B91728D04C3A00B28FEA /* 583.-两个字符串的删除操作.swift */,
-				7DA0B92B28D04D9000B28FEA /* 645.-错误的集合.swift */,
 				7DA0B8E928D0486B00B28FEA /* 652.-寻找重复的子树.swift */,
 				7DFBA2C028AB50A900F3CE48 /* 659.-分割数组为连续子序列.swift */,
 				7DA0B90F28D04B3400B28FEA /* 698.-划分为k个相等的子集.swift */,
-				7DA0B8F728D0498700B28FEA /* 700.-二叉搜索树中的搜索.swift */,
 				7DA0B8F928D049AA00B28FEA /* 701.-二叉搜索树中的插入操作.swift */,
 				7DA0B8D128D0461D00B28FEA /* 704.-二分查找.swift */,
 				7DA0B92928D04D7700B28FEA /* 710.-黑名单中的随机数.swift */,
@@ -1112,21 +1114,19 @@
 				7DA0B90D28D04B1300B28FEA /* 743.-网络延迟时间.swift */,
 				7DA0B90328D04A7900B28FEA /* 765.-情侣牵手.swift */,
 				7DA0B91328D04BB900B28FEA /* 773.-滑动谜题.swift */,
-				7DA0B8F328D0494C00B28FEA /* 783.-二叉搜索树节点最小距离.swift */,
 				7DFBA23628AB48E800F3CE48 /* 785.-判断二分图.swift */,
 				7DA0B91F28D04CA700B28FEA /* 787.-k-站中转内最便宜的航班.swift */,
 				7DA0B8D328D0464900B28FEA /* 793.-阶乘函数后-k-个零.swift */,
 				7DA0B8FF28D04A3800B28FEA /* 797.-所有可能的路径.swift */,
-				7DFBA2D828AB51F500F3CE48 /* 867.-转置矩阵.swift */,
 				7DA0B8D528D0466F00B28FEA /* 875.-爱吃香蕉的珂珂.swift */,
 				7DA0B92728D04D5900B28FEA /* 877.-石子游戏.swift */,
 				7DA0B90128D04A5300B28FEA /* 886.-可能的二分法.swift */,
 				7DA0B91D28D04C9100B28FEA /* 887.-鸡蛋掉落.swift */,
 				7DA0B8E528D047F300B28FEA /* 895.-最大频率栈.swift */,
 				7DA0B91B28D04C7700B28FEA /* 931.-下降路径最小和.swift */,
-				7DA0B8E128D0477900B28FEA /* 977.-有序数组的平方.swift */,
 				7DA0B8DB28D0470A00B28FEA /* 986.-区间列表的交集.swift */,
 				7DA0B90528D04A9500B28FEA /* 990.-等式方程的可满足性.swift */,
+				7DFBA2DA28AB520C00F3CE48 /* 991.-坏了的计算器.swift */,
 				7DA0B8D728D0468800B28FEA /* 1011.-在-d-天内送达包裹的能力.swift */,
 				7DFBA23828AB490D00F3CE48 /* 1143.-最长公共子序列.swift */,
 				7DFBA23A28AB492400F3CE48 /* 1288.-删除被覆盖区间.swift */,
@@ -1261,7 +1261,7 @@
 				7DEEEBBF28B62A8500CD71B3 /* 106.从中序与后序遍历序列构造二叉树.swift in Sources */,
 				7D5DA07C289D153800D73F0E /* 23.合并k个升序链表.swift in Sources */,
 				7DA0B8E228D0477900B28FEA /* 977.-有序数组的平方.swift in Sources */,
-				7DFBA2D928AB51F500F3CE48 /* 867.-转置矩阵.swift in Sources */,
+				7DFBA2D928AB51F500F3CE48 /* 867.转置矩阵.swift in Sources */,
 				7DFBA28928AB4DEA00F3CE48 /* 226.翻转二叉树.swift in Sources */,
 				7DA0B91428D04BB900B28FEA /* 773.-滑动谜题.swift in Sources */,
 				7DFBA29528AB4E7300F3CE48 /* 268.丢失的数字.swift in Sources */,
@@ -1285,7 +1285,7 @@
 				7D5DA073289D14BB00D73F0E /* main.swift in Sources */,
 				7DA0B92428D04D0E00B28FEA /* 174.-地下城游戏.swift in Sources */,
 				7DFBA22128AB477100F3CE48 /* 215.数组中的第k个最大元素.swift in Sources */,
-				7DFBA2D328AB51A300F3CE48 /* 821.-字符的最短距离.swift in Sources */,
+				7DFBA2D328AB51A300F3CE48 /* 821.字符的最短距离.swift in Sources */,
 				7DFBA25D28AB4B8500F3CE48 /* 88.合并两个有序数组.swift in Sources */,
 				7DFBA27928AB4D2000F3CE48 /* 172.阶乘后的零.swift in Sources */,
 				7D85C0B728A1F2140039F38D /* 1.排序算法.swift in Sources */,
@@ -1304,7 +1304,7 @@
 				7D7E5DC628BE3E6C0077876A /* 460.lfu-缓存.swift in Sources */,
 				7DEE241428C4BB0500CD71B3 /* 295.-数据流的中位数.swift in Sources */,
 				7DFBA2A728AB4F7400F3CE48 /* 448.找到所有数组中消失的数字.swift in Sources */,
-				7DFBA2CB28AB514800F3CE48 /* 784.-字母大小写全排列.swift in Sources */,
+				7DFBA2CB28AB514800F3CE48 /* 784.字母大小写全排列.swift in Sources */,
 				7DFBA28728AB4DD500F3CE48 /* 217.存在重复元素.swift in Sources */,
 				7DFBA20928AB458F00F3CE48 /* 89.-格雷编码.swift in Sources */,
 				7DEE23EE28C4B71E00CD71B3 /* 621.任务调度器.swift in Sources */,
@@ -1339,7 +1339,7 @@
 				7DEEEBFD28BCF6F800CD71B3 /* 752.打开转盘锁.swift in Sources */,
 				7DFBA20728AB456700F3CE48 /* 56.合并区间.swift in Sources */,
 				7DFBA27728AB4D0A00F3CE48 /* 171.excel-表列序号.swift in Sources */,
-				7DA0B8EC28D0489A00B28FEA /* 501.-二叉搜索树中的众数.swift in Sources */,
+				7DA0B8EC28D0489A00B28FEA /* 501.二叉搜索树中的众数.swift in Sources */,
 				7DEE23D828C4B61700CD71B3 /* 279.完全平方数.swift in Sources */,
 				7DFBA27528AB4CE900F3CE48 /* 169.多数元素.swift in Sources */,
 				7D85C0B928A1F2320039F38D /* 2.查找算法.swift in Sources */,
@@ -1355,7 +1355,7 @@
 				7DEE23D028C4B5A100CD71B3 /* 128.最长连续序列.swift in Sources */,
 				7DEE23C028C4B49600CD71B3 /* 55.跳跃游戏.swift in Sources */,
 				7DEEEBB428B6025900CD71B3 /* 59.螺旋矩阵-ii.swift in Sources */,
-				7DA0B8F428D0494C00B28FEA /* 783.-二叉搜索树节点最小距离.swift in Sources */,
+				7DA0B8F428D0494C00B28FEA /* 783.二叉搜索树节点最小距离.swift in Sources */,
 				7DEE23E028C4B67400CD71B3 /* 347.前-k-个高频元素.swift in Sources */,
 				7DEE227728C21EF900CD71B3 /* RWLockBySemphore.swift in Sources */,
 				7DA0B8D828D0468800B28FEA /* 1011.-在-d-天内送达包裹的能力.swift in Sources */,
@@ -1387,7 +1387,7 @@
 				7DFBA26928AB4C3500F3CE48 /* 108.将有序数组转换为二叉搜索树.swift in Sources */,
 				7DFBA22D28AB484900F3CE48 /* 371.两整数之和.swift in Sources */,
 				7DEE228828C31B1C00CD71B3 /* 239.滑动窗口最大值.swift in Sources */,
-				7DFBA2CF28AB517A00F3CE48 /* 806.-写字符串需要的行数.swift in Sources */,
+				7DFBA2CF28AB517A00F3CE48 /* 806.写字符串需要的行数.swift in Sources */,
 				7DFBA28B28AB4E0500F3CE48 /* 234.回文链表.swift in Sources */,
 				7DFBA26F28AB4C8B00F3CE48 /* 125.验证回文串.swift in Sources */,
 				7DEE242028C4BBA100CD71B3 /* 378.-有序矩阵中第-k-小的元素.swift in Sources */,
@@ -1405,7 +1405,7 @@
 				7DEEEBBD28B6161800CD71B3 /* Node.swift in Sources */,
 				7DFBA21F28AB474C00F3CE48 /* 208.实现-trie-前缀树.swift in Sources */,
 				7DEE240028C4B9D700CD71B3 /* 134.-加油站.swift in Sources */,
-				7DFBA2CD28AB516500F3CE48 /* 804.-唯一摩尔斯密码词.swift in Sources */,
+				7DFBA2CD28AB516500F3CE48 /* 804.唯一摩尔斯密码词.swift in Sources */,
 				7D85C0C628A25BD40039F38D /* 509.斐波那契数.swift in Sources */,
 				7DEE23C828C4B51800CD71B3 /* 79.单词搜索.swift in Sources */,
 				7DFBA21728AB468300F3CE48 /* 151.-颠倒字符串中的单词.swift in Sources */,
@@ -1443,11 +1443,11 @@
 				7DEE23B828C4A94500CD71B3 /* 记录.swift in Sources */,
 				7DFBA2B328AB500600F3CE48 /* 559.n-叉树的最大深度.swift in Sources */,
 				7DEE241028C4BAD200CD71B3 /* 218.-天际线问题.swift in Sources */,
-				7DA0B8FC28D049CE00B28FEA /* 530.-二叉搜索树的最小绝对差.swift in Sources */,
+				7DA0B8FC28D049CE00B28FEA /* 530.二叉搜索树的最小绝对差.swift in Sources */,
 				7DA0B8E028D0474D00B28FEA /* 16.-最接近的三数之和.swift in Sources */,
 				7DFBA28D28AB4E1A00F3CE48 /* 237.删除链表中的节点.swift in Sources */,
 				7DA0B93A28D04E7E00B28FEA /* 435.-无重叠区间.swift in Sources */,
-				7DFBA22F28AB485E00F3CE48 /* 415.-字符串相加.swift in Sources */,
+				7DFBA22F28AB485E00F3CE48 /* 415.字符串相加.swift in Sources */,
 				7DFBA2F528AB631D00F3CE48 /* 144.二叉树的前序遍历.swift in Sources */,
 				7DFBA21128AB462600F3CE48 /* 116.填充每个节点的下一个右侧节点指针.swift in Sources */,
 				7DEEEBF728BCE5D700CD71B3 /* 40.组合总和-ii.swift in Sources */,
@@ -1463,7 +1463,7 @@
 				7DA0B8FA28D049AA00B28FEA /* 701.-二叉搜索树中的插入操作.swift in Sources */,
 				7DFBA2BB28AB506500F3CE48 /* 590.n-叉树的后序遍历.swift in Sources */,
 				7D5DE67A28A9F1BE00D73F0E /* 112.路径总和.swift in Sources */,
-				7DA0B92C28D04D9000B28FEA /* 645.-错误的集合.swift in Sources */,
+				7DA0B92C28D04D9000B28FEA /* 645.错误的集合.swift in Sources */,
 				7DA0B92228D04CC800B28FEA /* 514.-自由之路.swift in Sources */,
 				7DFBA27F28AB4D6200F3CE48 /* 198.打家劫舍.swift in Sources */,
 				7DFBA24728AB4A1A00F3CE48 /* 28.实现-str-str.swift in Sources */,
@@ -1482,10 +1482,10 @@
 				7DEEEBF328BCDC1700CD71B3 /* 77.组合.swift in Sources */,
 				7DFBA27B28AB4D3900F3CE48 /* 190.颠倒二进制位.swift in Sources */,
 				7DFBA24B28AB4A8D00F3CE48 /* 38.外观数列.swift in Sources */,
-				7DFBA2D128AB518D00F3CE48 /* 811.-子域名访问计数.swift in Sources */,
+				7DFBA2D128AB518D00F3CE48 /* 811.子域名访问计数.swift in Sources */,
 				7D5DA08C28A0A90100D73F0E /* 27.移除元素.swift in Sources */,
 				7DA0B93028D04DC000B28FEA /* 398.-随机数索引.swift in Sources */,
-				7DFBA29F28AB4EFE00F3CE48 /* 387.-字符串中的第一个唯一字符.swift in Sources */,
+				7DFBA29F28AB4EFE00F3CE48 /* 387.字符串中的第一个唯一字符.swift in Sources */,
 				7D7E5DC028AF8A710077876A /* 1094.拼车.swift in Sources */,
 				7DA0B8D028D045F300B28FEA /* 392.-判断子序列.swift in Sources */,
 				7DEE23BE28C4B47900CD71B3 /* 34.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
@@ -1496,7 +1496,7 @@
 				7DEE23E228C4B68F00CD71B3 /* 394.字符串解码.swift in Sources */,
 				7DA0B93228D04DDA00B28FEA /* 391.-完美矩形.swift in Sources */,
 				7D85C0BB28A1F2470039F38D /* 3.二叉树的遍历算法.swift in Sources */,
-				7DFBA2D728AB51DF00F3CE48 /* 852.-山脉数组的峰顶索引.swift in Sources */,
+				7DFBA2D728AB51DF00F3CE48 /* 852.山脉数组的峰顶索引.swift in Sources */,
 				7D5DA09428A0E90F00D73F0E /* 344.反转字符串.swift in Sources */,
 				7DFBA25F28AB4BAC00F3CE48 /* 94.二叉树的中序遍历.swift in Sources */,
 				7DFBA29728AB4E8C00F3CE48 /* 292.nim-游戏.swift in Sources */,
@@ -1528,7 +1528,7 @@
 				7D03A0EF28B0DFBD004AC108 /* 303.区域和检索-数组不可变.swift in Sources */,
 				7D03A0F328B0E5D7004AC108 /* 304.二维区域和检索-矩阵不可变.swift in Sources */,
 				7DFBA20F28AB460000F3CE48 /* 114.二叉树展开为链表.swift in Sources */,
-				7DA0B8F828D0498700B28FEA /* 700.-二叉搜索树中的搜索.swift in Sources */,
+				7DA0B8F828D0498700B28FEA /* 700.二叉搜索树中的搜索.swift in Sources */,
 				7DFBA1F928AAA0ED00F3CE48 /* 8.字符串转换整数-atoi.swift in Sources */,
 				7DFBA21328AB464F00F3CE48 /* 122.买卖股票的最佳时机-ii.swift in Sources */,
 				7DEE240828C4BA4E00CD71B3 /* 162.-寻找峰值.swift in Sources */,
