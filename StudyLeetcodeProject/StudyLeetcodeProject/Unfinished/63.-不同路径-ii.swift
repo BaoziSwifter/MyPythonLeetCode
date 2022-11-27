@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class Solution63 {
+    func uniquePathsWithObstacles(_ obstacleGrid: [[Int]]) -> Int {
+        
+        return 0
+    }
+}

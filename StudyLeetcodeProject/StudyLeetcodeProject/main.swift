@@ -86,8 +86,14 @@ import Foundation
 //print(s118.generate(4))
 
 
-let s784 = Solution784()
-let res = s784.letterCasePermutation("hGF45ki")
-let resSet = Set(res)
-print("res.count = \(res.count) resSet.count = \(resSet.count)")
-print(s784.letterCasePermutation("hGF45ki"))
+//let s784 = Solution784()
+//let res = s784.letterCasePermutation("hGF45ki")
+//let resSet = Set(res)
+//print("res.count = \(res.count) resSet.count = \(resSet.count)")
+//print(s784.letterCasePermutation("hGF45ki"))
+
+//let s16 = Solution16()
+//print(s16.threeSumClosest([1,1,1,1], 0))
+
+let s18 = Solution18()
+print(s18.fourSum([-2,-1,-1,1,1,2,2], 0))
