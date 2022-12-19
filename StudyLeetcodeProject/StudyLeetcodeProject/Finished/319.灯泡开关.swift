@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class Solution319 {
+    func bulbSwitch(_ n: Int) -> Int {
+        return Int(floor(sqrt(Double(n))))
+    }
+}

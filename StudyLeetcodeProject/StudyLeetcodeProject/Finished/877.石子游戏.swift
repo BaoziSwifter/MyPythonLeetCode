@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class Solution877 {
+    func stoneGame(_ piles: [Int]) -> Bool {
+        return true
+    }
+}

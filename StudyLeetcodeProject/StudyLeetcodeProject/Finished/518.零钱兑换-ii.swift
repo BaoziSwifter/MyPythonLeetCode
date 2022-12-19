@@ -1,24 +1,14 @@
-class CollectionMoney {
-    func badCollectionMoney(coins: [Int], target: Int) -> Int {
-        if target <= 0 {
-            return 0
-        }
-        if target == 1 {
-            return 1
-        }
+//
+//  518.-零钱兑换-ii.swift
+//  StudyLeetcodeProject
+//
+//  Created by beliefduan on 2022/8/16.
+//
 
-        var res = Int.max
-        for coin in coins {
-            let sub = badCollectionMoney(coins: coins, target: target-coin)
-            if sub == -1 {
-                continue
-            }
-            res = min(res, 1+sub)
-        }
-        return res == Int.max ? -1 : res
-    }
+import Foundation
 
-    
+
+class Solution518 {
     func change(_ target: Int, _ coins: [Int]) -> Int {
         if coins.count <= 0 { return 0 }
         if target == 0 { return 1 }
@@ -36,3 +26,7 @@ class CollectionMoney {
         return dp[target]
     }
 }
+
+
+
+

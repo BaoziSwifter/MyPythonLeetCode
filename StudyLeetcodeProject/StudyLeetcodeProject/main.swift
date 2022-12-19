@@ -95,5 +95,44 @@ import Foundation
 //let s16 = Solution16()
 //print(s16.threeSumClosest([1,1,1,1], 0))
 
-let s18 = Solution18()
-print(s18.fourSum([-2,-1,-1,1,1,2,2], 0))
+//let s18 = Solution18()
+//print(s18.fourSum([-2,-1,-1,1,1,2,2], 0))
+
+//let s63 = Solution63()
+//print(s63.uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0]]))
+
+//let s74 = Solution74()
+//print(s74.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13))
+
+//let s80 = Solution80()
+//var pa = [0,0,1,1,1,1,2,3,3]
+//print(s80.removeDuplicates(&pa))
+//var pa1 = [1,1,1,2,2,3]
+//print(s80.removeDuplicates(&pa1))
+//var pa2 = [1,1,1]
+//print(s80.removeDuplicates(&pa2))
+//var pa3 = [1,1,1,2,2,2]
+//print(s80.removeDuplicates(&pa3))
+//var pa4 = [0, 0, 1, 1, 1, 2, 3, 3, 3, 4, 4, 5,5,5,5]
+//print(s80.removeDuplicates(&pa4))
+
+//let s95 = Solution95()
+//print(s95.generateTrees(4))
+
+//let s134 = Solution134()
+//print(s134.canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2]))
+//print(s134.canCompleteCircuit([2,3,4], [3,4,3]))
+//
+//
+//let s151 = Solution151()
+//print(s151.reverseWords(" sdjfksdf dsfsdd eroewri  lll"))
+
+//let s289 = Solution289()
+//var board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
+//s289.gameOfLife(&board)
+//print(board)
+
+let s1288 = Solution1288()
+print(s1288.removeCoveredIntervals([[1,4],[3,6],[2,8]]))
+print(s1288.removeCoveredIntervals([[1,2],[1,4],[3,4]]))
+

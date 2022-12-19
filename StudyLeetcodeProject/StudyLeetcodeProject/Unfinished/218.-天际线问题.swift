@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+
+class Solution218 {
+    func getSkyline(_ buildings: [[Int]]) -> [[Int]] {
+        var res = [[Int]]()
+        let cnt = buildings.count
+        for item in buildings {
+            
+        }
+        return res
+    }
+}
