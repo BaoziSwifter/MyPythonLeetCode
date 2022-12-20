@@ -179,10 +179,10 @@
 		7DEE241228C4BAE700CD71B3 /* 227.基本计算器-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241128C4BAE700CD71B3 /* 227.基本计算器-ii.swift */; };
 		7DEE241428C4BB0500CD71B3 /* 295.-数据流的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241328C4BB0500CD71B3 /* 295.-数据流的中位数.swift */; };
 		7DEE241628C4BB2800CD71B3 /* 315.-计算右侧小于当前元素的个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241528C4BB2700CD71B3 /* 315.-计算右侧小于当前元素的个数.swift */; };
-		7DEE241828C4BB4200CD71B3 /* 324.-摆动排序-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241728C4BB4200CD71B3 /* 324.-摆动排序-ii.swift */; };
+		7DEE241828C4BB4200CD71B3 /* 324.摆动排序-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241728C4BB4200CD71B3 /* 324.摆动排序-ii.swift */; };
 		7DEE241A28C4BB5700CD71B3 /* 329.-矩阵中的最长递增路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241928C4BB5700CD71B3 /* 329.-矩阵中的最长递增路径.swift */; };
-		7DEE241C28C4BB7100CD71B3 /* 334.-递增的三元子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241B28C4BB7100CD71B3 /* 334.-递增的三元子序列.swift */; };
-		7DEE241E28C4BB8600CD71B3 /* 341.-扁平化嵌套列表迭代器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241D28C4BB8600CD71B3 /* 341.-扁平化嵌套列表迭代器.swift */; };
+		7DEE241C28C4BB7100CD71B3 /* 334.递增的三元子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241B28C4BB7100CD71B3 /* 334.递增的三元子序列.swift */; };
+		7DEE241E28C4BB8600CD71B3 /* 341.扁平化嵌套列表迭代器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241D28C4BB8600CD71B3 /* 341.扁平化嵌套列表迭代器.swift */; };
 		7DEE242028C4BBA100CD71B3 /* 378.-有序矩阵中第-k-小的元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE241F28C4BBA100CD71B3 /* 378.-有序矩阵中第-k-小的元素.swift */; };
 		7DEE242228C4BBB900CD71B3 /* 395.-至少有-k-个重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE242128C4BBB900CD71B3 /* 395.-至少有-k-个重复字符的最长子串.swift */; };
 		7DEE242428C4BBD200CD71B3 /* 454.-四数相加-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE242328C4BBD200CD71B3 /* 454.-四数相加-ii.swift */; };
@@ -537,10 +537,10 @@
 		7DEE241128C4BAE700CD71B3 /* 227.基本计算器-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "227.基本计算器-ii.swift"; sourceTree = "<group>"; };
 		7DEE241328C4BB0500CD71B3 /* 295.-数据流的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "295.-数据流的中位数.swift"; sourceTree = "<group>"; };
 		7DEE241528C4BB2700CD71B3 /* 315.-计算右侧小于当前元素的个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "315.-计算右侧小于当前元素的个数.swift"; sourceTree = "<group>"; };
-		7DEE241728C4BB4200CD71B3 /* 324.-摆动排序-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "324.-摆动排序-ii.swift"; sourceTree = "<group>"; };
+		7DEE241728C4BB4200CD71B3 /* 324.摆动排序-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "324.摆动排序-ii.swift"; sourceTree = "<group>"; };
 		7DEE241928C4BB5700CD71B3 /* 329.-矩阵中的最长递增路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "329.-矩阵中的最长递增路径.swift"; sourceTree = "<group>"; };
-		7DEE241B28C4BB7100CD71B3 /* 334.-递增的三元子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "334.-递增的三元子序列.swift"; sourceTree = "<group>"; };
-		7DEE241D28C4BB8600CD71B3 /* 341.-扁平化嵌套列表迭代器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "341.-扁平化嵌套列表迭代器.swift"; sourceTree = "<group>"; };
+		7DEE241B28C4BB7100CD71B3 /* 334.递增的三元子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "334.递增的三元子序列.swift"; sourceTree = "<group>"; };
+		7DEE241D28C4BB8600CD71B3 /* 341.扁平化嵌套列表迭代器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "341.扁平化嵌套列表迭代器.swift"; sourceTree = "<group>"; };
 		7DEE241F28C4BBA100CD71B3 /* 378.-有序矩阵中第-k-小的元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "378.-有序矩阵中第-k-小的元素.swift"; sourceTree = "<group>"; };
 		7DEE242128C4BBB900CD71B3 /* 395.-至少有-k-个重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "395.-至少有-k-个重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		7DEE242328C4BBD200CD71B3 /* 454.-四数相加-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "454.-四数相加-ii.swift"; sourceTree = "<group>"; };
@@ -990,10 +990,13 @@
 				7DEE23DD28C4B65F00CD71B3 /* 312.戳气球.swift */,
 				7DA0B92528D04D4100B28FEA /* 319.灯泡开关.swift */,
 				7D5DE67728A9E54A00D73F0E /* 322.零钱兑换.swift */,
+				7DEE241728C4BB4200CD71B3 /* 324.摆动排序-ii.swift */,
 				7DFBA29828AB4EAC00F3CE48 /* 326.3-的幂.swift */,
 				7D7E5DB428AE6A530077876A /* 328.奇偶链表.swift */,
+				7DEE241B28C4BB7100CD71B3 /* 334.递增的三元子序列.swift */,
 				7DEEEC0A28BDFC2000CD71B3 /* 337.打家劫舍-iii.swift */,
 				7DFBA29A28AB4EC500F3CE48 /* 338.比特位计数.swift */,
+				7DEE241D28C4BB8600CD71B3 /* 341.扁平化嵌套列表迭代器.swift */,
 				7D5DA09328A0E90F00D73F0E /* 344.反转字符串.swift */,
 				7DEE23DF28C4B67400CD71B3 /* 347.前-k-个高频元素.swift */,
 				7DFBA29C28AB4EE700F3CE48 /* 350.两个数组的交集-ii.swift */,
@@ -1082,9 +1085,6 @@
 		7DEE242628C4BD5A00CD71B3 /* Unfinished */ = {
 			isa = PBXGroup;
 			children = (
-				7DEE241728C4BB4200CD71B3 /* 324.-摆动排序-ii.swift */,
-				7DEE241B28C4BB7100CD71B3 /* 334.-递增的三元子序列.swift */,
-				7DEE241D28C4BB8600CD71B3 /* 341.-扁平化嵌套列表迭代器.swift */,
 				7DA0B93328D04DEE00B28FEA /* 372.-超级次方.swift */,
 				7DEE241F28C4BBA100CD71B3 /* 378.-有序矩阵中第-k-小的元素.swift */,
 				7DA0B92D28D04DAA00B28FEA /* 382.-链表随机节点.swift */,
@@ -1241,7 +1241,7 @@
 			files = (
 				7D85C0C228A23FC30039F38D /* 104.二叉树的最大深度.swift in Sources */,
 				7DA0B92828D04D5900B28FEA /* 877.石子游戏.swift in Sources */,
-				7DEE241828C4BB4200CD71B3 /* 324.-摆动排序-ii.swift in Sources */,
+				7DEE241828C4BB4200CD71B3 /* 324.摆动排序-ii.swift in Sources */,
 				7DA0B8D428D0464900B28FEA /* 793.-阶乘函数后-k-个零.swift in Sources */,
 				7DFBA23D28AB494F00F3CE48 /* 11.盛最多水的容器.swift in Sources */,
 				7DA0B93E28D04EB300B28FEA /* 1834.-单线程-cpu.swift in Sources */,
@@ -1289,7 +1289,7 @@
 				7DFBA25D28AB4B8500F3CE48 /* 88.合并两个有序数组.swift in Sources */,
 				7DFBA27928AB4D2000F3CE48 /* 172.阶乘后的零.swift in Sources */,
 				7D85C0B728A1F2140039F38D /* 1.排序算法.swift in Sources */,
-				7DEE241E28C4BB8600CD71B3 /* 341.-扁平化嵌套列表迭代器.swift in Sources */,
+				7DEE241E28C4BB8600CD71B3 /* 341.扁平化嵌套列表迭代器.swift in Sources */,
 				7DEED9F528B349F700CD71B3 /* 567.字符串的排列.swift in Sources */,
 				7DEE226C28C2195400CD71B3 /* 2. 启动三个线程A，B，C，打印10次 按照ABC的顺序输出.swift in Sources */,
 				7DFBA2A528AB4F4E00F3CE48 /* 437.路径总和-iii.swift in Sources */,
@@ -1504,7 +1504,7 @@
 				7DA0B8CC28D0458700B28FEA /* 354.-俄罗斯套娃信封问题.swift in Sources */,
 				7DFBA29D28AB4EE700F3CE48 /* 350.两个数组的交集-ii.swift in Sources */,
 				7D5DE67828A9E54A00D73F0E /* 322.零钱兑换.swift in Sources */,
-				7DEE241C28C4BB7100CD71B3 /* 334.-递增的三元子序列.swift in Sources */,
+				7DEE241C28C4BB7100CD71B3 /* 334.递增的三元子序列.swift in Sources */,
 				7DEE224A28C2150800CD71B3 /* 1. 3个线程顺序打印0-100.swift in Sources */,
 				7DEE23D428C4B5D600CD71B3 /* 152.乘积最大子数组.swift in Sources */,
 				7DEEEC0B28BDFC2000CD71B3 /* 337.打家劫舍-iii.swift in Sources */,
