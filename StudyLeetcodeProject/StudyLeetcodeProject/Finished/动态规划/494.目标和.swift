@@ -48,7 +48,7 @@ class Solution494 {
             此时有 dp[i][j] = dp[i-1][j] + dp[i-1][j-num]
          
          */
-        var sum = nums.reduce(0) { $0 + $1}
+        let sum = nums.reduce(0) { $0 + $1}
         let diff = sum - target
         if diff < 0 || diff % 2 != 0 {
             return 0
@@ -69,7 +69,7 @@ class Solution494 {
     }
     // 由于 dp 的每一行的计算只和上一行有关，因此可以使用滚动数组的方式，去掉 dp 的第一个维度，将空间复杂度优化到 O(neg)。
     func findTargetSumWays_dp1(_ nums: [Int], _ target: Int) -> Int {
-        var sum = nums.reduce(0) { $0 + $1}
+        let sum = nums.reduce(0) { $0 + $1}
         let diff = sum - target
         if diff < 0 || diff % 2 != 0 {
             return 0

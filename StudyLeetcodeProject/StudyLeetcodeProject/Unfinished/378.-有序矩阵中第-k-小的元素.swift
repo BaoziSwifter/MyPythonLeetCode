@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class Solution378 {
+    func kthSmallest(_ matrix: [[Int]], _ k: Int) -> Int {
+        return 0
+    }
+}
