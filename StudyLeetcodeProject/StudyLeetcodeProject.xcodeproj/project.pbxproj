@@ -802,6 +802,7 @@
 		7D27C9ED29571E5F002B32D6 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
+				7DA0B92D28D04DAA00B28FEA /* 382.链表随机节点.swift */,
 				7DEE240128C4B9FC00CD71B3 /* 138.复制带随机指针的链表.swift */,
 				7D27C9FA29572A5C002B32D6 /* 环形链表 */,
 				7D27C9F929572A32002B32D6 /* 翻转链表 */,
@@ -852,6 +853,7 @@
 		7D27C9EF29572027002B32D6 /* 数学类 */ = {
 			isa = PBXGroup;
 			children = (
+				7DA0B93328D04DEE00B28FEA /* 372.超级次方.swift */,
 				7DFBA1F628AA9F5A00F3CE48 /* 7.整数反转.swift */,
 				7DFBA1FA28AAA8F300F3CE48 /* 9.回文数.swift */,
 				7DEE23F528C4B7AD00CD71B3 /* 50.pow-x-n.swift */,
@@ -1103,6 +1105,7 @@
 		7D27C9FF295738E2002B32D6 /* 数组 */ = {
 			isa = PBXGroup;
 			children = (
+				7DA0B92F28D04DC000B28FEA /* 398.随机数索引.swift */,
 				7D5DA08728A0A49600D73F0E /* 26.删除有序数组中的重复项.swift */,
 				7DEE23B928C4B43F00CD71B3 /* 31.下一个排列.swift */,
 				7DEE23BB28C4B45C00CD71B3 /* 33.搜索旋转排序数组.swift */,
@@ -1285,9 +1288,6 @@
 		7DEE242628C4BD5A00CD71B3 /* Unfinished */ = {
 			isa = PBXGroup;
 			children = (
-				7DA0B93328D04DEE00B28FEA /* 372.超级次方.swift */,
-				7DA0B92D28D04DAA00B28FEA /* 382.链表随机节点.swift */,
-				7DA0B92F28D04DC000B28FEA /* 398.随机数索引.swift */,
 				7DEE241F28C4BBA100CD71B3 /* 378.-有序矩阵中第-k-小的元素.swift */,
 				7DEE242128C4BBB900CD71B3 /* 395.-至少有-k-个重复字符的最长子串.swift */,
 				7DA0B93928D04E7E00B28FEA /* 435.-无重叠区间.swift */,
